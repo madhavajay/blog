@@ -1,2 +1,2 @@
-rm -rf docs
-zola build --output-dir docs
+rm -rf build
+zola build
