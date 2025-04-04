@@ -1,18 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap');
+/* Updated font and text styles for better readability */
 
-// Variables
-$primary-color: #2d7ff9;
-$secondary-color: #7e5bef;
+// Change the font import to include lighter weights and add a backup system font
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap');
+
+// Variables - update color contrast and font settings
+$primary-color: #3a8aff; // Slightly brighter blue
+$link-color: #4b9dff; // Brighter link color
+$link-visited: #a37dff; // Distinct visited link color
 $background-color: #121212;
 $card-background: #1e1e1e;
-$text-color: #f0f0f0;
-$muted-color: #a0a0a0;
-$border-color: rgba(255, 255, 255, 0.1);
-$font-primary: 'JetBrains Mono', 'Fira Code', monospace;
-$font-heading: 'JetBrains Mono', 'Fira Code', monospace;
-$content-width: 850px;
-$border-radius: 8px;
-$transition-speed: 0.3s;
+$text-color: #ffffff; // Pure white for main text
+$muted-color: #b8b8b8; // Lighter gray for better contrast
+$border-color: rgba(255, 255, 255, 0.15); // Slightly more visible borders
+$font-primary: 'JetBrains Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+$font-heading: 'JetBrains Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+$line-height: 1.7; // Increased line height
 
 // Reset and base styles
 * {
@@ -21,14 +23,33 @@ $transition-speed: 0.3s;
     box-sizing: border-box;
 }
 
+// Base styles
 body {
     font-family: $font-primary;
     background-color: $background-color;
     color: $text-color;
-    line-height: 1.6;
+    line-height: $line-height;
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    font-weight: 400; // Default to regular weight for body text
+    font-size: 16px; // Slightly larger base font size
+    letter-spacing: 0.01em; // Very subtle letter spacing
+}
+
+// Global link styles
+a {
+    color: $link-color;
+    text-decoration: underline;
+    transition: color 0.2s ease;
+
+    &:visited {
+        color: $link-visited;
+    }
+
+    &:hover {
+        color: lighten($link-color, 15%);
+    }
 }
 
 // Header styles
@@ -41,11 +62,11 @@ header {
     margin-bottom: 40px;
 
     .logo {
-        font-size: 24px;
-        font-weight: bold;
+        font-size: 28px; // Larger logo size
+        font-weight: 600; // Semibold instead of bold
         color: #ffffff;
         text-decoration: none;
-        letter-spacing: 1px;
+        letter-spacing: 0.5px; // Reduced letter spacing
     }
 
     .nav-links {
@@ -57,7 +78,7 @@ header {
             color: #ffffff;
             text-decoration: none;
             transition: color 0.2s ease;
-            font-size: 16px;
+            font-size: 17px; // Slightly larger nav text
 
             &:hover {
                 color: $primary-color;
@@ -99,19 +120,24 @@ header {
     font-weight: bold;
 }
 
-// Article styles
+// Article styles with improved typography
 .article {
     margin-bottom: 60px;
 
     &-title {
-        font-size: 32px;
-        margin-bottom: 10px;
+        font-size: 36px; // Larger title
+        margin-bottom: 15px;
+        line-height: 1.3; // Tighter line height for headings
+        font-weight: 600; // Semibold instead of bold
+        letter-spacing: -0.01em; // Negative tracking for headings
     }
 
     &-subtitle {
-        font-size: 18px;
-        color: $muted-color;
+        font-size: 20px; // Larger subtitle
+        color: $text-color; // Use main text color for subtitle
+        opacity: 0.8; // Use opacity instead of separate color
         margin-bottom: 30px;
+        font-weight: 400; // Regular weight
     }
 
     &-meta {
@@ -124,11 +150,14 @@ header {
         margin-bottom: 30px;
 
         p {
-            margin-bottom: 20px;
+            margin-bottom: 24px; // More space between paragraphs
         }
 
         h2 {
-            margin: 30px 0 15px;
+            font-size: 28px; // Larger subheadings
+            margin: 40px 0 18px; // More spacing around subheadings
+            font-weight: 500; // Medium weight
+            letter-spacing: -0.01em; // Negative tracking
         }
 
         blockquote {
@@ -136,6 +165,119 @@ header {
             padding-left: 20px;
             margin: 20px 0;
             font-style: italic;
+        }
+
+        // Improved code block formatting
+        code {
+            font-size: 15px; // Slightly smaller for code
+            background-color: rgba(0, 0, 0, 0.3); // Darker background for code
+            border-radius: 4px;
+            padding: 3px 6px; // Slightly more padding
+            font-family: $font-primary; // Ensure consistent font
+            display: inline-block; // Helps with vertical alignment
+            margin: 0 2px; // Small margin when inline
+        }
+
+        pre {
+            margin: 25px 0; // More vertical spacing around code blocks
+            border-radius: 6px; // Slightly more rounded corners
+            background-color: rgba(0, 0, 0, 0.4); // Even darker background for code blocks
+            overflow-x: auto; // Enable horizontal scrolling
+
+            code {
+                display: block; // Full block for code within pre
+                padding: 20px; // More generous padding
+                line-height: 1.6; // Slightly more line height for readability
+                background-color: transparent; // No background for code inside pre
+                border-radius: 0; // No border radius for code inside pre
+                margin: 0; // Reset margin
+                white-space: pre; // Preserve whitespace
+                font-size: 14px; // Slightly smaller for better readability
+                tab-size: 2; // Control tab width
+            }
+        }
+
+        // Format for triple backtick code blocks specifically
+        .code-block {
+            position: relative;
+            margin: 30px 0;
+
+            &::before {
+                content: attr(data-language);
+                position: absolute;
+                top: 0;
+                right: 10px;
+                font-size: 12px;
+                color: $muted-color;
+                background-color: rgba(0, 0, 0, 0.5);
+                padding: 2px 8px;
+                border-radius: 0 0 4px 4px;
+                text-transform: uppercase;
+            }
+        }
+
+        // Improved list styling
+        ul,
+        ol {
+            padding-left: 2rem; // Bring list items closer to the content flow
+            margin-bottom: 24px; // Match paragraph spacing
+
+            li {
+                margin-bottom: 10px; // Space between list items
+                position: relative; // For custom bullets if needed
+
+                &:last-child {
+                    margin-bottom: 0; // Remove margin from last item
+                }
+
+                // Nested lists
+                ul,
+                ol {
+                    margin-top: 10px;
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        // Style for unordered lists specifically
+        ul {
+            list-style-type: none; // Remove default bullets
+
+            li {
+                padding-left: 0.5rem; // Space after custom bullet
+
+                &::before {
+                    content: "•"; // Custom bullet character
+                    color: $primary-color; // Use primary color for bullets
+                    font-weight: bold; // Make bullets bold
+                    display: inline-block;
+                    width: 1rem; // Fixed width for alignment
+                    margin-left: -1.5rem; // Pull bullet to the left
+                    position: absolute; // Position the bullet
+                }
+            }
+        }
+
+        // Style for ordered lists
+        ol {
+            counter-reset: list-counter;
+            list-style-type: none;
+
+            li {
+                counter-increment: list-counter;
+                padding-left: 0.5rem;
+
+                &::before {
+                    content: counter(list-counter) ".";
+                    color: $primary-color;
+                    font-weight: bold;
+                    display: inline-block;
+                    width: 1.5rem; // Slightly wider for numbers
+                    margin-left: -2rem;
+                    position: absolute;
+                    text-align: right; // Right-align numbers
+                }
+            }
         }
     }
 
@@ -156,6 +298,7 @@ header {
 
     &-date {
         color: $muted-color;
+        font-size: 15px; // Slightly larger date
     }
 }
 
@@ -240,10 +383,12 @@ em {
     }
 
     &-title {
-        font-size: 32px;
-        margin-bottom: 10px;
+        font-size: 36px;
+        font-weight: 600;
+        margin-bottom: 15px;
+        line-height: 1.3;
+        letter-spacing: -0.01em;
         color: #ffffff;
-        letter-spacing: 1px;
     }
 }
 
@@ -277,11 +422,13 @@ em {
     }
 
     &-title {
-        font-size: 24px;
+        font-size: 26px; // Larger post titles
+        line-height: 1.3; // Tighter line height for titles
         margin-bottom: 15px;
+        font-weight: 500; // Medium weight
 
         a {
-            color: #ffffff;
+            color: $text-color;
             text-decoration: none;
             transition: color 0.2s ease;
 
@@ -292,9 +439,11 @@ em {
     }
 
     &-excerpt {
-        color: $muted-color;
+        color: $text-color;
+        opacity: 0.8; // Use opacity instead of separate color
+        font-size: 16px;
         margin-bottom: 20px;
-        line-height: 1.6;
+        line-height: $line-height;
     }
 
     &-footer {
@@ -318,7 +467,7 @@ em {
 }
 
 .read-more {
-    color: $primary-color;
+    color: $link-color; // Update to match global link color
     text-decoration: none;
     font-weight: bold;
 
@@ -371,6 +520,11 @@ em {
 
 // Responsive adjustments
 @media (max-width: 768px) {
+    body {
+        font-size: 17px; // Even larger text on mobile
+        padding: 15px;
+    }
+
     header {
         flex-direction: column;
         align-items: flex-start;
@@ -392,6 +546,14 @@ em {
         }
     }
 
+    .article-title {
+        font-size: 30px; // Slightly smaller title on mobile
+    }
+
+    .article-content h2 {
+        font-size: 24px; // Smaller h2 on mobile
+    }
+
     .article-footer {
         flex-direction: column;
         align-items: flex-start;
@@ -408,4 +570,52 @@ em {
         align-items: flex-start;
         gap: 10px;
     }
+}
+
+.post-with-thumbnail {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    /* This ensures top alignment */
+}
+
+.post-thumbnail.left-aligned {
+    flex: 0 0 150px;
+    margin-right: 1rem;
+    margin-top: 2.5rem;
+    /* Adjust this value to align with the first line of text */
+}
+
+.post-content {
+    flex: 1;
+    line-height: $line-height;
+}
+
+/* Optional: If you want the thumbnail to align specifically with the post title */
+.post-thumbnail.left-aligned img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px;
+    vertical-align: top;
+    /* Helps with top alignment */
+}
+
+/* If needed, you can adjust the top margin of the post meta to create space */
+.post-content .post-meta {
+    margin-top: 0;
+}
+
+
+table {
+    width: 100%;
+}
+
+.post-image {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    /* Ensures the image does not exceed the width of its container */
+    /* Centers the image within the post */
 }
