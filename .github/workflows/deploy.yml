@@ -9,10 +9,8 @@ jobs:
   foo:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout main branch
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0  # required for history and pushing branches
 
       - name: Install Zola
         uses: taiki-e/install-action@v2
@@ -22,10 +20,9 @@ jobs:
       - name: Run build script
         run: ./build.sh
 
-      - name: Commit and push to gh-pages
-        run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
-          git add .
-          git commit -m "Build site via GitHub Actions" || echo "No changes to commit"
-          git push origin HEAD:gh-pages
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public  # or change this to your actual output dir
+          publish_branch: gh-pages
