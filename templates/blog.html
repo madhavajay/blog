@@ -1,14 +1,26 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1 class="title">
-    {{ section.title }}
-</h1>
-<ul>
-    <!-- If you are using pagination, section.pages will be empty.
-       You need to use the paginator object -->
+<div class="posts-container">
     {% for page in section.pages %}
-    <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+    <article class="post-card">
+        <div class="post-meta">
+            {% if page.date %}
+            <span class="post-date">{{ page.date | date(format="%b %d, %Y") }}</span>
+            {% endif %}
+        </div>
+        <h2 class="post-title">
+            <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+        </h2>
+        {% if page.content %}
+        <div class="post-excerpt">
+            {{ page.content | striptags | truncate(length=150) | safe }}
+        </div>
+        {% endif %}
+        <div class="post-footer">
+            <a href="{{ page.permalink | safe }}" class="read-more">Read more →</a>
+        </div>
+    </article>
     {% endfor %}
-</ul>
+</div>
 {% endblock content %}
