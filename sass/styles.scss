@@ -705,3 +705,61 @@ table {
         flex-direction: column;
     }
 }
+
+// Header styles
+header {
+    display: flex;
+    justify-content: space-between; // This ensures space between the logo and nav
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid $border-color;
+    margin-bottom: 40px;
+    width: 100%; // Ensure header takes full width
+
+    .logo {
+        font-size: 28px;
+        font-weight: 600;
+        color: #ffffff;
+        text-decoration: none;
+        letter-spacing: 0.5px;
+        margin-right: auto; // This pushes everything else to the right
+    }
+
+    .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        margin-left: auto; // This pulls the nav-links to the right
+    }
+
+    .social-links {
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+        padding-left: 15px;
+        border-left: 1px solid $border-color;
+    }
+}
+
+// Responsive adjustments for header
+@media (max-width: 768px) {
+    header {
+        flex-direction: row; // Keep it as row instead of column
+        flex-wrap: wrap; // Allow wrapping if needed
+
+        .logo {
+            margin-right: auto; // Push everything else to the right
+        }
+
+        .nav-links {
+            justify-content: flex-end; // Align items to the right
+            flex-grow: 0; // Don't let it grow to full width
+            width: auto; // Auto width instead of 100%
+        }
+
+        .social-links {
+            margin-left: 15px; // Keep some spacing
+            border-left: 1px solid $border-color; // Keep the divider
+        }
+    }
+}
