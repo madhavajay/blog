@@ -2,7 +2,7 @@
 git add .
 
 # Commit with a message including the current Unix datetime
-commit_message="Updating blog $(date +%s)"
+commit_message="Updating blog $(date)"
 git commit -m "$commit_message"
 
 # Push the changes to the remote repository
