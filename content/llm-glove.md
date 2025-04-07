@@ -1,5 +1,6 @@
 +++
 title = "Evaluating the State of AI Agent Browser Behavior: How ChatGPT, Grok, Perplexity and Others Access Your Site — With Tips on Detection, Steering, and Improvement"
+slug = "evaluating-the-state-of-ai-agent-browser-behavior-how-chatgpt-grok-perplexity-and-others-access-your-site-with-tips-on-detection-steering-and-improvement"
 date = 2025-04-04
 [extra]
 thumbnail = "images/llm-glove.jpg"

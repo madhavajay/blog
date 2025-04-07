@@ -619,3 +619,89 @@ table {
     /* Ensures the image does not exceed the width of its container */
     /* Centers the image within the post */
 }
+
+
+/* Keep existing styles and add these responsive modifications */
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    body {
+        font-size: 17px;
+        /* Even larger text on mobile */
+        padding: 15px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+
+        .nav-links {
+            width: 100%;
+            justify-content: space-between;
+        }
+
+        .social-links {
+            margin-left: auto;
+            padding-left: 0;
+            border-left: none;
+
+            .social-link {
+                margin-left: 12px;
+            }
+        }
+    }
+
+    .article-title {
+        font-size: 30px;
+        /* Slightly smaller title on mobile */
+    }
+
+    .article-content h2 {
+        font-size: 24px;
+        /* Smaller h2 on mobile */
+    }
+
+    .article-footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .social-share {
+        width: 100%;
+        justify-content: flex-start;
+        margin-top: 15px;
+    }
+
+    .post-footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    /* New mobile-specific adjustments for post with thumbnail */
+    .post-with-thumbnail {
+        flex-direction: column;
+    }
+
+    .post-thumbnail.left-aligned {
+        flex: 0 0 auto;
+        width: 100%;
+        margin-right: 0;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+    .post-thumbnail.left-aligned img {
+        width: 100%;
+        max-height: 200px;
+        /* Limit the height on mobile */
+        object-fit: cover;
+    }
+
+    /* Option 1: Make the thumbnail appear above the content */
+    .post-with-thumbnail {
+        display: flex;
+        flex-direction: column;
+    }
+}
