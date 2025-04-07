@@ -16,15 +16,15 @@ Have you ever wondered what really happens when an LLM-based chat interface visi
 
 ## Summary Table
 
-| Interface | Works | User-Agent | Improvements |
-|:-----------|:------|:-----------|:-------------|
-| [ChatGPT](https://chat.openai.com) | ✅ | ChatGPT | Allow request navigation |
-| [Grok](https://grok.com) | ✅☨ | iPhone | Add to non DR, stop 7 hits |
-| [Perplexity](https://www.perplexity.ai) | ✅☨ | Perplexity | Make it work |
-| [CoPilot](https://copilot.microsoft.com) | ❌ | N/A | Make it free |
-| [DeepSeek](https://deepseek.com) | ❌ | N/A | Make it work |
-| [Gemini](https://gemini.google.com) | ✅☨ | Google | Make it work |
-| *[Claude](https://claude.ai/) | ✅* | Chrome* | Add to claude.ai, more headers |
+| Interface | Hits | Works | User-Agent | Improvements |
+|:-----------|:------|:------|:-----------|:-------------|
+| [ChatGPT](https://chat.openai.com) | ✅ | ✅ | ChatGPT | Allow request navigation |
+| [Grok](https://grok.com) | ✅☨ | ✅☨ | iPhone | Add to non DR, stop 7 hits |
+| [Perplexity](https://www.perplexity.ai) | ✅☨ | ❌ | Perplexity | Make it work |
+| [CoPilot](https://copilot.microsoft.com) | ❌ | ❓ | N/A | Make it free |
+| [DeepSeek](https://deepseek.com) | ❌ | ❓ | N/A | Make it work |
+| [Gemini](https://gemini.google.com) | ✅☨ | ❌ | Google | Make it work |
+| *[Claude](https://claude.ai/) | ✅* | ✅* | Chrome* | Add to claude.ai, more headers |
 
 <br>
 
