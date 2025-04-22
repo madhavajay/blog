@@ -10,6 +10,9 @@ read_time = 12
 # So you wanna build a Network?
 <small style="color: gray; font-size: 0.85em;">⏱️ Time to read: 12 minutes</small>
 
+<small style="color: gray; font-size: 0.85em;">👋 Hi to all the HN traffic! Discussion <a href="https://news.ycombinator.com/item?id=43761835#43763630" target="_blank">here</a>.</small>
+
+
 I have to say this is one of the best books I have ever read. Author <a href="https://x.com/andrewchen" target="_blank">@andrewchen (Andrew Chen)</a> from a16z goes into depth from personal experience and research on what it takes to build a networked product and platform and more importantly what critical mistakes that people make and how to recover from them with actionable strategies and tactics.
 
 The book is long but worth it, but since I know you are busy (hopefully trying to build a network), let me give you the tasty bits.
