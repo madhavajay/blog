@@ -182,7 +182,9 @@ header {
             margin: 25px 0; // More vertical spacing around code blocks
             border-radius: 6px; // Slightly more rounded corners
             background-color: rgba(0, 0, 0, 0.4); // Even darker background for code blocks
-            overflow-x: auto; // Enable horizontal scrolling
+            overflow: auto; // Enable scrolling if needed
+            white-space: pre-wrap; // Wrap code blocks
+            width: 100%; // Keep code blocks to 100% width
 
             code {
                 display: block; // Full block for code within pre
@@ -191,7 +193,7 @@ header {
                 background-color: transparent; // No background for code inside pre
                 border-radius: 0; // No border radius for code inside pre
                 margin: 0; // Reset margin
-                white-space: pre; // Preserve whitespace
+                white-space: pre-wrap; // Preserve whitespace and wrap
                 font-size: 14px; // Slightly smaller for better readability
                 tab-size: 2; // Control tab width
             }
@@ -216,7 +218,6 @@ header {
             }
         }
 
-        // Improved list styling
         ul,
         ol {
             padding-left: 2rem; // Bring list items closer to the content flow
@@ -762,4 +763,10 @@ header {
             border-left: 1px solid $border-color; // Keep the divider
         }
     }
+}
+
+// Style for strong tags
+strong {
+    font-weight: 600; // Semibold weight for emphasis
+    color: $primary-color; // Use primary color for strong text
 }

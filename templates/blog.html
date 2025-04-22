@@ -24,6 +24,10 @@
                 <h2 class="post-title">
                     <a href="{{ page.permalink | safe }}">{{ page.title | default(value="Untitled") }}</a>
                 </h2>
+                {% if page.extra and page.extra.read_time is defined %}
+                <small style="color: gray; font-size: 0.85em;">⏱️ Time to read: {{ page.extra.read_time }}
+                    minutes</small>
+                {% endif %}
                 {% if page.content %}
                 <div class="post-excerpt">
                     {{ page.content | striptags | truncate(length=300) | safe }}

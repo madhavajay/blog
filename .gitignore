@@ -1,1 +1,5 @@
-public
+public/*.js
+public/*.css
+public/*.html
+public/.nojekyll
+public/robots.txt

@@ -4,9 +4,11 @@ slug = "evaluating-the-state-of-ai-agent-browser-behavior-how-chatgpt-grok-perpl
 date = 2025-04-04
 [extra]
 thumbnail = "images/llm-glove.jpg"
+read_time = 10
 +++
 
 # What Happens When an AI Agent Visits Your Website?
+<small style="color: gray; font-size: 0.85em;">⏱️ Time to read: 10 minutes</small>
 
 Have you ever wondered what really happens when an LLM-based chat interface visits a website you've linked in a conversation? I did. So I built a simple experiment to find out.
 
