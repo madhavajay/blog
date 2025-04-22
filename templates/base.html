@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Madhava's Blog</title>
+    <title>{% if page is defined and page.title is defined %}{{ page.title }} - {% endif %}Madhava's Blog</title>
     <link rel="stylesheet" href="{{ get_url(path='styles.css') | safe }}">
     <!-- Open Graph Meta Tags -->
     <meta property="og:type" content="website">
