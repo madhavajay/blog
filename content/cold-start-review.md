@@ -304,7 +304,7 @@ While the book doesn't mention it, I would argue that many of these had magic mo
 
 ### 1 - N Warm
 
-Interestingly, as these network effects begin to take hold the ways to grow, prevent anti-network effects and defend against competition seem to vary greatly by the specific product or company. I think the lesson here is best summed up by <a href="https://x.com/reidhoffman" target="_blank">@reidhoffman (Reid Hoffman)</a> in the book Blitzscaling:
+Interestingly, as these network effects begin to take hold, the ways to grow, prevent anti-network effects, and defend against competition seem to vary greatly by the specific product or company. I think the lesson here is best summed up by <a href="https://x.com/reidhoffman" target="_blank">@reidhoffman (Reid Hoffman)</a> in the book <a href="https://amzn.to/3EK1Fal" target="_blank">Blitzscaling</a>:
 
 ```
 "The strategy that gets you to your first hundred users is not the strategy that gets you to your first thousand—or your first million."
@@ -518,6 +518,18 @@ by Andrew Chen
 
 <br />
 <br />
+
+### Related Resources
+- Francesca Cortesi's Post:<br /><a href="https://www.francescacortesi.com/blog/my-main-takeaways-from-andrew-chens-the-cold-start-problem" target="_blank" rel="nofollow">My Main Takeaways from Andrew Chen's "The Cold Start Problem"</a>
+```
+Keeping in mind what the core of the network is and delivering value to it is vital in all the phases of a networked product. 
+- When you start it and need to make sure users understand what the network stands for, 
+- When you grow it and need to make sure all new nodes of the network increase the overall value and do not dilute it,
+- When you defend it and might want to add functionalities to respond to competition. 
+```
+
+- Paul Graham's Post:<br /><a href="https://paulgraham.com/startupideas.html" target="_blank" rel="nofollow">Startup Ideas</a>
+
 <br />
 <br />
 
