@@ -5,7 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page is defined and page.title is defined %}{{ page.title }} - {% endif %}Madhava's Blog</title>
-    <link rel="stylesheet" href="{{ get_url(path='styles.css') | safe }}">
+    <link rel="icon" href="{{ get_url(path='favicon.ico') | safe }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ get_url(path='styles.css') | safe }}" />
+    {% if page is defined %}
+    <link rel="canonical" href="{{ page.permalink | safe }}" />
+    {% else %}
+    <link rel="canonical" href="https://madhavajay.com" />
+    {% endif %}
     <!-- Open Graph Meta Tags -->
     <meta property="og:type" content="website">
     {% if page is defined %}
@@ -15,7 +21,7 @@
         | striptags 
         | replace(from=" &#x27;", to="'" ) | replace(from="&quot;" , to='"' ) | replace(from="&amp;" , to="&" ) |
         replace(from="\n" , to=" " ) | regex_replace(pattern="\\s+" , rep=" " ) | truncate(length=300) }} ">
-    <meta property="og:image" content="https://madhavajay.com/{{ page.extra.thumbnail | safe }}">
+    <meta property=" og:image" content="https://madhavajay.com/{{ page.extra.thumbnail | safe }}">
     {% else %}
     <meta property="og:url" content="https://madhavajay.com">
     <meta property="og:title" content="Madhavas Blog">
