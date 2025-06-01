@@ -263,10 +263,10 @@ By focusing on these areas, you can enhance the effectiveness and user satisfact
 If you’re building websites in 2025, you’re not just dealing with humans anymore — you’re interacting with AI agents acting on their behalf. It’s crucial to recognize this shift and start thinking about:
 
 - Are your sites indexed and your robots.txt / [llms.txt](https://llmstxt.org) setup?
-- How your content is presented in AI-driven interfaces.
-- What these bots are doing with your site.
-- How to tailor your output to them using prompt injection or metadata.
-- How authentication and agent delegation will evolve.
+- How your content is presented in AI-driven interfaces?
+- What these bots are doing with your site?
+- How to tailor your output to them using prompt injection or metadata?
+- How authentication and agent delegation will evolve?
 
 Welcome to the world of **Answer Engine Optimization (AEO)**.
 

@@ -522,10 +522,10 @@ by Andrew Chen
 ### Related Resources
 - Francesca Cortesi's Post:<br /><a href="https://www.francescacortesi.com/blog/my-main-takeaways-from-andrew-chens-the-cold-start-problem" target="_blank" rel="nofollow">My Main Takeaways from Andrew Chen's "The Cold Start Problem"</a>
 ```
-Keeping in mind what the core of the network is and delivering value to it is vital in all the phases of a networked product. 
-- When you start it and need to make sure users understand what the network stands for, 
-- When you grow it and need to make sure all new nodes of the network increase the overall value and do not dilute it,
-- When you defend it and might want to add functionalities to respond to competition. 
+Keeping in mind what the core of the network is and delivering value to it is vital in all the phases of a networked product
+- When you start it and need to make sure users understand what the network stands for
+- When you grow it and need to make sure all new nodes of the network increase the overall value and do not dilute it
+- When you defend it and might want to add functionalities to respond to competition
 ```
 
 - Paul Graham's Post:<br /><a href="https://paulgraham.com/startupideas.html" target="_blank" rel="nofollow">Startup Ideas</a>
