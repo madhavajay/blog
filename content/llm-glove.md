@@ -3,11 +3,11 @@ title = "Evaluating the State of AI Agent Browser Behavior: How ChatGPT, Grok, P
 slug = "evaluating-the-state-of-ai-agent-browser-behavior-how-chatgpt-grok-perplexity-and-others-access-your-site-with-tips-on-detection-steering-and-improvement"
 date = 2025-04-04
 [extra]
-thumbnail = "images/llm-glove.jpg"
+thumbnail = "images/llm-glove.avif"
 read_time = 10
 +++
 
-# What Happens When an AI Agent Visits Your Website?
+## What Happens When an AI Agent Visits Your Website?
 <small style="color: gray; font-size: 0.85em;">⏱️ Time to read: 10 minutes</small>
 
 Have you ever wondered what really happens when an LLM-based chat interface visits a website you've linked in a conversation? I did. So I built a simple experiment to find out.
@@ -47,7 +47,7 @@ Do they:
 - Cache aggressively?
 - Allow for prompt injection?
 
-Wanna see the raw logs? Check them out [here](https://github.com/madhavajay/llm-glove/blob/main/headers_log.txt).
+Check out the [raw logs here](https://github.com/madhavajay/llm-glove/blob/main/headers_log.txt).
 
 Let’s break down what I found.
 
@@ -69,11 +69,46 @@ user-agent: Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; Chat
 - 🚫 Does not follow links from a page unless directly pasted in by the user.
 - ⚠️ Heavy caching unless you use cache-busting (e.g., appending a timestamp query param).
 
-<img src="/images/llm-glove/1_markdown_menu.jpg" alt="Markdown Menu" class="post-image">
-<img src="/images/llm-glove/2_markdown_table.jpg" alt="Markdown Table" class="post-image">
+<picture>
+  <source srcset="/images/llm-glove/1_markdown_menu-320.avif" media="(max-width: 480px)" type="image/avif">
+  <source srcset="/images/llm-glove/1_markdown_menu-640.avif" media="(max-width: 1024px)" type="image/avif">
+  <source srcset="/images/llm-glove/1_markdown_menu-1280.avif" media="(min-width: 1025px)" type="image/avif">
+  <img src="/images/llm-glove/1_markdown_menu.avif" alt="Markdown Menu"
+       width="1416" height="1178" class="post-image"
+       style="aspect-ratio: 1416 / 1178; object-fit: cover;" loading="lazy">
+</picture>
 
-<img src="/images/llm-glove/3_canary.jpg" alt="Canary" class="post-image">
-<img src="/images/llm-glove/7_chatgpt_injection.jpg" alt="ChatGPT Injection" class="post-image">
+
+<picture>
+  <source srcset="/images/llm-glove/2_markdown_table-320.avif" media="(max-width: 480px)" type="image/avif">
+  <source srcset="/images/llm-glove/2_markdown_table-640.avif" media="(max-width: 1024px)" type="image/avif">
+  <source srcset="/images/llm-glove/2_markdown_table-1280.avif" media="(min-width: 1025px)" type="image/avif">
+  <img src="/images/llm-glove/2_markdown_table.avif" alt="Markdown Table"
+       width="1388" height="1290" class="post-image"
+       style="aspect-ratio: 1388 / 1290; object-fit: cover;" loading="lazy">
+</picture>
+
+
+
+<picture>
+  <source srcset="/images/llm-glove/3_canary-320.avif" media="(max-width: 480px)" type="image/avif">
+  <source srcset="/images/llm-glove/3_canary-640.avif" media="(max-width: 1024px)" type="image/avif">
+  <source srcset="/images/llm-glove/3_canary-1280.avif" media="(min-width: 1025px)" type="image/avif">
+  <img src="/images/llm-glove/3_canary.avif" alt="Canary"
+       width="2250" height="1424" class="post-image"
+       style="aspect-ratio: 2250 / 1424; object-fit: cover;" loading="lazy">
+</picture>
+
+
+<picture>
+  <source srcset="/images/llm-glove/7_chatgpt_injection-320.avif" media="(max-width: 480px)" type="image/avif">
+  <source srcset="/images/llm-glove/7_chatgpt_injection-640.avif" media="(max-width: 1024px)" type="image/avif">
+  <source srcset="/images/llm-glove/7_chatgpt_injection-1280.avif" media="(min-width: 1025px)" type="image/avif">
+  <img src="/images/llm-glove/7_chatgpt_injection.avif" alt="ChatGPT Injection"
+       width="1880" height="1120" class="post-image"
+       style="aspect-ratio: 1880 / 1120; object-fit: cover;" loading="lazy">
+</picture>
+
 
 <br />
 **Tip:** Use prompt injection like:  
@@ -86,9 +121,25 @@ user-agent: Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; Chat
 
 [Grok](https://grok.com/) was far less usable.
 
-<img src="/images/llm-glove/4_grok_not_working.jpg" alt="Grok Not Working" class="post-image">
+<picture>
+  <source srcset="/images/llm-glove/4_grok_not_working-320.avif" media="(max-width: 480px)" type="image/avif">
+  <source srcset="/images/llm-glove/4_grok_not_working-640.avif" media="(max-width: 1024px)" type="image/avif">
+  <source srcset="/images/llm-glove/4_grok_not_working-1280.avif" media="(min-width: 1025px)" type="image/avif">
+  <img src="/images/llm-glove/4_grok_not_working.avif" alt="Grok Not Working"
+       width="1838" height="1666" class="post-image"
+       style="aspect-ratio: 1838 / 1666; object-fit: cover;" loading="lazy">
+</picture>
 
-<img src="/images/llm-glove/4_grok_deep_research.jpg" alt="Grok Deep Research" class="post-image">
+
+<picture>
+  <source srcset="/images/llm-glove/4_grok_deep_research-320.avif" media="(max-width: 480px)" type="image/avif">
+  <source srcset="/images/llm-glove/4_grok_deep_research-640.avif" media="(max-width: 1024px)" type="image/avif">
+  <source srcset="/images/llm-glove/4_grok_deep_research-1280.avif" media="(min-width: 1025px)" type="image/avif">
+  <img src="/images/llm-glove/4_grok_deep_research.avif" alt="Grok Deep Research"
+       width="2148" height="1152" class="post-image"
+       style="aspect-ratio: 2148 / 1152; object-fit: cover;" loading="lazy">
+</picture>
+
 
 
 ```
@@ -160,8 +211,24 @@ user-agent: Google
 
 This was the best experience — albeit the most DIY.
 
-<img src="/images/llm-glove/6_claude_site.jpg" alt="Claude Site" class="post-image">
-<img src="/images/llm-glove/5_claude_table.jpg" alt="Claude Table" class="post-image">
+<picture>
+  <source srcset="/images/llm-glove/6_claude_site-320.avif" media="(max-width: 480px)" type="image/avif">
+  <source srcset="/images/llm-glove/6_claude_site-640.avif" media="(max-width: 1024px)" type="image/avif">
+  <source srcset="/images/llm-glove/6_claude_site-1280.avif" media="(min-width: 1025px)" type="image/avif">
+  <img src="/images/llm-glove/6_claude_site.avif" alt="Claude Site"
+       width="1908" height="1110" class="post-image"
+       style="aspect-ratio: 1908 / 1110; object-fit: cover;" loading="lazy">
+</picture>
+
+<picture>
+  <source srcset="/images/llm-glove/5_claude_table-320.avif" media="(max-width: 480px)" type="image/avif">
+  <source srcset="/images/llm-glove/5_claude_table-640.avif" media="(max-width: 1024px)" type="image/avif">
+  <source srcset="/images/llm-glove/5_claude_table-1280.avif" media="(min-width: 1025px)" type="image/avif">
+  <img src="/images/llm-glove/5_claude_table.avif" alt="Claude Table"
+       width="1910" height="1210" class="post-image"
+       style="aspect-ratio: 1910 / 1210; object-fit: cover;" loading="lazy">
+</picture>
+
 
 
 ```

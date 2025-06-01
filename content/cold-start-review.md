@@ -3,14 +3,19 @@ title = "The Cold Start Problem: Using Network Effects to Scale Your Product - A
 slug = "the-cold-start-problem-using-network-effects-to-scale-your-product"
 date = 2025-04-16
 [extra]
-thumbnail = "images/cold-start-review/cold-start-review.jpg"
+thumbnail = "images/cold-start-review/cold-start-review.avif"
 read_time = 12
 +++
 
-# So you wanna build a Network?
+<script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+<script src="https://unpkg.com/gridjs/dist/gridjs.umd.js" defer></script>
+<link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet" media="print" onload="this.media='all'" />
+
+
+## So you wanna build a Network?
 <small style="color: gray; font-size: 0.85em;">⏱️ Time to read: 12 minutes</small>
 
-<small style="color: gray; font-size: 0.85em;">👋 Hi to all the HN traffic! Discussion <a href="https://news.ycombinator.com/item?id=43761835#43763630" target="_blank">here</a>.</small>
+<small style="color: gray; font-size: 0.85em;">👋 Hi to all the <a href="https://news.ycombinator.com/item?id=43761835#43763630" target="_blank">HN traffic, discussion here</a>.</small>
 
 
 I have to say this is one of the best books I have ever read. Author <a href="https://x.com/andrewchen" target="_blank">@andrewchen (Andrew Chen)</a> from a16z goes into depth from personal experience and research on what it takes to build a networked product and platform and more importantly what critical mistakes that people make and how to recover from them with actionable strategies and tactics.
@@ -54,9 +59,6 @@ Key characteristics often include:
 Okay let's take a look at a list of the players mentioned in the book, how they started, what their hard side customer was, the approximate size of their atomic networks; and the one or more strategies they employed to beat the Cold Start problem and achieve network effects.
 
 
-<!-- Include Grid.js -->
-<script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
-<link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet" />
 
 <table id="whos-who">
   <thead>
@@ -255,52 +257,8 @@ Many of these could be argued to share similar meanings, for example, a useful t
 
 While the book doesn't mention it, I would argue that many of these had magic moments built into them as well like the first time you get an Uber and watch the car on the screen as it gets closer to you.
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<canvas id="preColdStartChart" width="100%"></canvas>
 
-<script>
-  const ctx1 = document.getElementById('preColdStartChart').getContext('2d');
-  const preColdStartChart = new Chart(ctx1, {
-    type: 'bar',
-    data: {
-      labels: [
-        'Solving a Hard Problem',
-        'Come for the Tool',
-        'Atomic Network',
-        'Killer Product',
-        'Hustle',
-        'Paying Up',
-        'Invite-Only',
-        'Flintstoning',
-        'Magic Moments',
-      ],
-      datasets: [{
-        label: 'Strategy Count',
-        data: [5, 5, 4, 3, 3, 2, 2, 1, 1],
-        borderWidth: 1
-      }]
-    },
-    options: {
-      indexAxis: 'y',
-      responsive: true,
-      plugins: {
-        title: {
-          display: true,
-          text: 'Stage 0 - 1 (Cold) Strategies'
-        },
-        legend: {
-          display: false
-        }
-      },
-      scales: {
-        x: {
-          beginAtZero: true
-        }
-      }
-    }
-  });
-</script>
-
+<canvas id="preColdStartChart" style="width:100%; height:auto;"></canvas>
 
 ### 1 - N Warm
 
@@ -311,49 +269,6 @@ Interestingly, as these network effects begin to take hold, the ways to grow, pr
 ```
 
 <canvas id="postColdStartChart" width="100%"></canvas>
-
-<script>
-  const ctx2 = document.getElementById('postColdStartChart').getContext('2d');
-  const postColdStartChart = new Chart(ctx2, {
-    type: 'bar',
-    data: {
-      labels: [
-        'Acquisition Effect',
-        'Building the Moat',
-        'Competing over the Hard Side',
-        'Economic Effect',
-        'Managing Overcrowding',
-        'Managing Ceiling',
-        'Managing Saturation',
-        'Community Moderation',
-        'Bundling'
-      ],
-      datasets: [{
-        label: 'Strategy Count',
-        data: [2, 2, 1, 1, 1, 1, 1, 1, 1, 1],
-        borderWidth: 1
-      }]
-    },
-    options: {
-      indexAxis: 'y',
-      responsive: true,
-      plugins: {
-        title: {
-          display: true,
-          text: 'Stage 1 - N (Warm) Strategies'
-        },
-        legend: {
-          display: false
-        }
-      },
-      scales: {
-        x: {
-          beginAtZero: true
-        }
-      }
-    }
-  });
-</script>
 
 
 ## Stage 0 - 1 (Cold)
@@ -510,7 +425,27 @@ Good luck out there! <strong>Don't stay 🥶 FROSTY</strong>.
 by Andrew Chen
 
 <a href="https://amzn.to/4cysDhH" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
-<img src="/images/cold-start-review/cold-start-cover.jpg" alt="The Cold Start Problem Book Cover" style="width:250px;">
+<picture>
+  <source
+    srcset="/images/cold-start-review/cold-start-cover-320.avif"
+    media="(max-width: 480px)"
+    type="image/avif">
+  <source
+    srcset="/images/cold-start-review/cold-start-cover-640.avif"
+    media="(max-width: 1024px)"
+    type="image/avif">
+  <source
+    srcset="/images/cold-start-review/cold-start-cover-1280.avif"
+    media="(min-width: 1025px)"
+    type="image/avif">
+  <img
+    src="/images/cold-start-review/cold-start-cover.avif"
+    alt="The Cold Start Problem Book Cover"
+    width="250"
+    height="375"
+    style="aspect-ratio: 2 / 3; object-fit: cover;" />
+</picture>
+
 </a>
 <br />
 <a href="https://amzn.to/4cysDhH" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">📘 Paperback</a> | <a href="https://amzn.to/3Y3Kx5T" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">📱 eBook</a>
@@ -558,67 +493,152 @@ Keeping in mind what the core of the network is and delivering value to it is vi
   <li id="solving-a-hard-problem"><strong>Solving a Hard Problem:</strong><br />Focusing the initial product on solving a significant, unmet need or pain point for a specific group of users, especially the "hard side," thereby attracting them and kickstarting the network.</li>
 </ul>
 
+
 <script>
-  function enhanceTableWithGridjs(tableId, columnDefs, extractRowDataFn) {
-    const table = document.getElementById(tableId);
-    if (!table) return;
+document.addEventListener("DOMContentLoaded", function () {
+    function enhanceTableWithGridjs(tableId, columnDefs, extractRowDataFn) {
+      const table = document.getElementById(tableId);
+      if (!table) return;
 
-    const wrapper = document.createElement("div");
-    table.parentNode.insertBefore(wrapper, table);
+      const wrapper = document.createElement("div");
+      table.parentNode.insertBefore(wrapper, table);
 
-    const rows = Array.from(table.querySelectorAll("tbody tr")).map(extractRowDataFn);
+      const rows = Array.from(table.querySelectorAll("tbody tr")).map(extractRowDataFn);
 
-    table.remove(); // Remove the static table
+      table.remove(); // Remove the static table
 
-    new gridjs.Grid({
-      columns: columnDefs,
-      data: rows,
-      style: {
-        table: {
-          'font-size': '12px'
+      new gridjs.Grid({
+        columns: columnDefs,
+        data: rows,
+        style: {
+          table: {
+            'font-size': '12px'
+          },
+          th: {
+            'white-space': 'normal',
+            'vertical-align': 'top'
+          },
+          td: {
+            'white-space': 'normal',
+            'vertical-align': 'top'
+          }
+        }
+      }).render(wrapper);
+    }
+
+    // Apply to #whos-who
+    enhanceTableWithGridjs("whos-who", [
+      "Company",
+      "Beginning",
+      "Hard Side",
+      "Atomic Size",
+      {
+        name: "Strategy",
+        formatter: cell => gridjs.html(cell)
+      }
+    ], row => {
+      const cells = row.querySelectorAll("td");
+      return [
+        cells[0]?.textContent ?? "",
+        cells[1]?.textContent ?? "",
+        cells[2]?.textContent ?? "",
+        cells[3]?.textContent ?? "",
+        cells[4]?.innerHTML ?? ""
+      ];
+    });
+
+    // Apply to #anti-patterns
+    enhanceTableWithGridjs("anti-patterns", [
+      "Anti-Pattern",
+      "Solution"
+    ], row => {
+      const cells = row.querySelectorAll("td");
+      return [
+        cells[0]?.textContent ?? "",
+        cells[1]?.textContent ?? ""
+      ];
+    });
+    const ctx2 = document.getElementById('postColdStartChart').getContext('2d');
+
+  const postColdStartChart = new Chart(ctx2, {
+    type: 'bar',
+    data: {
+      labels: [
+        'Acquisition Effect',
+        'Building the Moat',
+        'Competing over the Hard Side',
+        'Economic Effect',
+        'Managing Overcrowding',
+        'Managing Ceiling',
+        'Managing Saturation',
+        'Community Moderation',
+        'Bundling'
+      ],
+      datasets: [{
+        label: 'Strategy Count',
+        data: [2, 2, 1, 1, 1, 1, 1, 1, 1, 1],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      plugins: {
+        title: {
+          display: true,
+          text: 'Stage 1 - N (Warm) Strategies'
         },
-        th: {
-          'white-space': 'normal',
-          'vertical-align': 'top'
-        },
-        td: {
-          'white-space': 'normal',
-          'vertical-align': 'top'
+        legend: {
+          display: false
+        }
+      },
+      scales: {
+        x: {
+          beginAtZero: true
         }
       }
-    }).render(wrapper);
-  }
-
-  // Apply to #whos-who
-  enhanceTableWithGridjs("whos-who", [
-    "Company",
-    "Beginning",
-    "Hard Side",
-    "Atomic Size",
-    {
-      name: "Strategy",
-      formatter: cell => gridjs.html(cell)
     }
-  ], row => {
-    const cells = row.querySelectorAll("td");
-    return [
-      cells[0]?.textContent ?? "",
-      cells[1]?.textContent ?? "",
-      cells[2]?.textContent ?? "",
-      cells[3]?.textContent ?? "",
-      cells[4]?.innerHTML ?? ""
-    ];
   });
 
-  // Apply to #anti-patterns
-  enhanceTableWithGridjs("anti-patterns", [
-    "Anti-Pattern",
-    "Solution"
-  ], row => {
-    const cells = row.querySelectorAll("td");
-    return [
-      cells[0]?.textContent ?? "",
-      cells[1]?.textContent ?? ""
-    ];
+  const ctx1 = document.getElementById('preColdStartChart').getContext('2d');
+  const preColdStartChart = new Chart(ctx1, {
+    type: 'bar',
+    data: {
+      labels: [
+        'Solving a Hard Problem',
+        'Come for the Tool',
+        'Atomic Network',
+        'Killer Product',
+        'Hustle',
+        'Paying Up',
+        'Invite-Only',
+        'Flintstoning',
+        'Magic Moments',
+      ],
+      datasets: [{
+        label: 'Strategy Count',
+        data: [5, 5, 4, 3, 3, 2, 2, 1, 1],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      plugins: {
+        title: {
+          display: true,
+          text: 'Stage 0 - 1 (Cold) Strategies'
+        },
+        legend: {
+          display: false
+        }
+      },
+      scales: {
+        x: {
+          beginAtZero: true
+        }
+      }
+    }
   });
+});
 </script>

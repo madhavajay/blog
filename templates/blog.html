@@ -11,8 +11,19 @@
         <div class="post-with-thumbnail">
             <div class="post-thumbnail left-aligned">
                 <a href="{{ page.permalink | safe }}">
-                    <img src="{{ page.extra.thumbnail }}" alt="{{ page.title | default(value=" Post image") }}"
-                        class="thumbnail" />
+                    {% set is_first = loop.index == 1 %}
+                    <picture>
+                        <source srcset="{{ page.extra.thumbnail | replace(from='.avif', to='-320.avif') }}"
+                            media="(max-width: 480px)" type="image/avif">
+                        <source srcset="{{ page.extra.thumbnail | replace(from='.avif', to='-640.avif') }}"
+                            media="(max-width: 1024px)" type="image/avif">
+                        <source srcset="{{ page.extra.thumbnail | replace(from='.avif', to='-1280.avif') }}"
+                            media="(min-width: 1025px)" type="image/avif">
+                        <img src="{{ page.extra.thumbnail }}" alt="{{ page.title | default(value='Post image') }}"
+                            class="thumbnail" width="320" height="180" style="aspect-ratio: 16 / 9; object-fit: cover;"
+                            {% if loop.index !=1 %}loading="lazy" {% endif %} />
+                    </picture>
+
                 </a>
             </div>
             <div class="post-content">

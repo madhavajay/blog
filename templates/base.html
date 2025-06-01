@@ -6,17 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page is defined and page.title is defined %}{{ page.title }} - {% endif %}Madhava's Blog</title>
     <link rel="icon" href="{{ get_url(path='favicon.ico') | safe }}" type="image/x-icon">
-    <link rel="stylesheet" href="{{ get_url(path='styles.css') | safe }}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap"
+        rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap">
+    </noscript>
+
+    <link rel="preload" as="style" href="{{ get_url(path='styles.css') | safe }}">
+    <link rel="stylesheet" href="{{ get_url(path='styles.css') | safe }}" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="{{ get_url(path='styles.css') | safe }}">
+    </noscript>
+
     {% if page is defined %}
     <link rel="canonical" href="{{ page.permalink | safe }}" />
     {% else %}
     <link rel="canonical" href="https://madhavajay.com" />
     {% endif %}
+
     <!-- Open Graph Meta Tags -->
     <meta property="og:type" content="website">
     {% if page is defined %}
     <meta property="og:url" content="{{ page.permalink | safe }}">
     <meta property="og:title" content="{{ page.title }}">
+    <meta name="description" content="{{ page.content 
+        | striptags 
+        | replace(from=" &#x27;", to="'" ) | replace(from="&quot;" , to='"' ) | replace(from="&amp;" , to="&" ) |
+        replace(from="\n" , to=" " ) | regex_replace(pattern="\\s+" , rep=" " ) | truncate(length=300) }} ">
     <meta property="og:description" content="{{ page.content 
         | striptags 
         | replace(from=" &#x27;", to="'" ) | replace(from="&quot;" , to='"' ) | replace(from="&amp;" , to="&" ) |
@@ -25,8 +46,9 @@
     {% else %}
     <meta property="og:url" content="https://madhavajay.com">
     <meta property="og:title" content="Madhavas Blog">
+    <meta name="description" content="Madhavas Blog about tech and other things.">
     <meta property="og:description" content="Madhavas Blog about tech and other things.">
-    <meta property="og:image" content="{{ get_url(path='images/llm-glove.jpg') | safe }}">
+    <meta property="og:image" content="{{ get_url(path='images/llm-glove.avif') | safe }}">
     {% endif %}
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-X3YC1ECKPY"></script>
