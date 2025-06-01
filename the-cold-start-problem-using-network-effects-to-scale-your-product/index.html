@@ -6,20 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Cold Start Problem: Using Network Effects to Scale Your Product - A Review - Madhava's Blog</title>
     <link rel="icon" href="https://madhavajay.com/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://madhavajay.com/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap"
+        rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap">
+    </noscript>
+
+    <link rel="preload" as="style" href="https://madhavajay.com/styles.css">
+    <link rel="stylesheet" href="https://madhavajay.com/styles.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://madhavajay.com/styles.css">
+    </noscript>
+
     
     <link rel="canonical" href="https://madhavajay.com/the-cold-start-problem-using-network-effects-to-scale-your-product/" />
     
+
     <!-- Open Graph Meta Tags -->
     <meta property="og:type" content="website">
     
     <meta property="og:url" content="https://madhavajay.com/the-cold-start-problem-using-network-effects-to-scale-your-product/">
     <meta property="og:title" content="The Cold Start Problem: Using Network Effects to Scale Your Product - A Review">
-    <meta property="og:description" content="So you wanna build a Network?
+    <meta name="description" content="
+
+
+So you wanna build a Network?
 ⏱️ Time to read: 12 minutes
-👋 Hi to all the HN traffic! Discussion here.
-I have to say this is one of the best books I have ever read. Author @andrewchen (Andrew Chen) from a16z goes into depth from personal experience and research on what it takes to build a networked p… ">
-    <meta property=" og:image" content="https://madhavajay.com/images/cold-start-review/cold-start-review.jpg">
+👋 Hi to all the HN traffic, discussion here.
+I have to say this is one of the best books I have ever read. Author @andrewchen (Andrew Chen) from a16z goes into depth from personal experience and research on what it takes to build a networke… ">
+    <meta property="og:description" content="
+
+
+So you wanna build a Network?
+⏱️ Time to read: 12 minutes
+👋 Hi to all the HN traffic, discussion here.
+I have to say this is one of the best books I have ever read. Author @andrewchen (Andrew Chen) from a16z goes into depth from personal experience and research on what it takes to build a networke… ">
+    <meta property=" og:image" content="https://madhavajay.com/images/cold-start-review/cold-start-review.avif">
     
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-X3YC1ECKPY"></script>
@@ -74,9 +101,12 @@ I have to say this is one of the best books I have ever read. Author @andrewchen
         </div>
 
         <div class="article-content">
-            <h1 id="so-you-wanna-build-a-network">So you wanna build a Network?</h1>
+            <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+<script src="https://unpkg.com/gridjs/dist/gridjs.umd.js" defer></script>
+<link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet" media="print" onload="this.media='all'" />
+<h2 id="so-you-wanna-build-a-network">So you wanna build a Network?</h2>
 <p><small style="color: gray; font-size: 0.85em;">⏱️ Time to read: 12 minutes</small></p>
-<p><small style="color: gray; font-size: 0.85em;">👋 Hi to all the HN traffic! Discussion <a href="https://news.ycombinator.com/item?id=43761835#43763630" target="_blank">here</a>.</small></p>
+<p><small style="color: gray; font-size: 0.85em;">👋 Hi to all the <a href="https://news.ycombinator.com/item?id=43761835#43763630" target="_blank">HN traffic, discussion here</a>.</small></p>
 <p>I have to say this is one of the best books I have ever read. Author <a href="https://x.com/andrewchen" target="_blank">@andrewchen (Andrew Chen)</a> from a16z goes into depth from personal experience and research on what it takes to build a networked product and platform and more importantly what critical mistakes that people make and how to recover from them with actionable strategies and tactics.</p>
 <p>The book is long but worth it, but since I know you are busy (hopefully trying to build a network), let me give you the tasty bits.</p>
 <h3 id="it-s-a-paradox">It's a Paradox</h3>
@@ -104,9 +134,6 @@ I have to say this is one of the best books I have ever read. Author @andrewchen
 </ul>
 <h2 id="the-who-s-who">The Who's Who</h2>
 <p>Okay let's take a look at a list of the players mentioned in the book, how they started, what their hard side customer was, the approximate size of their atomic networks; and the one or more strategies they employed to beat the Cold Start problem and achieve network effects.</p>
-<!-- Include Grid.js -->
-<script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
-<link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet" />
 <table id="whos-who">
   <thead>
     <tr>
@@ -300,97 +327,12 @@ I have to say this is one of the best books I have ever read. Author @andrewchen
 </ul>
 <p>Many of these could be argued to share similar meanings, for example, a useful tool for one can be the killer product itself, a killer product might solve a hard problem (but it doesn't have to) however behind all of them is value being generated for a primary user, and then as an extension atomic networks forming as that value draws in secondary users.</p>
 <p>While the book doesn't mention it, I would argue that many of these had magic moments built into them as well like the first time you get an Uber and watch the car on the screen as it gets closer to you.</p>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<p><canvas id="preColdStartChart" width="100%"></canvas></p>
-<script>
-  const ctx1 = document.getElementById('preColdStartChart').getContext('2d');
-  const preColdStartChart = new Chart(ctx1, {
-    type: 'bar',
-    data: {
-      labels: [
-        'Solving a Hard Problem',
-        'Come for the Tool',
-        'Atomic Network',
-        'Killer Product',
-        'Hustle',
-        'Paying Up',
-        'Invite-Only',
-        'Flintstoning',
-        'Magic Moments',
-      ],
-      datasets: [{
-        label: 'Strategy Count',
-        data: [5, 5, 4, 3, 3, 2, 2, 1, 1],
-        borderWidth: 1
-      }]
-    },
-    options: {
-      indexAxis: 'y',
-      responsive: true,
-      plugins: {
-        title: {
-          display: true,
-          text: 'Stage 0 - 1 (Cold) Strategies'
-        },
-        legend: {
-          display: false
-        }
-      },
-      scales: {
-        x: {
-          beginAtZero: true
-        }
-      }
-    }
-  });
-</script>
+<p><canvas id="preColdStartChart" style="width:100%; height:auto;"></canvas></p>
 <h3 id="1-n-warm">1 - N Warm</h3>
 <p>Interestingly, as these network effects begin to take hold, the ways to grow, prevent anti-network effects, and defend against competition seem to vary greatly by the specific product or company. I think the lesson here is best summed up by <a href="https://x.com/reidhoffman" target="_blank">@reidhoffman (Reid Hoffman)</a> in the book <a href="https://amzn.to/3EK1Fal" target="_blank">Blitzscaling</a>:</p>
 <pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>&quot;The strategy that gets you to your first hundred users is not the strategy that gets you to your first thousand—or your first million.&quot;
 </span></code></pre>
 <p><canvas id="postColdStartChart" width="100%"></canvas></p>
-<script>
-  const ctx2 = document.getElementById('postColdStartChart').getContext('2d');
-  const postColdStartChart = new Chart(ctx2, {
-    type: 'bar',
-    data: {
-      labels: [
-        'Acquisition Effect',
-        'Building the Moat',
-        'Competing over the Hard Side',
-        'Economic Effect',
-        'Managing Overcrowding',
-        'Managing Ceiling',
-        'Managing Saturation',
-        'Community Moderation',
-        'Bundling'
-      ],
-      datasets: [{
-        label: 'Strategy Count',
-        data: [2, 2, 1, 1, 1, 1, 1, 1, 1, 1],
-        borderWidth: 1
-      }]
-    },
-    options: {
-      indexAxis: 'y',
-      responsive: true,
-      plugins: {
-        title: {
-          display: true,
-          text: 'Stage 1 - N (Warm) Strategies'
-        },
-        legend: {
-          display: false
-        }
-      },
-      scales: {
-        x: {
-          beginAtZero: true
-        }
-      }
-    }
-  });
-</script>
 <h2 id="stage-0-1-cold">Stage 0 - 1 (Cold)</h2>
 <p>If you haven't got any Atomic Networks yet, it might be worth double checking the anti pattern list from the book to make sure you haven't approached the problem wrong.</p>
 <table id="anti-patterns">
@@ -531,7 +473,26 @@ I have to say this is one of the best books I have ever read. Author @andrewchen
 <h3 id="the-cold-start-problem">The Cold Start Problem</h3>
 <p>by Andrew Chen</p>
 <a href="https://amzn.to/4cysDhH" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
-<img src="/images/cold-start-review/cold-start-cover.jpg" alt="The Cold Start Problem Book Cover" style="width:250px;">
+<picture>
+  <source
+    srcset="/images/cold-start-review/cold-start-cover-320.avif"
+    media="(max-width: 480px)"
+    type="image/avif">
+  <source
+    srcset="/images/cold-start-review/cold-start-cover-640.avif"
+    media="(max-width: 1024px)"
+    type="image/avif">
+  <source
+    srcset="/images/cold-start-review/cold-start-cover-1280.avif"
+    media="(min-width: 1025px)"
+    type="image/avif">
+  <img
+    src="/images/cold-start-review/cold-start-cover.avif"
+    alt="The Cold Start Problem Book Cover"
+    width="250"
+    height="375"
+    style="aspect-ratio: 2 / 3; object-fit: cover;" />
+</picture>
 </a>
 <br />
 <a href="https://amzn.to/4cysDhH" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">📘 Paperback</a> | <a href="https://amzn.to/3Y3Kx5T" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">📱 eBook</a>
@@ -576,70 +537,153 @@ I have to say this is one of the best books I have ever read. Author @andrewchen
   <li id="solving-a-hard-problem"><strong>Solving a Hard Problem:</strong><br />Focusing the initial product on solving a significant, unmet need or pain point for a specific group of users, especially the "hard side," thereby attracting them and kickstarting the network.</li>
 </ul>
 <script>
-  function enhanceTableWithGridjs(tableId, columnDefs, extractRowDataFn) {
-    const table = document.getElementById(tableId);
-    if (!table) return;
+document.addEventListener("DOMContentLoaded", function () {
+    function enhanceTableWithGridjs(tableId, columnDefs, extractRowDataFn) {
+      const table = document.getElementById(tableId);
+      if (!table) return;
 
-    const wrapper = document.createElement("div");
-    table.parentNode.insertBefore(wrapper, table);
+      const wrapper = document.createElement("div");
+      table.parentNode.insertBefore(wrapper, table);
 
-    const rows = Array.from(table.querySelectorAll("tbody tr")).map(extractRowDataFn);
+      const rows = Array.from(table.querySelectorAll("tbody tr")).map(extractRowDataFn);
 
-    table.remove(); // Remove the static table
+      table.remove(); // Remove the static table
 
-    new gridjs.Grid({
-      columns: columnDefs,
-      data: rows,
-      style: {
-        table: {
-          'font-size': '12px'
+      new gridjs.Grid({
+        columns: columnDefs,
+        data: rows,
+        style: {
+          table: {
+            'font-size': '12px'
+          },
+          th: {
+            'white-space': 'normal',
+            'vertical-align': 'top'
+          },
+          td: {
+            'white-space': 'normal',
+            'vertical-align': 'top'
+          }
+        }
+      }).render(wrapper);
+    }
+
+    // Apply to #whos-who
+    enhanceTableWithGridjs("whos-who", [
+      "Company",
+      "Beginning",
+      "Hard Side",
+      "Atomic Size",
+      {
+        name: "Strategy",
+        formatter: cell => gridjs.html(cell)
+      }
+    ], row => {
+      const cells = row.querySelectorAll("td");
+      return [
+        cells[0]?.textContent ?? "",
+        cells[1]?.textContent ?? "",
+        cells[2]?.textContent ?? "",
+        cells[3]?.textContent ?? "",
+        cells[4]?.innerHTML ?? ""
+      ];
+    });
+
+    // Apply to #anti-patterns
+    enhanceTableWithGridjs("anti-patterns", [
+      "Anti-Pattern",
+      "Solution"
+    ], row => {
+      const cells = row.querySelectorAll("td");
+      return [
+        cells[0]?.textContent ?? "",
+        cells[1]?.textContent ?? ""
+      ];
+    });
+    const ctx2 = document.getElementById('postColdStartChart').getContext('2d');
+
+  const postColdStartChart = new Chart(ctx2, {
+    type: 'bar',
+    data: {
+      labels: [
+        'Acquisition Effect',
+        'Building the Moat',
+        'Competing over the Hard Side',
+        'Economic Effect',
+        'Managing Overcrowding',
+        'Managing Ceiling',
+        'Managing Saturation',
+        'Community Moderation',
+        'Bundling'
+      ],
+      datasets: [{
+        label: 'Strategy Count',
+        data: [2, 2, 1, 1, 1, 1, 1, 1, 1, 1],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      plugins: {
+        title: {
+          display: true,
+          text: 'Stage 1 - N (Warm) Strategies'
         },
-        th: {
-          'white-space': 'normal',
-          'vertical-align': 'top'
-        },
-        td: {
-          'white-space': 'normal',
-          'vertical-align': 'top'
+        legend: {
+          display: false
+        }
+      },
+      scales: {
+        x: {
+          beginAtZero: true
         }
       }
-    }).render(wrapper);
-  }
-
-  // Apply to #whos-who
-  enhanceTableWithGridjs("whos-who", [
-    "Company",
-    "Beginning",
-    "Hard Side",
-    "Atomic Size",
-    {
-      name: "Strategy",
-      formatter: cell => gridjs.html(cell)
     }
-  ], row => {
-    const cells = row.querySelectorAll("td");
-    return [
-      cells[0]?.textContent ?? "",
-      cells[1]?.textContent ?? "",
-      cells[2]?.textContent ?? "",
-      cells[3]?.textContent ?? "",
-      cells[4]?.innerHTML ?? ""
-    ];
   });
 
-  // Apply to #anti-patterns
-  enhanceTableWithGridjs("anti-patterns", [
-    "Anti-Pattern",
-    "Solution"
-  ], row => {
-    const cells = row.querySelectorAll("td");
-    return [
-      cells[0]?.textContent ?? "",
-      cells[1]?.textContent ?? ""
-    ];
+  const ctx1 = document.getElementById('preColdStartChart').getContext('2d');
+  const preColdStartChart = new Chart(ctx1, {
+    type: 'bar',
+    data: {
+      labels: [
+        'Solving a Hard Problem',
+        'Come for the Tool',
+        'Atomic Network',
+        'Killer Product',
+        'Hustle',
+        'Paying Up',
+        'Invite-Only',
+        'Flintstoning',
+        'Magic Moments',
+      ],
+      datasets: [{
+        label: 'Strategy Count',
+        data: [5, 5, 4, 3, 3, 2, 2, 1, 1],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      plugins: {
+        title: {
+          display: true,
+          text: 'Stage 0 - 1 (Cold) Strategies'
+        },
+        legend: {
+          display: false
+        }
+      },
+      scales: {
+        x: {
+          beginAtZero: true
+        }
+      }
+    }
   });
+});
 </script>
-
         </div>
 
         <div class="article-footer">
@@ -664,7 +708,7 @@ I have to say this is one of the best books I have ever read. Author @andrewchen
                         class="social-icon email-icon" title="Share via Email">
                         ✉
                     </a>
-                    <a href="javascript:void(0)"
+                    <a href="#"
                         onclick="navigator.clipboard.writeText('https://madhavajay.com/the-cold-start-problem-using-network-effects-to-scale-your-product/'); alert('Link copied to clipboard!');"
                         class="social-icon copy-icon" title="Copy link">
                         🔗
