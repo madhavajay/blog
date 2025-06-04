@@ -56,43 +56,14 @@ a {
 }
 
 // Header styles
-header {
+header .nav-links {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
-    border-bottom: 1px solid $border-color;
-    margin-bottom: 40px;
-
-    .logo {
-        font-size: 26px; // Larger logo size
-        font-weight: 600; // Semibold instead of bold
-        color: #ffffff;
-        text-decoration: none;
-        letter-spacing: 0.5px; // Reduced letter spacing
-    }
-
-    .nav-links {
-        display: flex;
-        align-items: center;
-        gap: 25px;
-
-        .nav-item {
-            color: #ffffff;
-            text-decoration: none;
-            transition: color 0.2s ease;
-            font-size: 17px; // Slightly larger nav text
-
-            &:hover {
-                color: $primary-color;
-            }
-        }
-    }
+    gap: 25px;
 
     .social-links {
         display: flex;
         align-items: center;
-        margin-left: 15px;
         padding-left: 15px;
         border-left: 1px solid $border-color;
 
