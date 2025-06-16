@@ -496,37 +496,23 @@ em {
 // Responsive adjustments
 @media (max-width: 768px) {
     body {
-        font-size: 17px; // Even larger text on mobile
-        padding: 15px;
-    }
-
-    header {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 15px;
-
-        .nav-links {
-            width: 100%;
-            justify-content: space-between;
-        }
-
-        .social-links {
-            margin-left: auto;
-            padding-left: 0;
-            border-left: none;
-
-            .social-link {
-                margin-left: 12px;
-            }
-        }
+        font-size: 16px; // Adjust for mobile
+        padding: 8px; // Even tighter padding
     }
 
     .article-title {
-        font-size: 30px; // Slightly smaller title on mobile
+        font-size: 22px; // Much smaller title on mobile
+        line-height: 1.1; // Very tight line height
+        margin-bottom: 8px; // Minimal bottom margin
     }
 
     .article-content h2 {
-        font-size: 24px; // Smaller h2 on mobile
+        font-size: 20px; // Smaller h2 on mobile
+        margin: 25px 0 12px; // Reduce spacing around headings
+    }
+
+    .article-meta {
+        margin-bottom: 20px; // Reduce meta spacing
     }
 
     .article-footer {
@@ -628,8 +614,9 @@ table {
     }
 
     .article-title {
-        font-size: 30px;
-        /* Slightly smaller title on mobile */
+        font-size: 22px; // Much smaller title on mobile
+        line-height: 1.1; // Very tight line height
+        margin-bottom: 8px; // Minimal bottom margin
     }
 
     .article-content h2 {
@@ -721,20 +708,30 @@ header {
     header {
         flex-direction: row; // Keep it as row instead of column
         flex-wrap: wrap; // Allow wrapping if needed
+        padding: 10px 0; // Much tighter padding on mobile
+        margin-bottom: 20px; // Reduce margin
 
         .logo {
             margin-right: auto; // Push everything else to the right
+            font-size: 20px; // Smaller logo on mobile
         }
 
         .nav-links {
             justify-content: flex-end; // Align items to the right
             flex-grow: 0; // Don't let it grow to full width
             width: auto; // Auto width instead of 100%
+            gap: 10px; // Much smaller gap between elements
         }
 
         .social-links {
-            margin-left: 15px; // Keep some spacing
+            margin-left: 8px; // Minimal spacing
+            padding-left: 8px; // Minimal padding
             border-left: 1px solid $border-color; // Keep the divider
+
+            .social-link {
+                margin-left: 6px; // Minimal spacing between icons
+                font-size: 13px; // Smaller icons
+            }
         }
     }
 }
