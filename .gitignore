@@ -4,3 +4,6 @@ public/*.html
 public/.nojekyll
 public/robots.txt
 public/images/*
+
+
+.context
