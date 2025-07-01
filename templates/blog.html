@@ -3,7 +3,7 @@
 {% block content %}
 <div class="posts-container">
     {% for page in section.pages %}
-    {% if page.extra.redirect_to is not defined %}
+    {% if not page.extra.hidden and page.extra.redirect_to is not defined %}
 
     <article class="post-card">
         {% set has_thumbnail = page.extra and page.extra.thumbnail is defined and page.extra.thumbnail %}
@@ -20,8 +20,9 @@
                         <source srcset="{{ page.extra.thumbnail | replace(from='.avif', to='-1280.avif') }}"
                             media="(min-width: 1025px)" type="image/avif">
                         <img src="{{ page.extra.thumbnail }}" alt="{{ page.title | default(value='Post image') }}"
-                            class="thumbnail" width="320" height="180" style="aspect-ratio: 16 / 9; object-fit: cover;"
-                            {% if loop.index !=1 %}loading="lazy" {% endif %} />
+                            class="thumbnail{% if page.extra.thumbnail_class %} {{ page.extra.thumbnail_class }}{% endif %}"
+                            width="320" height="180" style="aspect-ratio: 16 / 9; object-fit: cover;" {% if loop.index
+                            !=1 %}loading="lazy" {% endif %} />
                     </picture>
 
                 </a>
