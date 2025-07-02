@@ -2,14 +2,14 @@
 $primary-color: #3a8aff; // Slightly brighter blue
 $link-color: #4b9dff; // Brighter link color
 $link-visited: #a37dff; // Distinct visited link color
-$background-color: #121212;
+$background-color: #1e1e1e;
 $card-background: #1e1e1e;
-$text-color: #ffffff; // Pure white for main text
+$text-color: #dddddd; // Pure white for main text
 $muted-color: #b8b8b8; // Lighter gray for better contrast
 $border-color: rgba(255, 255, 255, 0.15); // Slightly more visible borders
 $font-primary: 'JetBrains Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 $font-heading: 'JetBrains Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-$line-height: 1.7; // Increased line height
+$line-height: 1.6; // Increased line height
 
 // Reset and base styles
 * {
@@ -747,4 +747,20 @@ strong {
     width: 100%;
     height: auto;
     object-fit: cover;
+}
+
+code {
+    background-color: rgb(43, 48, 59) !important;
+}
+
+.thumbnail.top-crop {
+    object-position: center top;
+}
+
+.thumbnail.bottom-crop {
+    object-position: center bottom;
+}
+
+a>code {
+    text-decoration: underline;
 }
