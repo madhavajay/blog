@@ -104,13 +104,21 @@ I have broken this into 4 distinct sections:
 <h2 id="the-big-shift">The Big Shift</h2>
 <img src="/images/agentic-coding-slot-machines/the-big-shift.png" style="width: 100%;" alt="the-big-shift">
 
+<h3 id="i-was-wrong-about-claude-code">I was wrong about Claude Code</h3>
+
+Like many others, I tried `claude code` months ago when it came out, put in my anthropic `api key` and watched it spin its wheels 🛞 so hard it burnt around `15 dollars` worth of API tokens and turned my git repo into an AI slop mud pit. 
+
+My immediate thought was, nice try 😜 but no thanks, back to Cursor.
+
+But I was wrong.
+
 <h3 id="what-changed-the-tectonic-shift">What Changed? The Trifecta:</h3>
 
 <br />
 <h3>1) AYCE (all you can eat) API Token plans (Claude Max)</h3>
 
 <img src="/images/agentic-coding-slot-machines/claude-max.jpg" style="width: 50%; float: right;" alt="claude-max">
-While not strictly unlimited, it has a hard cap. The reality is without hardcaps the human mind always reverts to a scarcity mentality. Without fear of scarey bills the community have moved like lightning to suddenly adopt these tools.
+While not strictly unlimited, it has a hard cap. The reality is without hardcaps the human mind always reverts to a scarcity mentality. Without fear of scarey bills the community has moved like lightning to suddenly adopt these tools.
 
 
 <div style="clear: both; margin-bottom: 10px;"></div>
@@ -135,17 +143,16 @@ Plus, by being text only, it lets you `multi-plex` across time and space too.
 
 As Peter says in his recent interview with the awesome <a href="https://x.com/waghnakh_21">Mayank Gupta (@waghnakh_21)</a> (below), Cursors system prompt is optimzied for the user to pick context. Claude on the otherhand is excellent at finding and using the right context itself and is context / token hungry (why you need AYCE tokens).
 
-Also something that has come up in conversations is theres a certain `je ne sais quoi` ineffable quality to running a local agent on your machine which beats the cloud agents.
-
-For Peter and many others you just can't get the same MacOS versions or access to real hardware to do real Apple development. I imagine the same applies to things like Windows or any kind of complex IoT / custom hardware. 
-
-Something Armin and I spoke about was this `ineffable` feeling that is different between using `claude code` locally, and having some Cloud AI agent like `devin` or `jules` just open a PR on its own.
+Also something that has come up in a convesation with <a href="https://x.com/@mitsuhiko">Armin Ronacher (@mitsuhiko)</a> is theres a certain `je ne sais quoi` ineffable quality to running a local agent on your machine which beats the cloud agents.
 
 When you use `claude code` locally, I would describe it as `feeling` as though you are "In the room" when the code was made. You were there through success and failure collaborating with the agent and so you feel attached emotionally to the artifacts it produces.
 
+That is distinctly different to having some Cloud AI agent like `devin` or `jules` just open a PR on its own.
+
 When that happens 100% automatically, and its `too magical`, it crosses the uncanny valley into weird killer robot mode and triggers your NIH (not invented here) senses really hard.
 
-It feels the same way when someone says "look at this AI thing I just made". Your instinct is to call it `slop`. Perhaps this a tribal human thing but I think how human-agent interactions feel is critical to them being useful and trustworthy.
+
+Likewise, for <a href="https://x.com/@steipete">Peter Steinberger (@steipete)</a> and many others you just can't get the same MacOS versions or access to real hardware to do real Apple development. I imagine the same applies to things like Windows or any kind of complex IoT / custom hardware. 
 
 Real work is done via the Personal Laptop / Desktop with a human-in-the-loop and that isn't likely to change any time soon.
 
@@ -161,18 +168,12 @@ As we speak, myself and others are literally `vibe coding` 4 projects at once, a
 
 ```Me vibe coding from home with VibeTunnel``` 
 
+### How?
+
 With <a href="https://vibetunnel.sh/" target="_blank">VibeTunnel.sh</a> you can now have 24/7 access to `claude code` on your desktop computer from your phone. Thats your IP, your login credentials, your code repos, MCP servers everything to be maximally productive. This is an important difference with online only tools like <a href="https://devin.ai/" target="_blank">devin</a>, <a href="https://jules.google/" target="_blank">jules</a> etc.
 
 VibeTunnnel was created by <a href="https://x.com/steipete" target="_blank">@steipete</a> and friends literally to keep their Agentic Coding Slot Machine addiction going while AFK (away from keyboard).
 
-
-<h3 id="i-was-wrong-about-claude-code">I was wrong about Claude Code</h3>
-
-Like many others, I tried `claude code` months ago when it came out, put in my anthropic `api key` and watched it spin its wheels 🛞 so hard it burnt around `15 dollars` worth of API tokens and turned my git repo into an AI slop mud pit. 
-
-My immediate thought was, nice try 😜 but no thanks, back to Cursor.
-
-But I was wrong.
 
 ## Magic Moment
 It kind of all started when I noticed a person I have followed for a long time on Twitter (from my iOS hey days), the amazing Peter Steinberger aka <a href="https://x.com/steipete" target="_blank">@steipete</a>, started raving like a mad-man about his addiction to Claude Code. 👀
@@ -242,7 +243,11 @@ I will note, you do have to work hard to hit these limits, unless your Peter who
 
 As <a href="https://twitter.com/steipete" target="_blank">@steipete</a> said to me: `"Welcome to Slot Machine Addicted Anonymous"`.
 
-If you are less technical and still reading you might be thinkin: `I'm about click off this page, I don't get it, this is just more SaaS b2b Startup Founder twitter hype BS.`
+If you are less technical and still reading you might be thinkin:  
+
+```
+I'm about click off this page, I don't get it, this is just more SaaS b2b Startup Founder twitter hype BS.
+```
 
 But wait... its not, this is different.
 
@@ -259,7 +264,6 @@ for only ~$100 USD a month.
 All you need is a desktop computer, the patience to learn new things and a dream (or as many dreams as you can do in parallel).
 ```
 <img src="/images/agentic-coding-slot-machines/genie.png" style="width: 50%;" alt="genie">
-<!-- <img src="/images/agentic-coding-slot-machines/genie2.png" style="width: 50%;" alt="genie"> -->
 
 
 To help illustrate what this means consider the following:
@@ -355,8 +359,10 @@ Yes its a CLI but you can:
 - create your own /slash commands
 - interrupt it
 - swear at it like Pete does
+- ask it to make any software it needs to do X
 
-And it just keeps gobbling up the yummy tokens and spitting out slot machine coins!
+
+And it just keeps gobbling up the yummy tokens and spitting out slot machine coins! 🪙 🪙 🪙 nom nom nom
 
 
 <h3>What people are doing</h3>
@@ -375,7 +381,7 @@ With the power of Agentic Code generation MCP feels like Software 1.0 in a Softw
 Peter is `multi-plexing` 3-4 projects at once 16-20 hours a day like a mad-man and one of those is the amazing VibeTunnel.sh <a href="https://vibetunnel.sh/">https://vibetunnel.sh/</a>. It gives you SSH access to your machine from anywhere in a web browser or native app interface ALL FOR FREE. Bye bye overpriced SSH Subscription Apps (looking at you blink shell).
 
 - Making Video Talks  
-<a href="https://x.com/badlogicgames">Mario Zechner</a> is usign claude code to record Video Talks! Love it.
+<a href="https://x.com/badlogicgames">Mario Zechner</a> is using claude code to record Video Talks! Love it.
 <div style="transform: scale(0.6); transform-origin: top left; height:250px;">
 <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">How I use Claude Code to help me record video talks. Love it. <a href="https://t.co/i5Yk4cFT8L">pic.twitter.com/i5Yk4cFT8L</a></p>&mdash; Mario Zechner (@badlogicgames) <a href="https://twitter.com/badlogicgames/status/1940013366728122488?ref_src=twsrc%5Etfw">July 1, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
@@ -386,7 +392,7 @@ Mario also worked on a context sharing tool like ChatGPT: <a href="https://mario
 
 
 - Claude Controls your Browser  
-The legendary <a href="https://x.com/simonw/status/1940197916267986946">Simon willion</a> explains on his blog <a href="https://til.simonwillison.net/claude-code/playwright-mcp-claude-code">how to add playwright correctly to claude code</a>. TL;DR: Run this before you start "claude":
+The legendary <a href="https://x.com/simonw/status/1940197916267986946">Simon willison</a> explains on his blog <a href="https://til.simonwillison.net/claude-code/playwright-mcp-claude-code">how to add playwright correctly to claude code</a>. TL;DR: Run this before you start "claude":
 ```claude mcp add playwright npx '@playwright/mcp@latest'```
 <!-- 
 <a href="https://til.simonwillison.net/claude-code/playwright-mcp-claude-code"><img src="/images/agentic-coding-slot-machines/playwright-mcp.jpeg" style="width: 50%; float: right;" alt="playwright-mcp-image"></a>
@@ -435,14 +441,14 @@ Maybe <a href="https://x.com/madhavajay/status/1938904760335376509">claude walki
 
 ### An Interview with Peter Steinberger
 
-<a href="https://youtu.be/fu7th5HiADo?si=QHpu5nkyZ4tNgM9Z"><img src="/images/agentic-coding-slot-machines/peter-interview.jpg" style="width: 50%;" alt="Peter Steinberger Interview"></a><br />
+<a href="https://youtu.be/fu7th5HiADo?si=QHpu5nkyZ4tNgM9Z"><img src="/images/agentic-coding-slot-machines/peter-interview.jpg" style="width: 100%;" alt="Peter Steinberger Interview"></a><br />
 <a href="https://youtu.be/fu7th5HiADo?si=QHpu5nkyZ4tNgM9Z">
 ```watch interview here```</a>
 
 
 An interview from <a href="https://x.com/waghnakh_21">Mayank Gupta (@waghnakh_21)</a> just dropped on <a href="https://x.com/waghnakh_21/status/1940170901426991123">X</a> (and <a href="https://youtu.be/fu7th5HiADo?si=QHpu5nkyZ4tNgM9Z">youtube</a>), in which Peter shares his experience, tips, tricks and thoughts on Agentic Engineering, the future and what it means for jobs.
 
-He says Claude Code embodies the `Jony Ive` vibes (jives?) of `beauty in simplicty`, how hes 20x more productive; that the fun and excitment has brought him back from feeling burned out.
+He says Claude Code embodies the `Jony Ive` vibes (jives?) of `beauty in simplicty`, how hes 20x more productive; and that the fun and excitment has brought him back from feeling burned out.
 
 When asked whats possible now, he says:   
 `"does it defy the laws of gravity, physics? no, then it can be done"`!
@@ -454,15 +460,11 @@ All you `ultrathinkers` go watch it now. 👆
 
 ### Vibes
 
-When you get into a rhytm with Agentic Engineering it ABSO-FREAKING-LUTELY feels like flying:
+When you get into a rhytm with Agentic Engineering it `ABSO-FREAKING-LUTELY` feels like flying:
 <div style="transform: scale(0.6); transform-origin: top left; height:450px;">
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">how SWE development feels in 2025 once you ditch the IDE <a href="https://t.co/GeBE6435Kq">pic.twitter.com/GeBE6435Kq</a></p>&mdash; geoff (@GeoffreyHuntley) <a href="https://twitter.com/GeoffreyHuntley/status/1937463643890942112?ref_src=twsrc%5Etfw">June 24, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 <br />
-
-Its like washing dishes with a washing machine. Its like vacuuming with a robot vacuum. Its like washing clothes with a washing machine. Can you imagine doing any of those things without robots again?
-
-
 
 In `Vibe Coding` the emphasis is on how the output looks and feels (or sounds) and not the technical code under the hood.
 
@@ -479,7 +481,9 @@ I think most people would agree that its nuanced. Rick Ruben both knows somethin
 
 Whats important is that you stop fighting the vibes and lean into it. As Peter said in the interview above:
 
-```I don't get people who reject this technology; it will cost jobs, but it's up to you. You don't have to be the best, you just need to accept the tools and you'll be ahead.```
+```
+I don't get people who reject this technology; it will cost jobs, but it's up to you. You don't have to be the best, you just need to accept the tools and you'll be ahead.
+```
 
 So get with the vibes!
 
@@ -560,7 +564,7 @@ Claude did all the work to get `crabmux` tested and released while I was writing
 
 <h3 id="concurrency-amdahls-law">Concurrency</h3>
 
-Since the invention of computers with more than 1 cpu, we have struggled as a  (code lumberjacks) to truly nail the ability to squeeze maximum performance out of multi-core computers.<br />  
+Since the invention of computers with more than 1 cpu, we have struggled as a profession (code lumberjacks) to truly nail the ability to squeeze maximum performance out of multi-core computers.<br />  
 
 The simplest way to use more than 1 CPU core is to do more than 1 thing at once.
 
@@ -639,10 +643,10 @@ You might think: now that the agent does all the typing I can go slowly, right?
 
 But the opposite is true, you are the bottleneck.
 
-If you aren't already deeply familiar with your Operating System / Application keyboard shortcuts, its time to learn them and increase your `APM`.
+If you aren't already familiar with your Operating System / Application keyboard shortcuts, its time to learn them and increase your `APM`.
 
-#### APM
-What is APM (Actions Per Minute)?
+#### What is APM (Actions Per Minute)?  
+
 There is a game called `StarCraft` which at its peak was the most valuable and respected eSport. Its a real time strategy game where the sheer ability for a human player to control thousands of units and dozens of buildings is often the bottleneck to winning.
 
 People figured out that if you recorded how many Actions a player was taking per minute you could estimate their ability to win. There have been <a href="https://www.academia.edu/51743825/A_Quick_Look_at_StarCraft_Brood_War_Professional_Players" target="_blank">papers published about it</a>.
@@ -684,6 +688,7 @@ CLI commands:
 - Claude chat
     - creating some html/css designs sometimes
 - Claude Code + Max
+    - 4x multi-plex go burrr....
 - Cursor
     - for precision `AI-hand edits` (lol)
 - Gemini
@@ -691,15 +696,16 @@ CLI commands:
 - Little Snitch Firewall
     - this is even more valuable now that I have an agent doing random things, if it tries to reach out to a domain that I didn't allow, little snitch will ask me and it can block or prevent it
     - but don't buzz kill the vibes too much
-- Pixelmator for quick image edits
+- Pixelmator
+    - for quick image edits
 - Twitter / X
-    - Things move so fast this has replaced HN for me (thanks @steipete)
+    - things move so fast this has replaced HN for me (thanks @steipete)
 - HackerNews
-    - Less so because theres no algo to help me (oh claaauuude)
+    - less so because theres no algo to help me (oh claaauuude)
 
 Its pretty clear its the early wild west days, and the exciting thing is anyone including YOU can cook up something cool and publish it with an Agent in the background, all while you do your normal job... or just hangout in the pool on `vibetunnel.sh`. 😎
 
-<div style="transform: scale(0.6); transform-origin: top left; height:500px;">
+<div style="transform: scale(0.6); transform-origin: top left; height:550px;">
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Use <a href="https://t.co/sLA8rrvlvW">https://t.co/sLA8rrvlvW</a> from <a href="https://twitter.com/VibeTunnel?ref_src=twsrc%5Etfw">@VibeTunnel</a> on a water proof iPhone and you&#39;re good to go! <a href="https://t.co/GkmOmijD5q">https://t.co/GkmOmijD5q</a></p>&mdash; Madhava Jay (@madhavajay) <a href="https://twitter.com/madhavajay/status/1939529717272715652?ref_src=twsrc%5Etfw">June 30, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 
@@ -722,9 +728,9 @@ He says that: In a study at Procter and Gamble: `"individuals working alone with
 I think when you understand the latency between your brain, your high `APM` finger stokes and your 4 x Claude Slot Machines versus the old way of `"hopping on a call"`, you can see why.
 
 
-He goes on to say that teams: `"that work with AI were much more likely to come up with really breakthrough ideas."`
+Ethan goes on to say that teams: `"that work with AI were much more likely to come up with really breakthrough ideas."`
 
-Something that people like Peter keep talking about is how much better results are when you ask Claude and other AI agents to give you a plan with options. Its as though the `latent space` between competing constraints in the very words used to describe said options maps directly to `real world juxtaposed optimal solutions`.
+As an aside, something that people like Peter keep talking about is how much better results are when you ask Claude and other AI agents to give you a plan with options. Its as though the `latent space` between competing constraints in the very words used to describe said options maps directly to `real world juxtaposed optimal solutions`.
 
 He goes on to say that due to the efficiency gains from AI there are really two paths forward for most organizations.
 
@@ -737,11 +743,15 @@ He points out that the first org chart was created in 1855 for the New York and 
 
 Then speaks about the implications of using such an outdated model in the AI first world and goes on to lament that organizational innovation is a lost art: 
 
-`"modern western companies have given up on organizational innovation as something that they do".`
+```
+modern western companies have given up on organizational innovation as something that they do.
+```
 
 Even breakthroughs like Henry Ford's production lines and early 2000s agile development:
 
-`"broke because they all depended on there being only one form of intelligence available which is human"`. 
+```
+broke because they all depended on there being only one form of intelligence available which is human.
+```
 
 Ethan points out that in a world where intelligence comes in `"humansized packages"` you must organize around the `"span of control of five or seven people"`.
 
@@ -769,8 +779,9 @@ He says one company gave out `$10,000` cash prizes at the end of every week to w
 - Crowd means let everyone explore AI tools
 
 Ethan says estimates are only 1-2% of employees are AI naturals.
-
-`And then you'll find like one or two percent of your organization is just brilliant at this stuff. They're amazing at it. Those are the people who will be able to lead you in your AI development effort.`
+```
+And then you'll find like one or two percent of your organization is just brilliant at this stuff. They're amazing at it. Those are the people who will be able to lead you in your AI development effort.
+```
 
 - Build Labs means rethinking KPIs
 
@@ -778,10 +789,14 @@ Ethan suggests orgs build labs to scale discoveries by putting your best AI capa
 
 Identify your internal high agency people:
 
-`"those become the people that become the center of your lab and figure out how to use it."`
+```
+those become the people that become the center of your lab and figure out how to use it.
+```
 
 Ethan points out since no one knows what to do next:
-`"in the early R&D phase, the worst thing you do is have a bunch of KPIs, right. I really worry about KPIs, measurable KPIs being doom".`
+```
+in the early R&D phase, the worst thing you do is have a bunch of KPIs, right. I really worry about KPIs, measurable KPIs being doom.
+```
 
 He emphasizes the key to operating a lab type environment is the freedom to  explore.  
 
@@ -814,10 +829,10 @@ Or are you going down path B:
 
 You can build tools and techniques that are really useful, but ultimately it has to be people in the company who figure out if something is good or bad. 
 
-They're the ones with the experience and evidence to do it. If they're terrified of making those judgments—because they might get fired, punished for using AI, or replaced if there's an efficiency gain—they'll never show you an efficiency gain.
+They're the ones with the experience and evidence to do it. If they're terrified of making those judgments because they might get fired, punished for using AI, or replaced if there's an efficiency gain, they'll never show you an efficiency gain.
 
 #### Hire Experts  
-Ethan points out that AI actually makes Senior Talent disproportionally better than juniors. The problem with juniors is the faithfully copy and paste what the AI says. Its the experts who can rapidly take the 80% correct and then fix the 20% wrong and know untuiatively when to integrate the novel and exceptional ideas that AI surfaces.
+Ethan points out that AI actually makes Senior Talent disproportionally better than juniors. The problem with juniors is they faithfully copy and paste what the AI says. Its the experts who can rapidly take the 80% correct and then fix the 20% wrong and know intuatively when to integrate the novel and exceptional ideas that AI surfaces.
 
 Human Expertise is More Valuable, Not Less: 
 ```
@@ -826,9 +841,11 @@ It turns out expertise actually is really good. None of these systems are as goo
 
 
 <h2>4 Examples</h2>
-Over the last few months, I happen to have listened and read about a variety of different orgs and how they are operating. 
+
+Over the last few months, I happen to have listened and read about a variety of different orgs and how they operate.  
 
 Lets take a look at what 4 different orgs are doing right now and how that lines up with advice from Ethan above.
+
 
 ### Answer Dot AI - An R&D First Org
 
@@ -848,13 +865,13 @@ Menlo Park had a team of "tinkerers" who experimented with new technology (elect
 
 In this environment the invention of light bulbs, dynamos, phonographs and early motion pictures were created. This wasn't just Science this was Art!
 
-Jeremy explains how Answer.AI acts in in similar `R & D` style. They operate on a tight cycle where development drives research.
+Jeremy explains how Answer.AI acts in a similar `R & D` style. They operate on a tight cycle where development drives research.
 
 As they try to build a product, if they hit a constraint, they perform the necessary research to overcome it; which in turn opens up new green fields, which in turn leads to new potential products.
 
 Instead of scaling by hiring more people and creating departments, Answer.AI are building a `"substrate"` of AI, automation, and internal tools. This substrate, which includes their development platform `"Solve it"` and web framework `"fasthtml"` is what allows them to get faster and give themselves `"superpowers"`.
 
-To Ethans point above about `KPIs`, what KPIs would Thomas Eddison have given his R&D Staff? And would they have created the same staggering 400 patents had they been given targets to reach? I'd love to hear Jeremy's answer to that one.
+To Ethans point above about `KPIs`, what KPIs would Thomas Eddison have given his R&D Staff? I'd love to hear Jeremy's answer to that one.
 
 Most relevant to this post, Jeremy talks about how Answer.AI has a secret weapon internal tool called `Solve it` (jeremy i'd love an invite to try it) which he says blends the best worlds of:
 - cursor
@@ -896,7 +913,7 @@ I saw a tweet from <a href="https://x.com/ArthurMacwaters">Arthur MacWaters (@ar
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Looking for engineers who can do this <a href="https://t.co/B3qGEQt5oP">pic.twitter.com/B3qGEQt5oP</a></p>&mdash; Arthur MacWaters (@ArthurMacwaters) <a href="https://twitter.com/ArthurMacwaters/status/1939708320270647486?ref_src=twsrc%5Etfw">June 30, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 
-The sub-text is clear. People want self managing employees, people with high agency. Dogs that walk themselves, not people who need to be managed.
+The sub-text is clear. People want self managing employees, people with high agency. Dogs that walk themselves, not people who need to be managed on a leash!
 
 An article from May on `Business Insider` (paywalled) titled: <a href="https://www.businessinsider.com/microsoft-amazon-google-embrace-flatter-structure-fewer-managers-boost-efficiency-2025-5">Big Tech is crushing middle managers. Some fear the great flattening has gone too far,</a> says:
 
@@ -922,32 +939,41 @@ If there is one thing that will bifurcate workers with Agentic Engineering and A
 
 In this <a href="https://youtu.be/oOylEw3tPQ8">interview</a> Going Beyond Code, Superintelligent AI Agents, And Why Taste Still Matters with Ycombinator host <a href="https://x.com/garrytan">Garry Tan (@garrytan)</a> and <a href="https://x.com/mntruell/">Michael Truell (@mntruell)</a> they discuss how Cursor started and how they have structured their organization for maximum effectiveness.
 
-Michael talks a lot about what Cursor (company Anysphere), potentially the first AI unicorn since the new AI tooling wave (they kind of started) does for hiring and managing staff.
+Michael talks a lot about what Cursor (company Anysphere), potentially the first AI unicorn since the new AI tooling wave (they kind of started it) does for hiring and managing staff.
 
 Firstly, he points out the co-founders, including the CEO, are all technical and continue to `write code` to maintain Anysphere's founding "hacker energy" even as it scales.
 
 The culture is built on a foundation of intense product focus, experimentation, he says, and blends both coordinated and independent work.
 
-While there are `"big projects that require a lot of coordination amongst people where you need top down alignment,"` they are also committed to being a place that fosters `"a good degree of bottoms up experimentation too"`.
+While there are:
+
+```
+big projects that require a lot of coordination amongst people where you need top down alignment
+```
+
+They are also committed to being a place that fosters `a good degree of bottoms up experimentation too`.
 
 Michael says to encourage this bottom-up innovation, they have a specific structural approach where they:
 ```
-explicitly take teams of engineers, sectioning them off from the rest of the company and kind of just giving them carte blanche to to experiment on what they'd like.
+explicitly take teams of engineers, sectioning them off from the rest of the company and kind of just giving them carte blanche to experiment on what they'd like.
 ```
 
 This echos much of what Ethan, Jeremy and Sam have said above.
 
-A core part of their product development process is a relentless focus on dogfooding their own tool, `"the kind of main thing that we really acted on was just we reload the editor"`.
+A core part of their product development process is a relentless focus on dogfooding their own tool, `the kind of main thing that we really acted on was just we reload the editor`.
 
-Throughout the interview Michael emphasizes the importance of hiring the right people and maintaining a that `"hacker energy"` through experimentation and a focus on passionate individuals.
+Throughout the interview Michael emphasizes the importance of hiring the right people and maintaining that `"hacker energy"` through experimentation and a focus on passionate individuals.
 
-On hiring he cautions to: `"really nail the first 10 people to come into the company they will both accelerate you in the future"`
+On hiring he cautions to:
+```
+really nail the first 10 people to come into the company they will both accelerate you in the future
+```
 
-He says these initial employees act as `"keepers of holding the bar really high"`, the opposite of which is often called "Bozo Effect".
+He says these initial employees act as `keepers of holding the bar really high`, the opposite of which is often called "Bozo Effect".
 
-Michale says they seek out `"generalist polymaths"` who are fantastic at building and shipping production code quickly. 
+Michale says they seek out `generalist polymaths` who are fantastic at building and shipping production code quickly. 
 
-The ideal candidate is someone who can `"bleed across disciplines,"` being "product minded, commercially minded but had actually trained models at scale".
+The ideal candidate is someone who can `bleed across disciplines` being `product minded`, `commercially minded` but had actually trained models at scale.
 
 
 
@@ -964,7 +990,8 @@ Steve believed that A players hire A players—that is people who are as good as
 
 ### Google is So Back
 <img src="/images/agentic-coding-slot-machines/gemini.png" style="width: 100%" alt="gemini-image">
-You might be forgiven for thinking this kind of organizatioal innovation is only for new smaller orgs, but thats not true.
+
+You might be forgiven for thinking this kind of organizatioal innovation is only for new smaller orgs, but thats not true.  
 
 As of this writing, Google has also dropped their own CLI tool `gemini-cli`.
 
@@ -972,7 +999,7 @@ One of the largest culture shifts in history seems to have been taking place int
 
 I have been following the awesome Google Principal Engineer <a href="https://x.com/rakyll">Jaana Dogan (@rakyll)</a> for a while on Twitter and recently she seems to be talking alot about how Google has internally rebooted into a totally different org.
 
-I have to say between things like Notebook LM and Gemini 2.5 Pro, Open Source Gemma models and now `gemini-cli`, it does very much feel like `"We're so back"!`
+I have to say between things like `Notebook LM` and `Gemini 2.5 Pro`, Open Source `Gemma` models and now `gemini-cli`, it does very much feel like `"We're so back"!`
 
 So what has Jaana been saying that mirrors Ethan and the 3 above?
 
@@ -995,7 +1022,11 @@ If Google can do this, then anyone can.
 
 ## My Thoughts
 ### How to Organize
-Okay, so how should you organize in light of this new change. To Ethans point, organizational structures are trapped in the 1800's and `"modern western companies have given up on organizational innovation as something that they do"`.
+Okay, so how should you organize in light of this new change. To Ethans point, organizational structures are trapped in the 1800's and:
+
+```
+modern western companies have given up on organizational innovation as something that they do
+```
 
 It takes bold brave winners like Answer.AI, Shopify, Cursor and even Google to try new things and not be afraid to throw out some bathwater out.
 
@@ -1012,15 +1043,13 @@ But in discussing it, the question we both pondered was:
 Is it faster to read through some extremely long brain fart context someone else created with their Coding Genie or just summon your own instantly for free?
 ```
 
-The CEO of `Amp` <a href="https://x.com/sqs" target="_blank">@sqs Quinn Slack</a>
-
-Was posting on x about a cool feature they have in AMP</a> (an alternative to claude code), for <a href="https://x.com/sqs/status/1939033780326670693">Team thread sharing</a>. I haven't tried it yet, but I intend to.
+The CEO of `Amp` <a href="https://x.com/sqs" target="_blank">@sqs Quinn Slack</a> was posting on x about a cool feature they have in AMP</a> (an alternative to claude code), for <a href="https://x.com/sqs/status/1939033780326670693">Team thread sharing</a>. I haven't tried it yet, but I intend to.
 
 I no doubt that the next `JIRA` is going to be a totally new tool that blends Agentic Engineering and collaboration.
 
 In the meantime though its not clear exactly how individuals `multi-plexing` across 3-4 things in parallel collaborate, except to break up work and projects in a modular / ecosystem fashion so people don't step on each others toes.
 
-The responsibility in making your code understandable by someone elses Agent is now partially on you, and partially on them. Tests, docs and good architecture (even if Agent made) still trump here.
+The responsibility in making your code understandable by someone elses Agent is now partially on you're agent, and partially on their agent. Tests, docs and good architecture (even if Agent made) still trump here.
 
 
 ### Hiring and Roles
@@ -1042,7 +1071,7 @@ A lot of the AI startups I talk to, everyone has worked at Palantir so, everyone
 ```
 
 ### Rise of the Builders and FDE's
-In another recent <a href="https://youtu.be/DL82mGde6wo">ycombinator podcast</a> from may (called In the Lightcone) with the same excellent host <a href="https://x.com/garrytan">Garry Tan (@garrytan)</a>, they talk about how Palantir inveted the `Forward Deployed Engineer` and why so many of their new technical founders are ex-FDE's.
+In another recent <a href="https://youtu.be/DL82mGde6wo">ycombinator podcast</a> from may (called In the Lightcone) with the same excellent host <a href="https://x.com/garrytan">Garry Tan (@garrytan)</a>, they talk about how Palantir invented the `Forward Deployed Engineer` and why so many of their new technical founders are ex-FDE's.
 
 Firstly its worth noting that, <a href="https://x.com/barrald">Barry (@barrald)</a> an ex-FDE has written a blog post talking about <a href="https://www.barry.ooo/posts/fde-culture">why you shouldn't use FDEs in your organization</a>.
 
@@ -1050,39 +1079,45 @@ However, I think its worth looking at what the emergence of these blended roles 
 
 The goal of a fusion is to take the best qualities of two or more things and produce a new thing.
 
-It is well known that some of the best films are made by individuals who are both `writer` and `director`. Talent like Alex Garland, James Cameron, Christopher Nolan, Taika Waititi and Quentin Tarantino create nothing but gold.
+It is well known that some of the best films are made by individuals who are both `writer` and `director`. Talent like Alex Garland, James Cameron, Christopher Nolan, Taika Waititi and Quentin Tarantino create nothing but gold; and they do it because they have control of both the script and its direction.
 
 As AI helps us to be more effective doing a specific job, it allows us to rise up the stack and take on more scope.
 
 #### So what is an FDE?
 
-- Is an Engineer first
+- An FDE is an Engineer first
 - Makes a good Technical Founder
 - Works closely with customers
 - Builds custom solutions
-- Rapid prototyping 
-- Gather product feedback
-- Product Minded
-- Results Orientated
+- Can Rapidly prototype
+- Gathers product feedback
+- Is Product Minded
+- Is Results Orientated
 
-According to the podcast above, ex-Palantir FDEs are now some of the top Y Comb founders because they combine the magic of engineering skills and a high bias for action.
+According to the podcast above, ex-Palantir FDEs are now some of the top Y Combinator founders because they combine the magic of engineering skills and a high bias for action.
 
 The rapid evolution of AI and LLMs makes this model more potent than ever. Founders can have initial meetings with enterprise clients, understand their specific needs, and then quickly `"stuff"` that context into a prompt to create a highly effective, customized demo.
 
 In the podcast they talk about real world examples where a traditional sales team would spend 12 weeks wooing a customer with steakhouses hoping to sign a deal.
 
-Meanwhile the FDE approach meant flying an engineer to literally `"sit next to the FBI Agent"` the domain expert and turn around a working prototype in days.
+Meanwhile the FDE approach meant flying an engineer to literally `"sit next to the FBI Agent"` the domain expert and turn around a working prototype in days. They claim this is the secret to how Palantir crushed its competition.
 
 #### Whats a Full Stack Builder?
-The term `fullstack` has been around for a while since the `fusion` of front-end and backend skills or mobile and server has yielded better faster and more cohesive output.
+The term `fullstack` has been around for a while since the `fusion` of front-end and backend skills or `mobile` and `server`; and has yielded better faster and more cohesive output.
 
 The same way that `devops` surpassed `sysdamin / sysops` as a fusion role.
 
-Builder has become a new term for a very `hacker` ethos style engineer that is scrapy, hands on and results oriented.
+Builder has become a new term for a very `hacker` (and hackathon) ethos style engineer that is scrappy, hands on and results oriented.
 
 Put that all together and a `full stack builder` is basically someone who can work with any platform or technology, has a high bias toward action and cares about the outcome of the thing being made.
 
-I'd say this is pretty similar to the FDE except there is no emphasis on the client consulting side of things. Builders feel more like your lumberjacks or R&D lab engineers.
+In his book Blitzscaling, <a href="https://x.com/reidhoffman">Reid Hoffman (@reidhoffman)</a> calls this the Marine. The engineering architype you can drop behind enemy lines with minimal contact and have them open up new fronts and execute impossible missions.
+
+```
+the marines take the beach, the army takes the country, and the police govern the country. Marines are start-up people who are used to dealing with chaos and improvising solutions on the spot.
+```
+
+I'd say the `builder` is pretty similar to the `FDE` except there is no emphasis on the client consulting side of things. Builders feel more like your lumberjacks or R&D lab engineers.
 
 FDEs are more like 1 man band, lead singer, solo song writers.
 
@@ -1090,19 +1125,16 @@ FDEs are more like 1 man band, lead singer, solo song writers.
 
 Given how powerful AI is for automation, it seems people are starting to look for specialized talent that can `meta-engineer` the engineering role by using AI to automate `all the things`.
 
-CEO of Quora <a href="https://x.com/adamdangelo">Adam D'Angelo (@adamdangelo)</a> posted a job ad on X.
-
-
-Heres a <a href="https://jobs.ashbyhq.com/quora/b0ef4655-20b0-4c4f-93d2-037556c6c9e5">job ad from Quora</a> seeking an AI Automation Engineer.
+CEO of Quora <a href="https://x.com/adamdangelo">Adam D'Angelo (@adamdangelo)</a> posted a <a href="https://jobs.ashbyhq.com/quora/b0ef4655-20b0-4c4f-93d2-037556c6c9e5">job ad</a> on X.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">We are opening up a new role at Quora: a single engineer who will use AI to automate manual work across the company and increase employee productivity. I will work closely with this person. <a href="https://t.co/iKurWS6W7v">pic.twitter.com/iKurWS6W7v</a></p>&mdash; Adam D&#39;Angelo (@adamdangelo) <a href="https://twitter.com/adamdangelo/status/1936504553916309617?ref_src=twsrc%5Etfw">June 21, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 It seems that people are picking up on this high agency, AI first automation engineering culture.
 
 
-However to Ethans point above, since no one knows yet how to hire native AI talent this poses some interesting challenges.
+However to Ethans point above, since no one knows yet how to hire native AI talent this poses some interesting challenges. Most playbooks will say just hire smart people regadless, because smart people are smart no matter what their occupation.
 
-If you listen to Cursor's CEO, they still focus very heavily on traditional engineering talent when hiring for their company. Most playbooks will say just hire smart people regadless, because smart people are smart no matter what their occupation.
+If you listen to Cursor's CEO, they still focus very heavily on traditional engineering talent when hiring for their company.
 
 One thing is for sure, you probably want high agency self-walking dogs who aren't afraid of leaping `maximally` into Agentic Engineering workflows.
 
@@ -1132,14 +1164,15 @@ One thing is for sure, you probably want high agency self-walking dogs who aren'
     - AI Automation Engineer
 - send your customers FDEs rather than sales people
 - get your whole orgs context into a LLM friendly formats and services
+- share rewards, more efficiency shouldn't mean more stress and more work
 
 
 ### Advice for Engineers
-You are likely to have new team members moving forward who are not human People Spirits who you manage and build context for.
+You are likely to have new team members moving forward who are not human, but agentic `People Spirits` who you `manage` and build `context` for.
 
 As Karpathy says in his <a href="https://www.youtube.com/watch?v=LCEmiRjPEtQ&ab_channel=YCombinator">Software 3.0 video</a> LLMs are "stochastic simulations of people" or "people spirits". This explains their human-like yet imperfect and "jagged" intelligence.
 
-Andrei says people spirits dont have the reliable execution to be trusted, build oursoftware for human in the loop, so its important to:
+Andrei says people spirits dont have the reliable execution to be trusted, we must build our software with human's in the loop, so its important to:
 
 - create short feedback loops
 - protect against `context rot`
@@ -1149,7 +1182,7 @@ Andrei says people spirits dont have the reliable execution to be trusted, build
 Keep that in mind when building software from now on:
 - can your system work via curl
 - is it easy to copy and paste text from output
-- is it open source so the LLMs learn about it automatically
+- is it open source so the next best LLM knows about it automatically
 - are you using things like <a href="https://x.com/jeremyphoward" target="_blank">Jeremy Howard (@jeremyphoward)</a>'s: <a href="https://llmstxt.org/">https://llmstxt.org/</a>
 
 Also don't be dismayed, as Karpathy says this is an "insane" time to be entering the software industry, with a vast amount of work to be done in rewriting existing software and building new, partially autonomous products. 
@@ -1158,7 +1191,7 @@ Also don't be dismayed, as Karpathy says this is an "insane" time to be entering
 ### Advice for Startups / Business Models
 The industry is awash again in crazy valuations and rounds for things people don't get like `Cluey`, raising 15 million from `a16z`.
 
-Somneone on twitter recently pointed out that `Cluey` is just Software 3.0 prompts in a desktop app:
+Someone on twitter recently pointed out that `Cluey` is just Software 3.0 prompts in a desktop app:
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I reverse engineered <a href="https://twitter.com/cluely?ref_src=twsrc%5Etfw">@cluely</a> – and their desktop source code exposes their entire system prompts and models used.<br><br>What&#39;s inside? 🧵 <a href="https://t.co/y5BcxFjbvB">pic.twitter.com/y5BcxFjbvB</a></p>&mdash; Jack Cable (@jackhcable) <a href="https://twitter.com/jackhcable/status/1936500980297932827?ref_src=twsrc%5Etfw">June 21, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
@@ -1174,7 +1207,7 @@ Theres an excellent blog series that came out this year from <a href="https://x.
 
 It's worth the read but one thing caught my eye. In chapter 2 he talks about `Helmer’s 7 powers` a framework for thinking about what protective moats a business has.
 
-AI verticals will struggle to find a moat in other ways too. No advantage in any of Helmer’s 7 Powers.
+AI verticals (like Cluely) will struggle to find a moats without any of Helmer’s 7 Powers.
 <a href="https://lukaspetersson.com/blog/2025/power-vertical/" target="_blank"><img src="/images/agentic-coding-slot-machines/comp_hard.png" style="width: 50%; float: right;" alt="comp_hard"></a>
 
 Except one special area of interest the: `Cornered Resource`.
@@ -1190,36 +1223,39 @@ While we might be a way off before that happens, its critical to think about the
 Finally, its worth stopping to marvel at what we have collectively built with our ingnenuity and data.
 
 What does the Agentic revolution mean for you?
+<img src="/images/agentic-coding-slot-machines/genie2.png" style="width: 50%;" alt="genie">
 
-The builder community on X the likes of the amazing <a href="https://x.com/levelsio" target="_blank">@levelsio</a> are continually pushing the boundaries of what it means to work. How long before we are all finally untethered from our laptops? 
+The builder community on X the likes of the amazing <a href="https://x.com/levelsio" target="_blank"> Pieter Levels (@levelsio)</a> are continually pushing the boundaries of what it means to work. How long before we are all finally untethered from our laptops? 
 
-<div style="transform: scale(0.6); transform-origin: top left; height:400px;">
+<div style="transform: scale(0.6); transform-origin: top left; height:800px;">
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Fixed! <a href="https://twitter.com/VibeTunnel?ref_src=twsrc%5Etfw">@VibeTunnel</a> am i rite! 😜 <a href="https://t.co/pLoyIIrjNv">pic.twitter.com/pLoyIIrjNv</a></p>&mdash; Madhava Jay (@madhavajay) <a href="https://twitter.com/madhavajay/status/1937509169097244876?ref_src=twsrc%5Etfw">June 24, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 
 
-
-<br />
 -------------------------------------
+
 <h2 id="closing-thoughts">Closing Thoughts</h2>
 
 ***Everything has changed.***
 
-Do you remember when the inspiring <a href="https://x.com/waitbutwhy">Tim Urban (@waitbutwhy)</a> made this post over (checks notes) 10 years ago:
-The AI Revolution: The Road to Superintelligence
-<a href="https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html"><img src="/images/agentic-coding-slot-machines/edge.png" style="" alt="the wall"></a>
+Do you remember when the inspiring <a href="https://x.com/waitbutwhy">Tim Urban (@waitbutwhy)</a> made this post over (checks notes) 10 years ago.
+
+
+<a href="https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html"><img src="/images/agentic-coding-slot-machines/edge.png" style="width:100%;" alt="the wall"></a>
+<a href="https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html">`The AI Revolution: The Road to Superintelligence`</a>
 
 
 Well this is where we are now:
 
-<img src="/images/agentic-coding-slot-machines/running.png" alt="running">
+<img src="/images/agentic-coding-slot-machines/running.png" alt="running" style="width:50%">
 
+```running head first into the singularity```
 
 This is probably a moment more significant that `chatgpt` itself. Unlike AI assisting humans, humans assisting AI flips the model and promises to tap into Amdahl's Law and truly multiply every humans efforts. 
 
 <img src="/images/agentic-coding-slot-machines/goats.jpg" style="width: 50%; float: right;" alt="GOAT">
 
-There is no longer a MOAT. Everyone can be a G.O.A.T.
+There is no longer a `MOAT`. Everyone can be a `G.O.A.T.`
 
 If you have always wanted to create software or nearly anything (lets face it what isn't driven by software now?), now is the time, don't hold back, dive right in.
 
@@ -1234,17 +1270,18 @@ The berlin wall of occupational gatekeeping has just started to crack.
 ### For Orgs
 Existing companies need to adapt, and fast. New companies will forge new innovative paths and models of organizing, collaborating and easily outcompete them.
 
-As a company if you reap more efficiency gains, don't forget to share the value back with your employees. That can be through money and it can be through stress and pressure, time to breath and live.
+As a company if you reap more efficiency gains, don't forget to share the value back with your employees. That can be through money and it can be through reducing stress and pressure; taking time to breath, live and love! ❤️
 
 <a href="https://gizmodo.com/openai-reportedly-shuts-down-for-a-week-as-zuck-poaches-its-top-talent-2000622145">Even OpenAI is tired and needs a break.</a>
 
-Deploy AI `maximally` and find those naturals in your existing staff. Follow the lead of companies like Cursor, Shoppify, Answer.AI and now even Google (they're so back), and put your company culture on "low distraction" mode so crafters can "cook".
+<img src="/images/agentic-coding-slot-machines/greenfields.png" style="width: 50%; float: right;" alt="genie"> Deploy AI `maximally` and find those naturals in your existing staff. Follow the lead of companies like Cursor, Shoppify, Answer.AI and now even Google (they're so back), and put your company culture on "low distraction" mode so crafters can "cook".
 
 Every internal obstacle (excessive meetings and document writing) you remove is another multiplier to their productivity prototyping and shipping code.
 
-<img src="/images/agentic-coding-slot-machines/greenfields.png" style="width: 50%; float: right;" alt="genie">
-Listening to all the resources mentioned in this post, and speaking to people about this, it seems no one really knows where this is going; But it’s green fields in all directions and the blue sky is the limit.
 
+Listening to all the resources mentioned in this post, and speaking to people about this, it seems no one really knows where this is going; But it’s `green fields` in all directions and the `blue sky` is the `limit`.
+<br />
+<br />
 In the voice of Károly Zsolnai-Fehér from Two Minute Papers:
 `"What a time to be alive!"`
 
@@ -1259,33 +1296,66 @@ In the voice of Károly Zsolnai-Fehér from Two Minute Papers:
 
 
 
-<h3 id="twitter-list">List of People to Follow on Twitter</h3>
-@badlogicgames - Mario Zechner https://x.com/badlogicgames
-@mitsuhiko - Armin Ronacher
-@steipete - Peter Steinberger
+<h2 id="twitter-list">List of People to Follow on Twitter</h2>
+
+Agentic Pioneers, Builders and Engineers
+
+<a href="https://x.com/steipete" target="_blank"> Peter Steinberger (@steipete) </a><br />
+<a href="https://x.com/mitsuhiko" target="_blank"> Armin Ronacher (@mitsuhiko) </a><br />
+<a href="https://x.com/GeoffreyHuntley" target="_blank"> Geoffrey Huntley (@GeoffreyHuntley) </a><br />
+<a href="https://x.com/ProgramWithAi" target="_blank"> Manuel Odendahl (@ProgramWithAi) </a><br />
+<a href="https://x.com/badlogicgames" target="_blank"> Mario Zechner (@badlogicgames) </a><br />
+<a href="https://x.com/iannuttall" target="_blank"> Ian Nuttall (@iannuttall) </a><br />
+<a href="https://x.com/jeremyphoward" target="_blank"> Jeremy Howard (@jeremyphoward) </a><br />
+<a href="https://x.com/rakyll" target="_blank"> Jaana Dogan (@rakyll) </a><br />
+<a href="https://x.com/levelsio" target="_blank"> Pieter Levels (@levelsio) </a><br />
+<a href="https://x.com/waghnakh_21" target="_blank"> Mayank Gupta (@waghnakh_21) </a><br />
+<a href="https://x.com/swyx" target="_blank"> swyx (@swyx) </a><br />
+<a href="https://x.com/sqs" target="_blank"> Quinn Slack (@sqs) </a><br />
+<a href="https://x.com/adamdangelo" target="_blank"> Adam D'Angelo (@adamdangelo) </a><br />
+<a href="https://x.com/KaiLentit" target="_blank"> Kai Lentit (@KaiLentit) </a><br />
+<a href="https://x.com/mntruell" target="_blank"> Michael Truell (@mntruell) </a><br />
+
+Others
+
+<a href="https://x.com/VibeTunnel" target="_blank"> VibeTunnel (@VibeTunnel) </a><br />
+<a href="https://x.com/GreatDismal" target="_blank"> William Gibson (@GreatDismal) </a><br />
+<a href="https://x.com/mattturck" target="_blank"> Matt Turck (@mattturck) </a><br />
+<a href="https://x.com/sjgreggwallace" target="_blank"> Sam Gregg-Wallace (@sjgreggwallace) </a><br />
+<a href="https://x.com/petergyang" target="_blank"> Peter Yang (@petergyang) </a><br />
+<a href="https://x.com/ArthurMacwaters" target="_blank"> Arthur MacWaters (@ArthurMacwaters) </a><br />
+<a href="https://x.com/george__mack" target="_blank"> George Mack (@george__mack) </a><br />
+<a href="https://x.com/garrytan" target="_blank"> Garry Tan (@garrytan) </a><br />
+<a href="https://x.com/waitbutwhy" target="_blank"> Tim Urban (@waitbutwhy) </a><br />
+<a href="https://x.com/reidhoffman" target="_blank">Reid Hoffman (@reidhoffman)</a><br />
+
+
+
+<h2 id="references">References</h2>
+<a href="https://www.youtube.com/watch?v=6eBSHbLKuN0&ab_channel=Anthropic" target="_blank">Mastering Claude Code in 30 minutes (YouTube)</a><br />
+<a href="https://www.youtube.com/watch?v=nfOVgz_omlU&ab_channel=ArminRonacher" target="_blank">Agentic Coding: The Future of Software Development with Agents (Armin Ronacher YouTube)</a><br />
+<a href="https://youtu.be/fu7th5HiADo?si=QHpu5nkyZ4tNgM9Z" target="_blank">Interview with Peter Steinberger by Mayank Gupta (YouTube)</a><br />
+<a href="https://youtu.be/MbHL0uvKYbE" target="_blank">Answer.AI and Jeremy Howard interview with Matt Turck (YouTube)</a><br />
+<a href="https://www.youtube.com/watch?v=KvayXoxzVQw&ab_channel=PeterYang" target="_blank">Shopify Mastery System discussion with Sam Gregg-Wallace (YouTube)</a><br />
+<a href="https://youtu.be/oOylEw3tPQ8" target="_blank">Cursor & Michael Truell with Garry Tan: Going Beyond Code (YouTube)</a><br />
+<a href="https://youtu.be/DL82mGde6wo" target="_blank">YC Podcast on FDEs and technical founders (YouTube)</a><br />
+<a href="https://youtu.be/AUUZuzVHKdo" target="_blank">Satya Nadella on product teams & FDEs (YouTube)</a><br />
+<a href="https://youtu.be/LCEmiRjPEtQ" target="_blank">Karpathy: Software is Changing (Again) (YouTube)</a><br />
+<a href="https://www.businessinsider.com/microsoft-amazon-google-embrace-flatter-structure-fewer-managers-boost-efficiency-2025-5" target="_blank">Business Insider: Big Tech is crushing middle managers (Article)</a><br />
+<a href="http://www.incompleteideas.net/IncIdeas/BitterLesson.html" target="_blank">The Bitter Lesson by Rich Sutton (Article)</a><br />
+<a href="https://lukaspetersson.com/blog/2025/bitter-vertical/" target="_blank">Lukas Petersson: AI Founder's Bitter Lesson Ch.2 - Power Vertical (Article)</a><br />
+<a href="https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html" target="_blank">Wait But Why: The AI Revolution (Tim Urban Article)</a><br />
+<a href="https://gizmodo.com/openai-reportedly-shuts-down-for-a-week-as-zuck-poaches-its-top-talent-2000622145" target="_blank">Gizmodo: OpenAI reportedly shuts down for a week (Article)</a><br />
 
 
 
 
-<h3 id="references">References</h3>
-Mastering Claude Code in 30 minutes
-https://www.youtube.com/watch?v=6eBSHbLKuN0&ab_channel=Anthropic
-
-Agentic Coding: The Future of Software Development with Agents
-https://www.youtube.com/watch?v=nfOVgz_omlU&ab_channel=ArminRonacher
 
 
 
 
 
-
-
-
-
-
-
-
-## Glossary of Terms
+<h2>Glossary of Terms</h2>
 Sound
 ![Hello Meme](/images/agentic-coding-slot-machines/hello-meme.jpg)
 
@@ -1349,11 +1419,117 @@ https://llmstxt.org/
 ![Software 3.0](images/agentic-coding-slot-machines/software-3.0.png)
 
 
+## 📚 Glossary of Terms
+
+### context rot
+The phenomenon where an LLM or agent’s short-term memory becomes cluttered with stale or misleading attempts, making it unable to solve problems correctly. Solved by clearing, rewriting, or steering context.
+
+### context window
+The maximum amount of text (tokens) an LLM can keep in memory when reasoning. Large context windows allow more history, logs or instructions but risk **context rot**.
+
+### chain of thought (CoT)
+A prompting or reasoning technique where the model explicitly lays out intermediate reasoning steps before final answers. Helps with complex tasks.
+
+### jagged intelligence
+Coined by Karpathy: LLMs are stochastic “people simulations” — brilliant at times, dumb at others. Their intelligence is uneven, or *jagged*, not uniformly reliable.
+
+### software 1.0
+Traditional explicit programming. Humans write deterministic code in Python, Rust, etc. Managed via GitHub.
+
+### software 2.0
+Neural networks. The “code” is embedded in weights trained on data. Managed on platforms like Hugging Face.
+
+### software 3.0
+LLMs as new programmable computers. Prompts in English are the “programs.” This means humans instruct via natural language, shaping output without direct code.
+
+### prompt engineering → context engineering
+The practice of carefully crafting prompts to guide LLM behavior. More recently called *context engineering* to emphasize it’s about curating *all input context* — logs, constraints, data — not just instructions.
+
+### People Spirits
+Karpathy’s poetic term for LLMs: “stochastic simulations of people” or “people spirits.” Means they reason like humans — with intuition and errors — requiring collaboration and human oversight.
+
+### vibe coding
+A workflow where humans describe what they want in broad, artistic or goal-focused language (“the vibe”), and the LLM writes the technical code. Emphasizes feel over exact implementation.
+
+### dialogue engineering
+Jeremy Howard’s term for building advanced tooling to collaboratively solve problems with LLMs, blending the best of notebooks, IDEs, and chat.
+
+### yolo mode
+Running Claude Code or similar with `--dangerously-skip-permissions`, removing permission checks for maximum frictionless automation. Powerful but risky.
+
+### slot machine
+Metaphor (by @steipete & repeated here) for running LLMs on iterative attempts, pulling the handle repeatedly, hoping for a “1 shot” jackpot solution.
+
+### 1 shot
+When an LLM solves a problem fully and correctly on the first try. Rare but highly desirable; often needs many “pulls.”
+
+### Amdahl’s Law
+Describes limits on speedup from parallelism: even small serial parts limit scaling. Used here to explain running multiple agentic tasks simultaneously.
+
+### multiplexing
+Running multiple independent tasks or projects in parallel, each with an agent, to maximize throughput and increase chances of finding quick wins.
+
+### concurrency
+Parallelism in engineering. Running several Claude/LLM tasks at once on different projects or modules to avoid bottlenecks.
+
+### hot reload
+Live code reloading without restarting the app. Important for tight feedback loops in agentic coding.
+
+### high agency
+Describes people who take initiative, solve problems, and “walk themselves.” Key trait for builders in an agentic future.
+
+### forward deployed engineer (FDE)
+Role popularized by Palantir: engineers embedded with customers to quickly build solutions tailored to real needs. Combines engineering, product, and client work.
+
+### full stack builder
+Modern fusion role: can work across frontend, backend, devops, even prompt engineering. Hacker ethos, scrappy, bias to action.
+
+### AI automation engineer
+Emerging role focusing on using LLMs to automate business processes, workflows, and even engineering tasks.
+
+### bitter lesson
+From Rich Sutton: in AI, general methods that scale with compute/data outperform handcrafted solutions. Suggests “vertical” AI startups without exclusive data will struggle.
+
+### cornered resource
+A defensible business moat (from Hamilton Helmer’s 7 Powers). In AI, often means exclusive data or user access.
+
+### MCP
+Multi-Command Processor — older concept from Anthropic & dev tools (like Playwright MCP for Claude) to coordinate multi-step operations via agents.
+
+### Tokamine / Ultrathinker mode
+Cultural slang (from your article & Peter Steinberger) for maxing out LLM usage via all-you-can-eat tokens. Like taking a cognitive stimulant for AI productivity.
+
+### 0.1x engineer / 10x / 100x engineer
+Memes about productivity. In the agentic coding era, means those who best orchestrate AI achieve “100x output” by multiplexing with agents.
+
+### Git worktree
+A Git feature that lets you check out multiple branches into separate folders sharing the same `.git` history. Ideal for running multiple parallel agent experiments.
+
+### llms.txt
+Standard proposed by Jeremy Howard (Answer.AI) for specifying what models, data & parameters were used, to improve reproducibility and let future LLMs understand your software.
+
+### chainsaw metaphor
+(Your vivid metaphor) — coding used to require skill like axe work. LLMs are like chainsaws: faster, accessible to all, but dangerous without judgment.
+
+### green fields
+Used here to mean the vast new unexplored areas for building products and orgs in this AI paradigm shift.
+
+### slot machine addiction
+Running agentic coding tools like Claude repeatedly in a compulsion-like loop, hoping for jackpots. Part meme, part reality.
+
+### context sharing
+Sharing an LLM’s live session state (like Yakety Claude) to allow team handoff. Experimental; open question if it’s faster than generating new context.
+
+### People Spirits infrastructure
+Karpathy’s idea: we’ll need new software, logs, workflows designed to serve these “stochastic people,” not just humans.
+
+---
 
 
 
 
-## Getting your own Agentic Genie
+
+### Getting your own Agentic Genie
 Skip this if you already have your Agentic Coding slot machine setup.
 
 ☑️ 1x General Purpose AI Chat system (LLM)
