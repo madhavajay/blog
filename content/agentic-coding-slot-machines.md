@@ -275,7 +275,7 @@ As we speak, myself and others are literally `vibe coding` 4 projects at once, a
 
 With <a href="https://vibetunnel.sh/" target="_blank">VibeTunnel.sh</a> you can now have 24/7 access to `claude code` on your desktop computer from your phone. Thats `your IP`, your `login credentials`, `your VPNs`, `your code repos`, MCP servers; everything to be `maximally` productive. This is an important difference with online only tools like <a href="https://devin.ai/" target="_blank">devin</a> or <a href="https://jules.google/" target="_blank">jules</a>.
 
-VibeTunnnel was created by <a href="https://x.com/steipete" target="_blank">@steipete</a> and friends literally to keep their Agentic Coding Slot Machine addiction going while AFK (away from keyboard) and 
+VibeTunnnel was created by <a href="https://x.com/steipete" target="_blank">@steipete</a> and friends literally to keep their Agentic Coding Slot Machine addiction going while AFK (away from keyboard) and look at it rocket in just 16 days.
 
 <a href="https://github.com/amantus-ai/vibetunnel" target="_blank">
 <picture>
@@ -300,7 +300,7 @@ VibeTunnnel was created by <a href="https://x.com/steipete" target="_blank">@ste
 </a>
 
 ```
-800 stars in 16 days
+>800 stars in 16 days
 ```
 
 This is <a href="https://x.com/paulg" target="_blank">Paul Graham (@paulg)</a>'s <a href="https://paulgraham.com/startupideas.html" target="_blank">sage advice</a> to the max:
