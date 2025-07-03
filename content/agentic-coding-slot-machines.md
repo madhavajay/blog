@@ -3,7 +3,7 @@ title = "Agentic Coding Slot Machines – Did We Just Summon a Genie Addiction? 
 slug = "agentic-coding-slot-machines-did-we-just-summon-a-genie-addiction"
 date = 2025-06-30
 [extra]
-thumbnail = "images/agentic-coding-slot-machines/title.avif"
+thumbnail = "images/agentic-coding-slot-machines/title.jpg"
 thumbnail_class = "top-crop"
 read_time = 40
 hidden = true
