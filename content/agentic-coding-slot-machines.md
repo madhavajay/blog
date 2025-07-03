@@ -6,7 +6,6 @@ date = 2025-06-30
 thumbnail = "images/agentic-coding-slot-machines/title.jpg"
 thumbnail_class = "top-crop"
 read_time = 40
-hidden = true
 +++
 
 ### Claude Code & Software 3.0: Agentic Slot Machines and Chainsaws for the Mind.
