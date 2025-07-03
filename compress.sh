@@ -1,5 +1,5 @@
 #!/bin/bash
-find static/images -type f \( -iname "*.jpg" -o -iname "*.jpeg" \) | while read -r file; do
+find static/images -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" \) | while read -r file; do
   base="${file%.*}"
   dir=$(dirname "$file")
   name=$(basename "$base")

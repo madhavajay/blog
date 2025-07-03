@@ -3,21 +3,49 @@ title = "Agentic Coding Slot Machines – Did We Just Summon a Genie Addiction? 
 slug = "agentic-coding-slot-machines-did-we-just-summon-a-genie-addiction"
 date = 2025-06-30
 [extra]
-thumbnail = "images/agentic-coding-slot-machines/title.png"
+thumbnail = "images/agentic-coding-slot-machines/title.avif"
 thumbnail_class = "top-crop"
-read_time = 20
+read_time = 40
 hidden = true
 +++
 
-### Claude Code & Software 3.0: Agentic Slot Machines and Chainsaws for the Mind. Part 1 of 2.
+### Claude Code & Software 3.0: Agentic Slot Machines and Chainsaws for the Mind.
 
-<small style="color: gray; font-size: 0.85em;">⏱️ Time to read: 20 minutes (but it might change your life)</small>
+<small style="color: gray; font-size: 0.85em;">⏱️ Time to read: 40 minutes (but it might 20x your productivity)</small>
 
 <span style="font-size: 1.2em;">**Everything, yes everything just changed!**</span>
 
-<img src="/images/agentic-coding-slot-machines/title.png" style="width: 100%;" alt="genie">
+<picture>
+  <source
+    srcset="/images/agentic-coding-slot-machines/title-320.avif"
+    media="(max-width: 480px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/title-640.avif"
+    media="(max-width: 1024px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/title-1280.avif"
+    media="(min-width: 1025px)"
+    type="image/avif">
+  <img
+    src="/images/agentic-coding-slot-machines/title.avif"
+    alt="genie"
+    style="width: 100%;"
+    loading="lazy" />
+</picture>
 
 ```☝️ Actual photo of me the last weeks```
+
+Agentic Coding is here: Claude Code, ChatGPT, Cursor and new "AYCE" (All You Can Eat) token plans just unlocked a way to `multi-plex` your productivity `20x` by writing software while you sleep, shop, or literally sit by the pool.
+
+But there are `foot-saws`: prompt injection, slot machine randomness, and AI code slop. This post breaks down:
+- Why it's suddenly possible (AYCE plans + smarter agents + new workflows)
+- How to run 4 projects at once without losing your mind (maybe)
+- What tools & mindsets actually work in practice
+- What's coming next for orgs & hiring (part 2 - next post)
+
+
 
 <br />
 
@@ -28,7 +56,25 @@ hidden = true
 - Or a similar permutation of the above
 
 Then your <a href="https://github.com/steipete" target="_blank">GitHub Graph</a> is probably rocketing into space like <a href="https://x.com/steipete" target="_blank">@steipete's</a>.
-<img src="/images/agentic-coding-slot-machines/peter-github.jpg" style="width: 100%;" alt="peter-github">  
+<picture>
+  <source
+    srcset="/images/agentic-coding-slot-machines/peter-github-320.avif"
+    media="(max-width: 480px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/peter-github-640.avif"
+    media="(max-width: 1024px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/peter-github-1280.avif"
+    media="(min-width: 1025px)"
+    type="image/avif">
+  <img
+    src="/images/agentic-coding-slot-machines/peter-github.avif"
+    alt="peter-github"
+    style="width: 100%;"
+    loading="lazy" />
+</picture>  
 ```☝️ look at him fly```
 
 ### Or you are inspired and sleepless:
@@ -39,7 +85,25 @@ I haven't felt so energized and confused and so willing to try new things
 
 ## The Memes Begin
 
-<img src="/images/agentic-coding-slot-machines/Gt4UBiwWUAA9sah.jpeg" style="width:100%;">
+<picture>
+  <source
+    srcset="/images/agentic-coding-slot-machines/Gt4UBiwWUAA9sah-320.avif"
+    media="(max-width: 480px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/Gt4UBiwWUAA9sah-640.avif"
+    media="(max-width: 1024px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/Gt4UBiwWUAA9sah-1280.avif"
+    media="(min-width: 1025px)"
+    type="image/avif">
+  <img
+    src="/images/agentic-coding-slot-machines/Gt4UBiwWUAA9sah.avif"
+    alt="AI meme"
+    style="width: 100%;"
+    loading="lazy" />
+</picture>
 
 ```👆 If that's not you yet, then buckle up... Let's goooo!```
 
@@ -47,6 +111,12 @@ I haven't felt so energized and confused and so willing to try new things
 - coders and technical workers
 - CEOs / founders and managers
 - anyone impacted by the economics of knowledge work
+
+## Why should you care?
+This isn't just more SaaS hype. It's the real start of `Software 3.0`, where your main job is to multi-plex agents, steer context, and clean up slop.
+
+It's also fun and super addictive, and if you don't pick up this chainsaw, someone else will.
+
 
 ## In this 2 part blog post you will learn:
 - what just changed, why it matters
@@ -59,51 +129,31 @@ I haven't felt so energized and confused and so willing to try new things
 Your `productivity`, your `job` and your `entire relationship with computers` is about to get transformed.
 
 
-## Table of Contents
-I have broken this into a 2 part blog post:
-<div style="font-size: 0.8em;">
-    <h2>Part 1</h2>
-    <h3><a href="#the-big-shift">The Big Shift</a></h3>
-      <!-- <ul>
-        <li><a href="#what-changed-the-tectonic-shift">What Changed: The Tectonic Shift</a></li>
-        <li><a href="#i-was-wrong-about-claude-code">I was wrong about Claude Code</a></li>
-        <li><a href="#magic-moment">Magic Moment</a></li>
-        <li><a href="#crabmux">crabmux</a></li>
-        <li><a href="#agent-pilled">Agent Pilled</a></li>
-        <li><a href="#tokamine-and-infinite-wishes">Tokamine and Infinite Wishes</a></li>
-        <li><a href="#implications-for-everyone">Implications for everyone - including YOU 👈🏽</a></li>
-        <li><a href="#axes-and-chainsaws">Axes and Chainsaws - A Metaphore</a></li>
-      </ul> -->
-    <h3><a href="#practical-tips-workflows">Practical Tips & Workflows</a></h3>
-      <!-- <ul>
-        <li><a href="#practical-tips-risks">Practical Tips - Risks</a></li>
-        <li><a href="#practical-tips-rewards">Practical Tips - Rewards</a></li>
-        <li><a href="#concurrency-amdahls-law">Concurrency, Amdahl’s Law & Multiplexing</a></li>
-        <li><a href="#speed-apm-context-engineering">Speed, APM & Context Engineering</a></li>
-        <li><a href="#keyboard-shortcuts-workflow-tricks">Keyboard Shortcuts & Workflow Tricks</a></li>
-        <li><a href="#whats-next">Whats Next</a></li>
-      </ul> -->
-    <h2>Part 2 - Coming Soon</h2>
-    <h3>Orgs, Teams & Hiring</h3>
-      <!-- <ul>
-        <li><a href="#orgs-economics-fdes">The Rise of FDEs</a></li>
-        <li><a href="#agents-set-us-free">Agents set us free</a></li>
-        <li><a href="#leadership-labs-hiring">Leadership, Labs & Hiring</a></li>
-        <li><a href="#rethinking-kpis">Rethinking KPIs & Company Structures</a></li>
-        <li><a href="#people-spirits-llms">People Spirits & Building for LLMs</a></li>
-        <li><a href="#closing-thoughts">Closing Thoughts</a></li>
-        <li><a href="#glossary-of-terms">Glossary of Terms</a></li>
-        <li><a href="#twitter-list">List of People to Follow on Twitter</a></li>
-        <li><a href="#references">References</a></li>
-      </ul> -->
-      <h3>The Future</h3>
-</div>
+<h2>Part 1</h2>
 <br />
 
 -------------------------------------
 
 <h2 id="the-big-shift">The Big Shift</h2>
-<img src="/images/agentic-coding-slot-machines/the-big-shift.png" style="width: 100%;" alt="the-big-shift">
+<picture>
+  <source
+    srcset="/images/agentic-coding-slot-machines/the-big-shift-320.avif"
+    media="(max-width: 480px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/the-big-shift-640.avif"
+    media="(max-width: 1024px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/the-big-shift-1280.avif"
+    media="(min-width: 1025px)"
+    type="image/avif">
+  <img
+    src="/images/agentic-coding-slot-machines/the-big-shift.avif"
+    alt="the-big-shift"
+    style="width: 100%;"
+    loading="lazy" />
+</picture>
 
 <h3 id="i-was-wrong-about-claude-code">I was wrong about Claude Code</h3>
 
@@ -118,7 +168,25 @@ But I was wrong.
 <br />
 <h3>1) AYCE (all you can eat) API Token plans (Claude Max)</h3>
 
-<img src="/images/agentic-coding-slot-machines/claude-max.jpg" style="width: 50%; float: right;" alt="claude-max">
+<picture>
+  <source
+    srcset="/images/agentic-coding-slot-machines/claude-max-320.avif"
+    media="(max-width: 480px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/claude-max-640.avif"
+    media="(max-width: 1024px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/claude-max-1280.avif"
+    media="(min-width: 1025px)"
+    type="image/avif">
+  <img
+    src="/images/agentic-coding-slot-machines/claude-max.avif"
+    alt="claude-max"
+    style="width: 50%; float: right;"
+    loading="lazy" />
+</picture>
 While not strictly unlimited, it has a hard cap. The reality is without hardcaps the human mind always reverts to a scarcity mentality. Without fear of scarey bills the community has moved like lightning to suddenly adopt these tools.
 
 
@@ -128,7 +196,7 @@ While not strictly unlimited, it has a hard cap. The reality is without hardcaps
 
 Yes, this applies to Gemini 2.5 Pro and a few others too, the recent CoT (chain of thought) + subagent planning abilities of frontier models get things right `so often now`, you no longer doubt they can do something in `1-shot` (first try).
 
-For instance, the excellent <a href="https://x.com/GeoffreyHuntley/" target="_blank">@GeoffreyHuntley</a> has been vibe tweeting non-stop about his army of agents writing a new programming language called <a href="https://github.com/ghuntley/cursed">`cursed`</a>:  
+For instance, the excellent <a href="https://x.com/GeoffreyHuntley/" target="_blank">@GeoffreyHuntley</a> has been vibe tweeting non-stop about his army of agents writing a new programming language called <a href="https://github.com/ghuntley/cursed" target="_blank">`cursed`</a>:  
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">500 AI subagents making a compiler afk whilst i fly internationally to sfo <a href="https://t.co/wxkhP5nUjF">https://t.co/wxkhP5nUjF</a></p>&mdash; geoff (@GeoffreyHuntley) <a href="https://twitter.com/GeoffreyHuntley/status/1933660332670828544?ref_src=twsrc%5Etfw">June 13, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -140,11 +208,11 @@ Cursor is great (they just added a mobile mode), but its an IDE for humans. When
 
 Plus, by being text only, it lets you `multi-plex` across time and space too. 
 
-As <a href="https://x.com/@steipete">Peter (@steipete)</a> says in his recent interview with the awesome <a href="https://x.com/waghnakh_21">Mayank Gupta (@waghnakh_21)</a> (below), Cursors system prompt is optimzied for the user to pick context.
+As <a href="https://x.com/@steipete" target="_blank">Peter (@steipete)</a> says in his recent interview with the awesome <a href="https://x.com/waghnakh_21" target="_blank">Mayank Gupta (@waghnakh_21)</a> (below), Cursors system prompt is optimzied for the user to pick context.
 
 Claude on the otherhand is excellent at finding and using the right context itself and is context / token hungry (why you need AYCE tokens).
 
-Also something that has come up in a convesation with <a href="https://x.com/@mitsuhiko">Armin Ronacher (@mitsuhiko)</a> is theres a certain `je ne sais quoi` ineffable quality to running a local agent on your machine which beats the cloud agents.
+Also something that has come up in a convesation with <a href="https://x.com/@mitsuhiko" target="_blank">Armin Ronacher (@mitsuhiko)</a> is theres a certain `je ne sais quoi` ineffable quality to running a local agent on your machine which beats the cloud agents.
 
 When you use `claude code` locally, I would describe it as `feeling` as though you are "In the room" when the code was made. You were there through success and failure collaborating with the agent and so you feel attached emotionally to the artifacts it produces.
 
@@ -153,15 +221,53 @@ That is distinctly different to having some Cloud AI agent like `devin` or `jule
 When that happens 100% automatically, and its `too magical`, it crosses the uncanny valley into weird killer robot mode and triggers your NIH (not invented here) senses really hard.
 
 
-Likewise, for <a href="https://x.com/@steipete">Peter Steinberger (@steipete)</a> and many others you just can't get the same MacOS versions or access to real hardware to do real Apple development. I imagine the same applies to things like Windows or any kind of complex IoT / custom hardware, nested virtualization etc. 
+Likewise, for <a href="https://x.com/@steipete" target="_blank">Peter Steinberger (@steipete)</a> and many others you just can't get the same MacOS versions or access to real hardware to do real Apple development. I imagine the same applies to things like Windows or any kind of complex IoT / custom hardware, nested virtualization etc. 
 
 Real work is done via the Personal Laptop / Desktop with a human-in-the-loop and that isn't likely to change any time soon.
 
-Claude Code is so good, that it's no surprise for me to wake up mid-writing this blog post and read as reported by <a href="https://x.com/swyx">@swyz</a> that the lead developers of Claude Code just got poached (META barbarians at the gate style) by <a href="https://x.com/cursor_ai">@cursor_ai</a>: <br />
-<a href="https://x.com/swyx/status/1940124280249020567"><img src="/images/agentic-coding-slot-machines/cursor-claude.jpeg" style="width: 100%;" alt="cursor-claude-image"></a>
+Claude Code is so good, that it's no surprise for me to wake up mid-writing this blog post and read as reported by <a href="https://x.com/swyx" target="_blank">@swyz</a> that the lead developers of Claude Code just got poached (META barbarians at the gate style) by <a href="https://x.com/cursor_ai" target="_blank">@cursor_ai</a>: <br />
+<a href="https://x.com/swyx/status/1940124280249020567">
+<picture>
+  <source
+    srcset="/images/agentic-coding-slot-machines/cursor-claude-320.avif"
+    media="(max-width: 480px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/cursor-claude-640.avif"
+    media="(max-width: 1024px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/cursor-claude-1280.avif"
+    media="(min-width: 1025px)"
+    type="image/avif">
+  <img
+    src="/images/agentic-coding-slot-machines/cursor-claude.avif"
+    alt="cursor-claude-image"
+    style="width: 100%;"
+    loading="lazy" />
+</picture>
+</a>
 
 
-<img src="/images/agentic-coding-slot-machines/my-vibes.jpg" style="width: 50%; float: right; margin-left:10px;" alt="my-vibes"> It is these three things which have now kick started a crazy movement. 
+<picture>
+  <source
+    srcset="/images/agentic-coding-slot-machines/my-vibes-320.avif"
+    media="(max-width: 480px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/my-vibes-640.avif"
+    media="(max-width: 1024px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/my-vibes-1280.avif"
+    media="(min-width: 1025px)"
+    type="image/avif">
+  <img
+    src="/images/agentic-coding-slot-machines/my-vibes.avif"
+    alt="my-vibes"
+    style="width: 50%; float: right; margin-left:10px;"
+    loading="lazy" />
+</picture> It is these three things which have now kick started a crazy movement. 
 
 As we speak, myself and others are literally `vibe coding` 4 projects at once, at 20x effectiveness from bed, or the supermarket; or the pool!
 
@@ -171,12 +277,33 @@ With <a href="https://vibetunnel.sh/" target="_blank">VibeTunnel.sh</a> you can 
 
 VibeTunnnel was created by <a href="https://x.com/steipete" target="_blank">@steipete</a> and friends literally to keep their Agentic Coding Slot Machine addiction going while AFK (away from keyboard) and 
 
-<a href="https://github.com/amantus-ai/vibetunnel" target="_blank"><img src="/images/agentic-coding-slot-machines/vb-growth.png" style="width: 100%;" alt="vb-growth-image"></a>
+<a href="https://github.com/amantus-ai/vibetunnel" target="_blank">
+<picture>
+  <source
+    srcset="/images/agentic-coding-slot-machines/vb-growth-320.avif"
+    media="(max-width: 480px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/vb-growth-640.avif"
+    media="(max-width: 1024px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/vb-growth-1280.avif"
+    media="(min-width: 1025px)"
+    type="image/avif">
+  <img
+    src="/images/agentic-coding-slot-machines/vb-growth.avif"
+    alt="vb-growth-image"
+    style="width: 100%;"
+    loading="lazy" />
+</picture>
+</a>
+
 ```
 800 stars in 16 days
 ```
 
-This is <a href="https://x.com/paulg">Paul Graham (@paulg)</a>'s <a href="https://paulgraham.com/startupideas.html">sage advice</a> to the max:
+This is <a href="https://x.com/paulg" target="_blank">Paul Graham (@paulg)</a>'s <a href="https://paulgraham.com/startupideas.html" target="_blank">sage advice</a> to the max:
 
 ```
 But if you're living in the future and you build something cool that users love, it may matter more than outsiders think.
@@ -189,16 +316,52 @@ When hear about Peter below you'll agree he's living in the future.
 ## Magic Moment
 For me, it all started when I noticed Peter <a href="https://x.com/steipete" target="_blank">(@steipete)</a>, started raving like a mad-man about his addiction to Claude Code. 👀
 
-<img src="/images/agentic-coding-slot-machines/charlie.jpg" style="width: 100%;" alt="charlie-image">  
+<picture>
+  <source
+    srcset="/images/agentic-coding-slot-machines/charlie-320.avif"
+    media="(max-width: 480px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/charlie-640.avif"
+    media="(max-width: 1024px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/charlie-1280.avif"
+    media="(min-width: 1025px)"
+    type="image/avif">
+  <img
+    src="/images/agentic-coding-slot-machines/charlie.avif"
+    alt="charlie-image"
+    style="width: 100%;"
+    loading="lazy" />
+</picture>  
 
 
-I was in the process of re-evaluating claude code (thanks Pete), and having it write some tests for me while trying to 1-shot some things. I went to the kitchen to make coffee and was <a href="https://x.com/madhavajay/status/1933446185865654613">x-posting</a> while trying to check on claude from my phone (pre vibetunnel). I had run claude in `tmux` so I could jump in via `tailscale` / `blink shell`.
+I was in the process of re-evaluating claude code (thanks Pete), and having it write some tests for me while trying to 1-shot some things. I went to the kitchen to make coffee and was <a href="https://x.com/madhavajay/status/1933446185865654613" target="_blank">x-posting</a> while trying to check on claude from my phone (pre vibetunnel). I had run claude in `tmux` so I could jump in via `tailscale` / `blink shell`.
 
 But I kept finding it annoying and slow to remember and type all the `tmux` commands on my tiny phone keyboard to switch between claude agents.
 
 <h3 id="crabmux">crabmux</h3>
 <div style="display: flex; flex-wrap: wrap;">
-    <img src="/images/agentic-coding-slot-machines/blink-shell.png" style="flex: 1 1 100%; max-width: 100%; margin-bottom:10px;" alt="blinkshell-image">
+    <picture style="flex: 1 1 100%; max-width: 100%; margin-bottom:10px;">
+  <source
+    srcset="/images/agentic-coding-slot-machines/blink-shell-320.avif"
+    media="(max-width: 480px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/blink-shell-640.avif"
+    media="(max-width: 1024px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/blink-shell-1280.avif"
+    media="(min-width: 1025px)"
+    type="image/avif">
+  <img
+    src="/images/agentic-coding-slot-machines/blink-shell.avif"
+    alt="blinkshell-image"
+    style="max-width: 100%;"
+    loading="lazy" />
+</picture>
     <div style="flex: 1 1 100%">
         So, I asked Claude Code to create a <code>hypothetical</code> CLI tool named <a href="https://github.com/madhavajay/crabmux" target="_blank"><code>cmux</code></a>, similar to <a href="https://github.com/bcicen/ctop" target="_blank"><code>ctop</code></a> (which allows you to browse Docker containers), but for <code>tmux</code>, and to write it in <code>rust</code> because, why not? You can check it out <a href="https://github.com/madhavajay/crabmux" target="_blank">here</a> or on <a href="https://crates.io/crates/crabmux" target="_blank">crates.io</a>.
     </div>
@@ -209,13 +372,31 @@ But I kept finding it annoying and slow to remember and type all the `tmux` comm
 
 While it made the code I asked ChatGPT for a nice icon:  
 
-<img src="/images/agentic-coding-slot-machines/crabmux.png" style="width: 100%;" alt="cmux-logo">
+<picture>
+  <source
+    srcset="/images/agentic-coding-slot-machines/crabmux-320.avif"
+    media="(max-width: 480px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/crabmux-640.avif"
+    media="(max-width: 1024px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/crabmux-1280.avif"
+    media="(min-width: 1025px)"
+    type="image/avif">
+  <img
+    src="/images/agentic-coding-slot-machines/crabmux.avif"
+    alt="cmux-logo"
+    style="width: 100%;"
+    loading="lazy" />
+</picture>
 <br />
 When I returned the tool worked first try... 😱
 
-</div>
 <div style="clear: both;"></div>
 <br />
+
 
 Install it if you dare:  
 
@@ -223,24 +404,58 @@ Install it if you dare:
 cargo install crabmux
 ```
 
+
 <br />
 <h3 id="agent-pilled">Agent Pilled</h3>
 
 And thats when I kind of got Software 3.0 / `agent pilled` hard.
 
-<img src="/images/agentic-coding-slot-machines/pills.jpg" style="width: 100%;" alt="pills-image">  
+<picture>
+  <source
+    srcset="/images/agentic-coding-slot-machines/pills-320.avif"
+    media="(max-width: 480px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/pills-640.avif"
+    media="(max-width: 1024px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/pills-1280.avif"
+    media="(min-width: 1025px)"
+    type="image/avif">
+  <img
+    src="/images/agentic-coding-slot-machines/pills.avif"
+    alt="pills-image"
+    style="width: 100%;"
+    loading="lazy" />
+</picture>  
 
 An idea I had, a stupid brain fart that I would normally think wow thats a cool idea, but ill never get the time to do that; got built `in the background` while I did `3 other things`.
 
-<br />
-
 That day, I had Claude fix a bug in a server / client architecture system by modifying code, rebuilding docker containers and re-running them all by itself.
 
-<br />
 The secret to vibe coding is to treat Claude like your employee and try as hard as possible to not roll up your own sleeves.
 
 As you can imagine I promptly signed up for Claude Max.
-<img src="/images/agentic-coding-slot-machines/cut-off.png" style="width: 100%;" alt="cut-off">
+<picture>
+  <source
+    srcset="/images/agentic-coding-slot-machines/cut-off-320.avif"
+    media="(max-width: 480px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/cut-off-640.avif"
+    media="(max-width: 1024px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/cut-off-1280.avif"
+    media="(min-width: 1025px)"
+    type="image/avif">
+  <img
+    src="/images/agentic-coding-slot-machines/cut-off.avif"
+    alt="cut-off"
+    style="width: 100%;"
+    loading="lazy" />
+</picture>
 `☝️ when the "everbody wins" casino cuts you off`
 
 <br />
@@ -259,12 +474,9 @@ I will note, you do have to work hard to hit these limits, unless your Peter who
 
 As <a href="https://twitter.com/steipete" target="_blank">@steipete</a> said to me: `Welcome to Slot Machine Addicted Anonymous`.
 
-<br />
 If you are less technical and still reading you might be thinkin:  
 
 I'm about to `click off` this page. I don't get it, this is just more SaaS b2b Startup Founder twitter hype BS.  
-
-<br />
 
 But wait... its not, this is different.  
 <br />
@@ -281,7 +493,25 @@ for only `~$100 USD` a month.
 
 All you need is a desktop computer, the patience to learn new things and a dream (or as many dreams as you can do in parallel).
 
-<img src="/images/agentic-coding-slot-machines/genie.png" style="width: 100%;" alt="genie">
+<picture>
+  <source
+    srcset="/images/agentic-coding-slot-machines/genie-320.avif"
+    media="(max-width: 480px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/genie-640.avif"
+    media="(max-width: 1024px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/genie-1280.avif"
+    media="(min-width: 1025px)"
+    type="image/avif">
+  <img
+    src="/images/agentic-coding-slot-machines/genie.avif"
+    alt="genie"
+    style="width: 100%;"
+    loading="lazy" />
+</picture>
 
 <br />
 To help illustrate what this means consider the following:
@@ -297,38 +527,93 @@ To help illustrate what this means consider the following:
 
 Not so long ago, if you wanted to take down a tree, you had to be a specialist with an axe. It was sweaty, skill intensive work. Your entire productivity hinged on years of technique, physical and mental fortitude and knowing how to angle that blade just right. Being a lumberjack was a serious profession.  
 <br />
-<img src="/images/agentic-coding-slot-machines/lumberjack.webp" style="width: 100%;" alt="lumberjack">  
+<picture>
+  <source
+    srcset="/images/agentic-coding-slot-machines/lumberjack-320.avif"
+    media="(max-width: 480px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/lumberjack-640.avif"
+    media="(max-width: 1024px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/lumberjack-1280.avif"
+    media="(min-width: 1025px)"
+    type="image/avif">
+  <img
+    src="/images/agentic-coding-slot-machines/lumberjack.avif"
+    alt="lumberjack"
+    style="width: 100%;"
+    loading="lazy" />
+</picture>  
 
 <a href="https://youtu.be/FshU58nI0Ts?list=RDFshU58nI0Ts" target="_blank">```queue the lumberjack song```</a>
 
 Then chainsaws arrived. Suddenly, you didn’t need to be a master of axe lore or have Popeye forearms. A chainsaw turned a hard earned craft into something almost anyone could pick up over a weekend. The best lumberjacks still outperformed everyone else but baseline productivity skyrocketed and fewer people were needed to clear the same forest.  
-<br />
+
 Agentic coding feels the same. Before, software was your axe: you needed years of coding practice to carve out a useful product. Now? With Claude, ChatGPT, and the rest, it’s like handing every developer (and even non-developer) a chainsaw.  
-<br />
 
 `Chainsaws like AI are jagged as hell`, but when they cut they cut fast and deep.  
-<br />
 
 You still need some judgment to avoid lopping off your foot, but the leverage is on a different planet.  
-<br />
 
 And most importantly, <a href="https://www.bunnings.com.au/ozito-pxc-18v-250mm-10-cordless-chainsaw-pxccss-018-skin-only_p3381037" target="_blank">cheap chainsaws</a> are the new ground-zero, anyone can be a lumberjack including you.
 
-
-<br /><br />
+<br />  
 
 -------------------------------------
 
+<br />  
+
 <h2 id="practical-tips-workflows">Practical Tips & Workflows</h2>
-<img src="/images/agentic-coding-slot-machines/practical-tips.png" style="width: 100%;" alt="the-big-shift">
+
+<picture>
+  <source
+    srcset="/images/agentic-coding-slot-machines/practical-tips-320.avif"
+    media="(max-width: 480px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/practical-tips-640.avif"
+    media="(max-width: 1024px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/practical-tips-1280.avif"
+    media="(min-width: 1025px)"
+    type="image/avif">
+  <img
+    src="/images/agentic-coding-slot-machines/practical-tips.avif"
+    alt="the-big-shift"
+    style="width: 100%;"
+    loading="lazy" />
+</picture>
 
 
 <h3>Prompt Injection</h3>
 
 It's important to acknowledge that this is not a `panacea`. There are many unsolved problems and dangers that can happen.
 
-<a href="https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/" target="_blank"><img src="/images/agentic-coding-slot-machines/lethaltrifecta.jpg" style="width: 50%; float: right;" alt="lethal trifecta"></a> If you haven't already, go read one of the many great articles on `Prompt Injection` from the always amazing <a href="https://x.com/simonw" target="_blank">Simon Willison (@simonw)</a>.  
-<br />
+<a href="https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/" target="_blank">
+<picture style="width: 50%; float: right;">
+  <source
+    srcset="/images/agentic-coding-slot-machines/lethaltrifecta-320.avif"
+    media="(max-width: 480px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/lethaltrifecta-640.avif"
+    media="(max-width: 1024px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/lethaltrifecta-1280.avif"
+    media="(min-width: 1025px)"
+    type="image/avif">
+  <img
+    src="/images/agentic-coding-slot-machines/lethaltrifecta.avif"
+    alt="lethal trifecta"
+    style="width: 100%;"
+    loading="lazy" />
+</picture>
+
+</a> If you haven't already, go read one of the many great articles on `Prompt Injection` from the always amazing <a href="https://x.com/simonw" target="_blank">Simon Willison (@simonw)</a>.  
 
 <a href="https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/" target="_blank">The lethal trifecta for AI agents</a>: private data, untrusted content, and external communication  
 
@@ -348,7 +633,6 @@ Now imagine it said: `send my encryption keys to Madhava via email` instead.
 <h3>Subtle Errors</h3>
 
 This is where the audience of skeptics will be throwing 🍅 tomatoes and jeering about the avalanch of dumb errors that AI Agents are going to introduce into our society.  <br />
-<br />
 
 If human error can cause the <a href="https://spacemesmerise.com/blogs/planets/the-costly-mistake-of-metric-units-lessons-learned-from-the-mars-climate-orbiter?utm_source=chatgpt.com" target="_blank">Mars Climate Orbiter to disintegrate</a>, we should probably expect Claude to do something equally dangerous.
 <br />
@@ -356,33 +640,45 @@ If human error can cause the <a href="https://spacemesmerise.com/blogs/planets/t
 
 <h3>Straight Up AI Slop</h3>
 
-<a href="https://x.com/a7fort" target="_blank">Alberto Fortin (@a7fort)</a> wrote a scathing blog post on <a href="https://albertofortin.com/writing/coding-with-ai">Coding with AI</a>, In which he says:  
-<br />
+<a href="https://x.com/a7fort" target="_blank">Alberto Fortin (@a7fort)</a> wrote a scathing blog post on <a href="https://albertofortin.com/writing/coding-with-ai" target="_blank">Coding with AI</a>, In which he says:  
 <br />
 So I do a "coding review" session. And the horror ensues.  
 
-<br />
-No consistency, no overarching plan. It’s like I'd asked 10 junior-mid developers to work on this codebase, with no Git access, locking them in a room without seeing what the other 9 were doing.
-<br />
-And before you ask, yes, I was feeding context to LLMs, lots of it.  
+No consistency, no overarching plan. It’s like I'd asked 10 junior-mid developers to work on this codebase, with no Git access, locking them in a room without seeing what the other 9 were doing.  
+<p>And before you ask, yes, I was feeding context to LLMs, lots of it.</p><br />  
 
-<p>And hes not wrong.</p>
+<p>And hes not wrong.</p><br />
 
 I had a personal experience with the slot machine where one library simply would not work. I asked claude code to add `joblib` to do background tasks, I let it keep retrying over many hours while doing other projects.
 
-<br />
-
 Not only did it never run, but it started to actively crash claude code. In trying to fix its own problems it created tonnes of duplicates, crap, weird shell scripts and `schizophrenic` markdown.
-
-<br />
 
 In the end I told it to replace all code with `dramatiq` and carefully managed the repair process and things started `dramatically` working. In the infinite claude casino its all about knowing `when to hold 'em and when to fold 'em`.
 
-<img src="/images/agentic-coding-slot-machines/holdem-foldem.png" alt="holdem-foldem" style="width:100%;">
+<picture>
+  <source
+    srcset="/images/agentic-coding-slot-machines/holdem-foldem-320.avif"
+    media="(max-width: 480px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/holdem-foldem-640.avif"
+    media="(max-width: 1024px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/holdem-foldem-1280.avif"
+    media="(min-width: 1025px)"
+    type="image/avif">
+  <img
+    src="/images/agentic-coding-slot-machines/holdem-foldem.avif"
+    alt="holdem-foldem"
+    style="width: 100%;"
+    loading="lazy" />
+</picture>
 
 You can cut yourself and others pretty badly with a chainsaw.
 
 However I will add `The genie is well and truely out of the bottle!`, so lets focus on solutions.
+
 
 - Consider what systems and data `agent-created` code will have access to
 - Are you writing `software 1.0` which will run normally, or are you creating `software 3.0` which will use run time token inputs vulnerable to prompt injection?
@@ -391,13 +687,32 @@ However I will add `The genie is well and truely out of the bottle!`, so lets fo
 - Be careful with secrets, agents like to occassionally just `git add .` and push without asking you
 - If its going down the wrong path, abort and start again, ask for plans and options and pay closer attention when things get jagged
 
+
 <br />
 <h3>Security Teams</h3>
 
 
 Panic! j/k! Start working on your own Software 3.0 red teaming tooling because you are about to face an avalanch of home-made `homer-cars`:
 
-<img src="/images/agentic-coding-slot-machines/homer-car.webp" style="width: 100%;" alt="homer-car">
+<picture>
+  <source
+    srcset="/images/agentic-coding-slot-machines/homer-car-320.avif"
+    media="(max-width: 480px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/homer-car-640.avif"
+    media="(max-width: 1024px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/homer-car-1280.avif"
+    media="(min-width: 1025px)"
+    type="image/avif">
+  <img
+    src="/images/agentic-coding-slot-machines/homer-car.avif"
+    alt="homer-car"
+    style="width: 100%;"
+    loading="lazy" />
+</picture>
 
 
 <h3>Claude Code Use-cases</h3>
@@ -427,9 +742,28 @@ And it just keeps gobbling up the yummy tokens and spitting out slot machine coi
 <br />
 
 <br />
-Remember to Git Commit Carefully  
+<h3>Remember to Git Commit Carefully</h3>
 You might have seen this meme, but it couldn't be more true. Make sure you commit as you go and selectively defend what gets committed and pushed. When you start to get get cats, revert back to cars, or go to duck and then ask Claude to make the duck more car like.
-<img src="/images/agentic-coding-slot-machines/car-duck.png" style="width: 100%;" alt="car-duck">
+<br />
+<picture>
+  <source
+    srcset="/images/agentic-coding-slot-machines/car-duck-320.avif"
+    media="(max-width: 480px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/car-duck-640.avif"
+    media="(max-width: 1024px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/car-duck-1280.avif"
+    media="(min-width: 1025px)"
+    type="image/avif">
+  <img
+    src="/images/agentic-coding-slot-machines/car-duck.avif"
+    alt="car-duck"
+    style="width: 100%;"
+    loading="lazy" />
+</picture>
 
 <br />
 
@@ -439,17 +773,37 @@ Here are just some of the things I have noted in the last week:
 <br />
 
 - Novel Context Tools  
-<a href="https://www.youtube.com/watch?v=nfOVgz_omlU&ab_channel=ArminRonacher" target="_blank"><img src="/images/agentic-coding-slot-machines/armin-video.png" style="width: 50%; float: right;" alt="armin-video"></a> Armin Ronacher (<a href="https://x.com/mitsuhiko" target="_blank">@mitsuhiko</a>) in his super-fresh video Agentic Coding: The Future of Software Development with Agents <a href="https://www.youtube.com/watch?v=nfOVgz_omlU&ab_channel=ArminRonacher" target="_blank">here</a>, suggests a brilliant idea: combining your log sources including <a href="https://x.com/mitsuhiko/status/1939642845549232601" target="_blank">`client side logs`</a> from the browser into a single unified log for Claude to consume. Claude even published it for him to <a href="https://www.npmjs.com/package/vite-console-forward-plugin" target="_blank">`npm` here vite-console-forward-plugin</a>.
+<a href="https://www.youtube.com/watch?v=nfOVgz_omlU&ab_channel=ArminRonacher" target="_blank">
+<picture style="width: 50%; float: right;">
+  <source
+    srcset="/images/agentic-coding-slot-machines/armin-video-320.avif"
+    media="(max-width: 480px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/armin-video-640.avif"
+    media="(max-width: 1024px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/armin-video-1280.avif"
+    media="(min-width: 1025px)"
+    type="image/avif">
+  <img
+    src="/images/agentic-coding-slot-machines/armin-video.avif"
+    alt="armin-video"
+    style="width: 100%;"
+    loading="lazy" />
+</picture>
+</a> Armin Ronacher (<a href="https://x.com/mitsuhiko" target="_blank">@mitsuhiko</a>) in his super-fresh video Agentic Coding: The Future of Software Development with Agents <a href="https://www.youtube.com/watch?v=nfOVgz_omlU&ab_channel=ArminRonacher" target="_blank">here</a>, suggests a brilliant idea: combining your log sources including <a href="https://x.com/mitsuhiko/status/1939642845549232601" target="_blank">`client side logs`</a> from the browser into a single unified log for Claude to consume. Claude even published it for him to <a href="https://www.npmjs.com/package/vite-console-forward-plugin" target="_blank">`npm` here vite-console-forward-plugin</a>.
 
 - Replacing MCP  
-With the power of Agentic Code generation MCP feels like Software 1.0 in a Software 3.0 world, and <a href="https://x.com/@ProgramWithAi">Manuel Odendahl's (@ProgramWithAi)</a> been working on <a href="https://www.youtube.com/watch?v=J3oJqan2Gv8&ab_channel=AIEngineer">1 MCP to rule them all with his Agent Function Genie</a> idea. (Manuel can I have access?)
+With the power of Agentic Code generation MCP feels like Software 1.0 in a Software 3.0 world, and <a href="https://x.com/@ProgramWithAi" target="_blank">Manuel Odendahl's (@ProgramWithAi)</a> been working on <a href="https://www.youtube.com/watch?v=J3oJqan2Gv8&ab_channel=AIEngineer" target="_blank">1 MCP to rule them all with his Agent Function Genie</a> idea. (Manuel can I have access?)
     
 
 - Vibin all the Tunnels  
-Peter is `multi-plexing` 3-4 projects at once 16-20 hours a day like a mad-man and one of those is the amazing VibeTunnel.sh <a href="https://vibetunnel.sh/">https://vibetunnel.sh/</a>. It gives you SSH access to your machine from anywhere in a web browser or native app interface ALL FOR FREE. Bye bye overpriced SSH Subscription Apps (looking at you blink shell).
+Peter is `multi-plexing` 3-4 projects at once 16-20 hours a day like a mad-man and one of those is the amazing VibeTunnel.sh <a href="https://vibetunnel.sh/" target="_blank">https://vibetunnel.sh/</a>. It gives you SSH access to your machine from anywhere in a web browser or native app interface ALL FOR FREE. Bye bye overpriced SSH Subscription Apps (looking at you blink shell).
 
 - Making Video Talks  
-<a href="https://x.com/badlogicgames">Mario Zechner</a> is using claude code to record Video Talks! Love it.
+<a href="https://x.com/badlogicgames" target="_blank">Mario Zechner</a> is using claude code to record Video Talks! Love it.
 <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">How I use Claude Code to help me record video talks. Love it. <a href="https://t.co/i5Yk4cFT8L">pic.twitter.com/i5Yk4cFT8L</a></p>&mdash; Mario Zechner (@badlogicgames) <a href="https://twitter.com/badlogicgames/status/1940013366728122488?ref_src=twsrc%5Etfw">July 1, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
@@ -458,26 +812,26 @@ Mario also worked on a context sharing tool like ChatGPT: <a href="https://mario
 
 
 - Claude Controls your Browser  
-The legendary <a href="https://x.com/simonw/status/1940197916267986946">Simon willison</a> explains on his blog <a href="https://til.simonwillison.net/claude-code/playwright-mcp-claude-code">how to add playwright correctly to claude code</a>. TL;DR: Run this before you start "claude":
+The legendary <a href="https://x.com/simonw/status/1940197916267986946" target="_blank">Simon willison</a> explains on his blog <a href="https://til.simonwillison.net/claude-code/playwright-mcp-claude-code" target="_blank">how to add playwright correctly to claude code</a>. TL;DR: Run this before you start "claude":
 ```claude mcp add playwright npx '@playwright/mcp@latest'```
 
 - Keyboard Shortcuts for the Pros  
-Thanks to Ian Nuttall <a href="https://x.com/iannuttall">@iannuttall</a> for some <a href="https://x.com/iannuttall/status/1940092535579484177">keyboard tips</a>:
+Thanks to Ian Nuttall <a href="https://x.com/iannuttall" target="_blank">@iannuttall</a> for some <a href="https://x.com/iannuttall/status/1940092535579484177" target="_blank">keyboard tips</a>:
 `use Ctrl+W to delete full words instead of backspacing like a caveman`
 
 - CyberPunk is Back  
-Just in time for the <a href="https://x.com/GreatDismal/status/1940130126202839445">apple tv adaptation trailer to `Neuromancer`</a> the book which coined `cyberspace`: @GeoffreyHuntley from <a href="https://x.com/ampcode">Amp (coding agent)</a> does the most a cyberpunk thing ever.
+Just in time for the <a href="https://x.com/GreatDismal/status/1940130126202839445" target="_blank">apple tv adaptation trailer to `Neuromancer`</a> the book which coined `cyberspace`: @GeoffreyHuntley from <a href="https://x.com/ampcode" target="_blank">Amp (coding agent)</a> does the most a cyberpunk thing ever.
 
-Launching an agent created programming language called `Cursed` from a <a href="https://x.com/GeoffreyHuntley/status/1939475257427132600">dive bar in San Fran</a>.
+Launching an agent created programming language called `Cursed` from a <a href="https://x.com/GeoffreyHuntley/status/1939475257427132600" target="_blank">dive bar in San Fran</a>.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">tbh the perfect place to release a new programming language is from a dive bar. <a href="https://t.co/0nNNQKeAOz">pic.twitter.com/0nNNQKeAOz</a></p>&mdash; geoff lax ✈️ syd (@GeoffreyHuntley) <a href="https://twitter.com/GeoffreyHuntley/status/1939475257427132600?ref_src=twsrc%5Etfw">June 30, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Quick someone tell <a href="https://x.com/GreatDismal">William Gibson (@GreatDismal)</a>: its happening... 👆
+👆 Quick someone tell <a href="https://x.com/GreatDismal" target="_blank">William Gibson (@GreatDismal)</a>: its happening...  
 
 
 - Learn from the Makers  
-Checkout - Mastering Claude Code in 30 minutes from <a href="https://x.com/bcherny">Boris Cherny (@bcherny)</a> ex-Anthropic (who just joined Cursor)
-https://youtu.be/6eBSHbLKuN0
+Checkout - <a href="https://youtu.be/6eBSHbLKuN0" target="_blank">Mastering Claude Code in 30 minutes</a> from <a href="https://x.com/bcherny" target="_blank">Boris Cherny (@bcherny)</a> ex-Anthropic (who just joined Cursor)
+
 
 
 - Yolo Mode  
@@ -491,30 +845,68 @@ claude --dangerously-skip-permissions
 ```
 
 - Whats next?  
-Maybe <a href="https://x.com/madhavajay/status/1938904760335376509">claude walkie-talkie mode</a>?
+Maybe <a href="https://x.com/madhavajay/status/1938904760335376509" target="_blank">claude walkie-talkie mode</a>?
 
-<a href="https://x.com/madhavajay/status/1938904760335376509"><img src="/images/agentic-coding-slot-machines/claude-watch.jpeg" style="width: 100%;" alt="claude-watch"></a>
+<a href="https://x.com/madhavajay/status/1938904760335376509">
+<picture>
+  <source
+    srcset="/images/agentic-coding-slot-machines/claude-watch-320.avif"
+    media="(max-width: 480px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/claude-watch-640.avif"
+    media="(max-width: 1024px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/claude-watch-1280.avif"
+    media="(min-width: 1025px)"
+    type="image/avif">
+  <img
+    src="/images/agentic-coding-slot-machines/claude-watch.avif"
+    alt="claude-watch"
+    style="width: 100%;"
+    loading="lazy" />
+</picture>
+</a>
 
-<br />
+<br /><br />
 
 ### An Interview with Peter Steinberger  
-
-<a href="https://youtu.be/fu7th5HiADo?si=QHpu5nkyZ4tNgM9Z"><img src="/images/agentic-coding-slot-machines/peter-interview.jpg" style="width: 100%;" alt="Peter Steinberger Interview"></a><br />
 <a href="https://youtu.be/fu7th5HiADo?si=QHpu5nkyZ4tNgM9Z">
-```watch interview here```</a>
+<picture>
+  <source
+    srcset="/images/agentic-coding-slot-machines/peter-interview-320.avif"
+    media="(max-width: 480px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/peter-interview-640.avif"
+    media="(max-width: 1024px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/peter-interview-1280.avif"
+    media="(min-width: 1025px)"
+    type="image/avif">
+  <img
+    src="/images/agentic-coding-slot-machines/peter-interview.avif"
+    alt="Peter Steinberger Interview"
+    style="width: 100%;"
+    loading="lazy" />
+</picture>
+</a>
+<br />  
+<a href="https://youtu.be/fu7th5HiADo?si=QHpu5nkyZ4tNgM9Z" target="_blank">
+watch interview here</a>  <br />
 
-
-An interview from <a href="https://x.com/waghnakh_21">Mayank Gupta (@waghnakh_21)</a> just dropped on <a href="https://x.com/waghnakh_21/status/1940170901426991123">X</a> (and <a href="https://youtu.be/fu7th5HiADo?si=QHpu5nkyZ4tNgM9Z">youtube</a>), in which Peter shares his experience, tips, tricks and thoughts on Agentic Engineering, the future and what it means for jobs.  
-
-<br />
+An interview from <a href="https://x.com/waghnakh_21" target="_blank">Mayank Gupta (@waghnakh_21)</a> just dropped on <a href="https://x.com/waghnakh_21/status/1940170901426991123" target="_blank">X</a> (and <a href="https://youtu.be/fu7th5HiADo?si=QHpu5nkyZ4tNgM9Z" target="_blank">youtube</a>), in which Peter shares his experience, tips, tricks and thoughts on Agentic Engineering, the future and what it means for jobs.  
 
 He says Claude Code embodies the `Jony Ive` vibes (jives?) of `beauty in simplicty`, how hes 20x more productive; and that the fun and excitment has brought him back from feeling burned out.  
 
-<br />
 When asked whats possible now, he says:  
 
-Does it `defy` the laws of gravity, `physics`? no, then it `can be done`!
-
+```
+Does it defy the laws of gravity, 
+physics? no, then it can be done!
+```
 
 ## My Thoughts and Tips
 
@@ -526,12 +918,31 @@ When you get into a rhytm with Agentic Engineering it `ABSO-FREAKING-LUTELY` fee
 
 In `Vibe Coding` the emphasis is on how the output looks and feels (or sounds) and not the technical code under the hood.  
 <br />
-<img src="/images/agentic-coding-slot-machines/rick-ruben.jpg" style="width: 100%;" alt="Rick Ruben"> The legendary <a href="https://x.com/karpathy" target="_blank">Andrej Karpathy (@karpathy)</a> coined 🪙 the term `vibe coding`  as a way to describe writing software 1.0 (normal code) by talking to an LLM agent (software 2.0) using normal human language prompting (now dubbed software 3.0).  
+<picture>
+  <source
+    srcset="/images/agentic-coding-slot-machines/rick-ruben-320.avif"
+    media="(max-width: 480px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/rick-ruben-640.avif"
+    media="(max-width: 1024px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/rick-ruben-1280.avif"
+    media="(min-width: 1025px)"
+    type="image/avif">
+  <img
+    src="/images/agentic-coding-slot-machines/rick-ruben.avif"
+    alt="Rick Ruben"
+    style="width: 100%;"
+    loading="lazy" />
+</picture> The legendary <a href="https://x.com/karpathy" target="_blank">Andrej Karpathy (@karpathy)</a> coined 🪙 the term `vibe coding`  as a way to describe writing software 1.0 (normal code) by talking to an LLM agent (software 2.0) using normal human language prompting (now dubbed software 3.0).  
 
-<br />
 Vibe coding is best summed up by the meme involving Rick Ruben (<a href="https://x.com/rickrubin" target="_blank">@rickrubin</a>) a famous (and no doubt talented) record producer who is quoted as saying:  
 
-```I don’t know anything about music```
+```
+I don’t know anything about music
+```
 
 I think most people would agree that its nuanced. Rick Ruben both knows something about music and uses his inner force like a musical jedi. He is espousing both ends of the `midwit` meme.
 
@@ -539,17 +950,13 @@ I think most people would agree that its nuanced. Rick Ruben both knows somethin
 
 Whats important is that you stop fighting the vibes and lean into it. As Peter said in the interview above:
 
-<br />
-I don't get people who reject this technology; it will cost jobs, but it's up to you. You don't have to be the best, you just need to accept the tools and you'll be ahead.  
+"I don't get people who `reject` this technology; it `will cost jobs`, but it's `up to you`. You `don't` have to be the best, you just need to `accept the tools` and you'll be ahead."
 
-<br />
 So get with the vibes!
-<br />
-<br />
 
 ### Low Latency  
 The faster you can close loops between you, the agent and the context the faster it can move. 
-
+<br />  
 This also goes for the technology you use, where possible aim for:
 - hotreloading
 - quick compilation
@@ -560,45 +967,48 @@ This also goes for the technology you use, where possible aim for:
 - popular languages like python, go, php, rust etc
 
 <br />
-<br />
 
 ### Context Rot
-In the video above, `Armin` talks about a concept called `context rot`, the importance of providing context at the right time and preventing the wrong context from stacking the deck against claude.
+In the video above, `Armin` talks about a concept called `context rot`, the importance of providing context at the right time and preventing the wrong context from stacking the deck against claude.  <br />
 
-`context rot` seems to be the inevitable occurance of claude to get stuck based on previous and potentially failed attemps that it keeps in its short term memory, such that it can no longer solve problems correctly.  
-
-<br />
+`Context rot` seems to be the inevitable occurance of claude to get stuck based on previous and potentially failed attemps that it keeps in its short term memory, such that it can no longer solve problems correctly.  
 
 As the `human-in-the-loop` its your job to guard the context as much as possible.  
 
-<br />
 This means pasting error messages, screenshots (yes you can paste images into Claude Code CLI) anything that would help you to solve the problem.  
 
-<br />
-
-<br />
 Once the code has converged on something that works, and the tests pass, you should carefully commit the work. Claude can and will look at old git history so think of this as your long term memory which you don't want to pollute with context rot either.
-<br />
-<br />
 
 The way I do this currently, is by having:
 - one terminal for claude (running over `vt` vibetunnel in case I step away from the computer)
 - one terminal for my own operations
 - `src` an alias for `open -a "Sourcetree" .`
 
-<br />
-
 And then what I do is keep an eye on the changes that Claude makes and stage them as I think they are worth keeping and reset them or delete them if I think they are going off the rails.
-
-<br />
 
 I am both steering the short term context and also preventing the git history from filling up with crap.
 
-<br />
-
 I rarely let Claude commit as it has no taste when it comes to clean commits and often just adds everything; and I find its git commit messages to be too long, so I ask it to write terse ones and edit them myself.
 
-<img src="/images/agentic-coding-slot-machines/workflow.jpg" style="width: 100%;" alt="workflow-diagram">
+<picture>
+  <source
+    srcset="/images/agentic-coding-slot-machines/workflow-320.avif"
+    media="(max-width: 480px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/workflow-640.avif"
+    media="(max-width: 1024px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/workflow-1280.avif"
+    media="(min-width: 1025px)"
+    type="image/avif">
+  <img
+    src="/images/agentic-coding-slot-machines/workflow.avif"
+    alt="workflow-diagram"
+    style="width: 100%;"
+    loading="lazy" />
+</picture>
 
 ```Yes I use sourcetree from Atlassian... anyone know a better free visual diff tool?... 🤔 "HEY CLAAAUDEE"?```
 
@@ -606,13 +1016,14 @@ I rarely let Claude commit as it has no taste when it comes to clean commits and
 
 In the new world of infinite monkeys on typewriters we need to search for the shakespearian gems and discard the rest.
 
-<br />
-<br />
 
 ### Short and Sweet  
-Sometimes claude code is super verbose in a bad way, karpathy mentions this in his talk <a href="https://youtu.be/LCEmiRjPEtQ">Software Is Changing (Again)</a>; and urges us to keep AI on a short leash.
+Sometimes claude code is super verbose in a bad way, karpathy mentions this in his talk <a href="https://youtu.be/LCEmiRjPEtQ" target="_blank">Software Is Changing (Again)</a>; and urges us to keep AI on a short leash.  
 
 Rather than have a 500 line tests.sh script that takes a bunch of flags I dont care about and does weird edge case handling, its much better to have something you can read easily.
+
+<br />
+
 ```
 #!/bin/bash
 set -e
@@ -624,69 +1035,104 @@ pytest tests
 ```
 
 <br />
-<br />
 
 ### Charlie Work  
 
-<img src="/images/agentic-coding-slot-machines/cmux-ci.png" style="width: 100%; float: right;" alt="cmux-ci-image"> You know what is a great way to waste an entire day or week? Fixing random bugs in different OSes on GitHub CI. 
+<picture style="width: 100%; float: right;">
+  <source
+    srcset="/images/agentic-coding-slot-machines/cmux-ci-320.avif"
+    media="(max-width: 480px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/cmux-ci-640.avif"
+    media="(max-width: 1024px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/cmux-ci-1280.avif"
+    media="(min-width: 1025px)"
+    type="image/avif">
+  <img
+    src="/images/agentic-coding-slot-machines/cmux-ci.avif"
+    alt="cmux-ci-image"
+    style="width: 100%;"
+    loading="lazy" />
+</picture> You know what is a great way to waste an entire day or week? Fixing random bugs in different OSes on GitHub CI.  
 
-<br />
-Not anymore.  
-<br />
+<br />  
+<br />  
+
+### Not anymore.  
+<br />  
 
 Because Claude has your authed `gh` tool it can `commit`, `push`, `check ci logs`, rinse and repeat.
-
-<br />
+<br />  
 
 Claude did all the work to get `crabmux` tested and released while I was writing this blog post 👉
 
 <div style="clear: both;"></div>
 
-<br />
-<br />
-
 <h3 id="concurrency-amdahls-law">Concurrency</h3>
 
 Since the invention of computers with more than 1 cpu, we have struggled as a profession (code lumberjacks) to truly nail the ability to squeeze maximum performance out of multi-core computers.  
 
-<br />
-
-The simplest way to use more than 1 CPU core is to do more than 1 thing at once.
-
-<br />
+The simplest way to use more than 1 CPU core is to do more than 1 thing at once.  
 
 While `claude` might go brrr... on a task faster than you could have yourself, due to the `start-stop-start-stop` nature of Agentic Engineering, you will find yourself idling... and reading too much `x.com` (halp!).
 
-<br />
-
 The real `x100 engineer` productivity doesn't just come from using an AI agent to do 1 thing, it comes from multiplexing across multiple things.
-
-<br />
 
 Great programmers know that the `real magic` happening in your brain, is the mental focus juggling the relationship between all the objects, files and data flows.
 
-<img src="/images/agentic-coding-slot-machines/mentat.jpg" style="width: 100%;" alt="mentat-image">
+<picture>
+  <source
+    srcset="/images/agentic-coding-slot-machines/mentat-320.avif"
+    media="(max-width: 480px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/mentat-640.avif"
+    media="(max-width: 1024px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/mentat-1280.avif"
+    media="(min-width: 1025px)"
+    type="image/avif">
+  <img
+    src="/images/agentic-coding-slot-machines/mentat.avif"
+    alt="mentat-image"
+    style="width: 100%;"
+    loading="lazy" />
+</picture>
 
 ```what the flow-state looks like from the outside```
 
-<br />
-
 I believe that same ability to `multi-plex` between things efficiently is where the true unlock can occur with `agentic engineering`.
-
-<br />
 
 ### Git Worktrees  
 This is basically the same as `git clone`-ing multiple times into different folders EXCEPT that they share the same `.git` database and therefore you can merge and checkout between those folders without having to push and pull.
 
-<br />
-
 Of course you can just clone lots of folders or ask Claude to do this for you, but be careful, you don't want 2 agents working on the same code.  
-
-<br />
 
 ### Amdahl's Law
 <a href="https://en.wikipedia.org/wiki/Amdahl%27s_law" target="_blank">
-    <img src="/images/agentic-coding-slot-machines/amdahls-law.png" style="width: 100%;" alt="amdahls-law-image">
+<picture>
+  <source
+    srcset="/images/agentic-coding-slot-machines/amdahls-law-320.avif"
+    media="(max-width: 480px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/amdahls-law-640.avif"
+    media="(max-width: 1024px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/amdahls-law-1280.avif"
+    media="(min-width: 1025px)"
+    type="image/avif">
+  <img
+    src="/images/agentic-coding-slot-machines/amdahls-law.avif"
+    alt="amdahls-law-image"
+    style="width: 100%;"
+    loading="lazy" />
+</picture>
 </a>
 
 ```Amdahl's Law illustrates the potential speedup of a task using multiple processors.```
@@ -701,7 +1147,25 @@ I'm not suprised to hear Peter in his interview above say he also works on about
 
 <br />
 
-<img src="/images/agentic-coding-slot-machines/concurrent.jpg" style="width: 100%;" alt="concurrent-image">
+<picture>
+  <source
+    srcset="/images/agentic-coding-slot-machines/concurrent-320.avif"
+    media="(max-width: 480px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/concurrent-640.avif"
+    media="(max-width: 1024px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/concurrent-1280.avif"
+    media="(min-width: 1025px)"
+    type="image/avif">
+  <img
+    src="/images/agentic-coding-slot-machines/concurrent.avif"
+    alt="concurrent-image"
+    style="width: 100%;"
+    loading="lazy" />
+</picture>
 
 ```on claude fueled tokamine, I currently do about 3-4 things at once```
 
@@ -714,26 +1178,16 @@ Additionally, due to the `slot machine` (as peter calls them) randomness of succ
 <h3 id="speed-apm-context-engineering">Speed, APM & Context Engineering</h3>
 
 You can speed Claude up a lot by giving it custom tools that use less tokens and are more precise.  
-<br />
-Armin also talks about checkpoints in his video, which work as kind of sentinel strings in code execution output (`caveman debugging for claude`) that help claude to reason about the execution flow of the program its creating across contexts (think browser, client, server etc).  
 
-<br />
+Armin also talks about checkpoints in his video, which work as kind of sentinel strings in code execution output (`caveman debugging for claude`) that help claude to reason about the execution flow of the program its creating across contexts (think browser, client, server etc).  
 
 The quicker you can get Claude to focus on the right problem the quicker it will solve it.  
 
-<br />
-
 The other way to `maximize` your effectiveness is to move quickly.  
-
-<br />
 
 You might think: now that the agent does all the typing I can go slowly, right?  
 
-<br />
-
 But the opposite is true, you are the bottleneck.  
-
-<br />
 
 If you aren't already familiar with your Operating System / Application keyboard shortcuts, its time to learn them and increase your `APM`.  
 
@@ -743,29 +1197,38 @@ If you aren't already familiar with your Operating System / Application keyboard
 
 There is a game called `StarCraft` which at its peak was the most valuable and respected eSport. Its a real time strategy game where the sheer ability for a human player to control thousands of units and dozens of buildings is often the bottleneck to winning.  
 
-<br />
-
 People figured out that if you recorded how many Actions a player was taking per minute you could estimate their ability to win. There have been <a href="https://www.academia.edu/51743825/A_Quick_Look_at_StarCraft_Brood_War_Professional_Players" target="_blank">papers published about it</a>.
 
-<img src="/images/agentic-coding-slot-machines/starcraft.jpg" style="width: 100%;" alt="starcraft-image">
+<picture>
+  <source
+    srcset="/images/agentic-coding-slot-machines/starcraft-320.avif"
+    media="(max-width: 480px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/starcraft-640.avif"
+    media="(max-width: 1024px)"
+    type="image/avif">
+  <source
+    srcset="/images/agentic-coding-slot-machines/starcraft-1280.avif"
+    media="(min-width: 1025px)"
+    type="image/avif">
+  <img
+    src="/images/agentic-coding-slot-machines/starcraft.avif"
+    alt="starcraft-image"
+    style="width: 100%;"
+    loading="lazy" />
+</picture>
 
 The findings indicated that `higher APM and eAPM` are associated with increased `win rates`, suggesting that both speed and efficiency in actions contribute to success.
 
 Theres a possibility that in the future, the best Agentic Engineers might also cross-over with the best eSports players.
 
-<br />
+<a href="https://x.com/mrbeast" target="_blank">Mr Beast (@MrBeast)</a>, make it happen!
 
-<a href="https://x.com/mrbeast">Mr Beast (@MrBeast)</a>, make it happen!
-
-<br />
 <h3 id="keyboard-shortcuts-workflow-tricks">Keyboard Shortcuts</h3>
 Since you want to be able to switch around as fast as possible and act as a context conduit for your claude army make sure you can do the following.  
 
-<br />  
-
 These are `macOS` options, you can ask your LLM for the ones for your OS.  
-
-<br />
 
 - snap windows to grid (cmd + option + {letter}, with <a href="https://magnet.crowdcafe.com/" target="_blank">magnet</a>)
 - split terminal pane (cmd + shift + d)
@@ -776,15 +1239,16 @@ These are `macOS` options, you can ask your LLM for the ones for your OS.
 - navigate words (usally option + ← or option + →)
 
 CLI commands:
-- `wd {name}` warp to any directory with <a href="https://github.com/dremio/warpdrive">warpdrive</a>
+- `wd {name}` warp to any directory with <a href="https://github.com/dremio/warpdrive" target="_blank">warpdrive</a>
 - `src` (my personal alias for `open -a "Sourcetree" .`)
 - `cursor .` (open cursor here)
 - `vt claude` (start claude in a vibetunnel)
 - `gh / git xyz` (do careful git commands without claude by hand)
 - `open .` (open a finder explorer window to do drag and drop)
 
+<br />  
+<h3>What Tools do I use?</h3>
 
-#### What Tools do I use?
 - ChatGPT
     - general questions
     - creating logos and page design images
@@ -814,17 +1278,17 @@ Its pretty clear its the early wild west days, and the exciting thing is anyone 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Use <a href="https://t.co/sLA8rrvlvW">https://t.co/sLA8rrvlvW</a> from <a href="https://twitter.com/VibeTunnel?ref_src=twsrc%5Etfw">@VibeTunnel</a> on a water proof iPhone and you&#39;re good to go! <a href="https://t.co/GkmOmijD5q">https://t.co/GkmOmijD5q</a></p>&mdash; Madhava Jay (@madhavajay) <a href="https://twitter.com/madhavajay/status/1939529717272715652?ref_src=twsrc%5Etfw">June 30, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <br />
-Its worth pausing for a moment and asking the question, is any of this actually making us better and faster, or are we all just huffin' way too many tokens?
+<h2>Quick Pause</h2>
+Its worth pausing for a moment and asking the question, is any of this actually making us better and faster, or are we all just huffin' way too many tokens?  
+<br />
+<br />
+Nah, chainsaws ⚙️ are awesome! Claude go burrrrr...
 <br />
 
-Nah, its awesome! Let's goooooooo!
-<br />
-
-<br />
 
 ## Stay Tuned  
 
-Stay tuned for Part 2, where we explore Ethan Mollick’s insights on AI orgs, how Answer.AI, Shopify, Cursor, and even Google are flattening structures and ditching old KPIs to empowering high agency builders and FDEs. Its green fields ahead!
+Stay tuned for Part 2, where we explore Ethan Mollick’s insights on AI orgs, how Answer.AI, Shopify, Cursor, and even Google are flattening structures and ditching meetings to empower high agency builders. Its green fields ahead!
 
 
 <div id="follow-link" style="margin-top: 20px; text-align: left;">
