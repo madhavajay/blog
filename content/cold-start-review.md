@@ -3,7 +3,7 @@ title = "The Cold Start Problem: Using Network Effects to Scale Your Product - A
 slug = "the-cold-start-problem-using-network-effects-to-scale-your-product"
 date = 2025-04-16
 [extra]
-thumbnail = "images/cold-start-review/cold-start-review.avif"
+thumbnail = "images/cold-start-review/cold-start-review.jpg"
 read_time = 12
 +++
 
