@@ -647,6 +647,8 @@ So I do a "coding review" session. And the horror ensues.
 No consistency, no overarching plan. It’s like I'd asked 10 junior-mid developers to work on this codebase, with no Git access, locking them in a room without seeing what the other 9 were doing.  
 <p>And before you ask, yes, I was feeding context to LLMs, lots of it.</p><br />  
 
+Just before I finished this, a brand new youtube interview just came out with Alberto Fortin and <a href="https://www.youtube.com/watch?v=DOQmhkLGcuY&ab_channel=ZedIndustries" target="_blank">Zed Industries</a> going into more detail about the problems he has run into.
+
 <p>And hes not wrong.</p><br />
 
 I had a personal experience with the slot machine where one library simply would not work. I asked claude code to add `joblib` to do background tasks, I let it keep retrying over many hours while doing other projects.
@@ -686,6 +688,7 @@ However I will add `The genie is well and truely out of the bottle!`, so lets fo
 - Agents can be overly vebose, less code and less text means less to review and understand, steer for simplicty
 - Be careful with secrets, agents like to occassionally just `git add .` and push without asking you
 - If its going down the wrong path, abort and start again, ask for plans and options and pay closer attention when things get jagged
+- Use a chainsaw to cut wood, not bread, don't be afraid to do somethings by hand or with precision AI tools like `cmd + k` cursor mode
 
 
 <br />
