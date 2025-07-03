@@ -1145,6 +1145,8 @@ If you study the graph you'll note that if you have sufficient concurrency you c
 
 I'm not suprised to hear Peter in his interview above say he also works on about `3-4` things at once in parallel. I think that might be a sort of `magic number` based on the 90% concurrency levels and the depth and distance that agents can go without `context rot` settting in.
 
+Additionally, due to the `slot machine` (as peter calls them) randomness of success, that means sometimes you need another thread going on, just to get lucky with a potential `1 shot` win. As Armin said when I spoke to him: `Sometimes it 1 shots a whole week of work`. To maximize the value of `1 week-1 shots` you need to have at least 1 high reward side-bet thread going on.
+
 <br />
 
 <picture>
@@ -1169,9 +1171,19 @@ I'm not suprised to hear Peter in his interview above say he also works on about
 
 ```on claude fueled tokamine, I currently do about 3-4 things at once```
 
+### hacking on syftbox
+<a href="https://www.syftbox.net/" target="_blank" style="float: right;">
+  <picture>
+    <img
+      src="https://www.syftbox.net/images/box.svg"
+      alt="syftbox-image"
+      style="height: 50px;"
+      loading="lazy" />
+  </picture>
+</a> ☝️ My day job working on <a href="https://www.syftbox.net/" target="_blank">SyftBox.net</a> - An open-source network for privacy-first, offline-capable AI.
+
 <br />
 
-Additionally, due to the `slot machine` (as peter calls them) randomness of success, that means sometimes you need another thread going on, just to get lucky with a potential `1 shot` win. As Armin said when I spoke to him: `Sometimes it 1 shots a whole week of work`. To maximize the value of `1 week-1 shots` you need to have at least 1 high reward side-bet thread going on.
 
 <br />
 
@@ -1289,6 +1301,10 @@ Nah, chainsaws ⚙️ are awesome! Claude go burrrrr...
 ## Stay Tuned  
 
 Stay tuned for Part 2, where we explore Ethan Mollick’s insights on AI orgs, how Answer.AI, Shopify, Cursor, and even Google are flattening structures and ditching meetings to empower high agency builders. Its green fields ahead!
+
+
+## Got Agentic Tips
+If you have a tip or counter-point ping me or <a href="https://github.com/madhavajay/blog" target="_blank">open a PR</a>
 
 
 <div id="follow-link" style="margin-top: 20px; text-align: left;">
