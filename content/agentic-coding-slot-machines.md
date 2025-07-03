@@ -804,9 +804,16 @@ With the power of Agentic Code generation MCP feels like Software 1.0 in a Softw
 - Vibin all the Tunnels  
 Peter is `multi-plexing` 3-4 projects at once 16-20 hours a day like a mad-man and one of those is the amazing VibeTunnel.sh <a href="https://vibetunnel.sh/" target="_blank">https://vibetunnel.sh/</a>. It gives you SSH access to your machine from anywhere in a web browser or native app interface ALL FOR FREE. Bye bye overpriced SSH Subscription Apps (looking at you blink shell).
 
-- Making Video Talks  
-<a href="https://x.com/badlogicgames" target="_blank">Mario Zechner</a> is using claude code to record Video Talks! Love it.
+- VS Claude MCP
+<a href="https://x.com/badlogicgames" target="_blank">Mario Zechner</a> has just written an excellent blog post:
+<a href="https://mariozechner.at/posts/2025-01-02-prompts-are-code/" target="_blank">Taming agentic engineering - Prompts are code, .json/.md files are state</a>. While he points out the failures and issues with Agentic Engineering, he also manages to create a remarkable workflow of human / people spirit understandable documentation combined with a Bespoke MCP Server he made: <a href="https://marketplace.visualstudio.com/items?itemName=MarioZechner.vs-claude" target="_blank">VS Claude</a>. Armed with a visual editor backed by Claude Code he dramatically speeds up a porting job that normally takes `2-3` weeks, to roughly `2-3 days`. Thats nearly 7x!
+
+The lesson here is if you can engineer the right constructs for your lumber, then a robotic chainsaw can make quick work of them.
+
+In addition Mario is using claude code to record Video Talks! Love it.
+
 <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">How I use Claude Code to help me record video talks. Love it. <a href="https://t.co/i5Yk4cFT8L">pic.twitter.com/i5Yk4cFT8L</a></p>&mdash; Mario Zechner (@badlogicgames) <a href="https://twitter.com/badlogicgames/status/1940013366728122488?ref_src=twsrc%5Etfw">July 1, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 
 - ChatGPT style Context Sharing  
