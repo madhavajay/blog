@@ -12,6 +12,8 @@ read_time = 40
 
 <small style="color: gray; font-size: 0.85em;">⏱️ Time to read: 40 minutes (but it might 20x your productivity)</small>
 
+<small style="color: gray; font-size: 0.85em;">👋 Hi to all the <a href="https://news.ycombinator.com/item?id=44455534" target="_blank">HN traffic, discussion here</a>.</small>
+
 <span style="font-size: 1.2em;">**Everything, yes everything just changed!**</span>
 
 <picture>
