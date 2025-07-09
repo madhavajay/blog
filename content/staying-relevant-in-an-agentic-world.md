@@ -47,6 +47,18 @@ This post is part 2 of a series.
 Part 1 here: <a href="/agentic-coding-slot-machines-did-we-just-summon-a-genie-addiction/" target="_blank">Agentic Coding Slot Machines – Did We Just Summon a Genie Addiction?</a>
 
 <br />
+
+## What's in Store
+In <a href="/agentic-coding-slot-machines-did-we-just-summon-a-genie-addiction/" target="_blank">Part 1</a> we explored how Agentic Coding just flipped software on its head, chainsaws for the mind, infinite slot machines, Claude Max, Cursor, and vibe-coding 4 projects at once from the pool.
+
+What you’ll learn in this post:
+- Why old org charts are `breaking down` under AI leverage
+- Ethan Mollick's `"Leadership → Crowd → Lab"` blueprint for orgs
+- How `Shopify`, `Answer.AI`, `Cursor` & `Google` are going AI first
+- Why `high agency` is the new `cheat code`
+- `Overemployment` the Stanford study bombshell and `Soham`
+- Why the Nords `mission control` military structure beats the Dutch in adaptation
+
 <h2>AI First</h2>
 
 <a href="https://www.youtube.com/watch?v=KEQjwE7hDjk&ab_channel=Sana" target="_blank">
