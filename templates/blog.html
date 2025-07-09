@@ -40,11 +40,13 @@
                 <small style="color: gray; font-size: 0.85em;">⏱️ Time to read: {{ page.extra.read_time }}
                     minutes</small>
                 {% endif %}
-                {% if page.content %}
                 <div class="post-excerpt">
+                    {% if page.description %}
+                    {{ page.description | safe }}
+                    {% elif page.content %}
                     {{ page.content | striptags | truncate(length=300) | safe }}
+                    {% endif %}
                 </div>
-                {% endif %}
                 <div class="post-footer">
                     <a href="{{ page.permalink | safe }}" class="read-more">Read more →</a>
                 </div>
@@ -59,11 +61,13 @@
         <h2 class="post-title">
             <a href="{{ page.permalink | safe }}">{{ page.title | default(value="Untitled") }}</a>
         </h2>
-        {% if page.content %}
         <div class="post-excerpt">
+            {% if page.description %}
+            {{ page.description | safe }}
+            {% elif page.content %}
             {{ page.content | striptags | truncate(length=300) | safe }}
+            {% endif %}
         </div>
-        {% endif %}
         <div class="post-footer">
             <a href="{{ page.permalink | safe }}" class="read-more">Read more →</a>
         </div>

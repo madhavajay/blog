@@ -2,6 +2,7 @@
 title = "Agentic Coding Slot Machines – Did We Just Summon a Genie Addiction? - Part 1"
 slug = "agentic-coding-slot-machines-did-we-just-summon-a-genie-addiction"
 date = 2025-06-30
+description = "Agentic Coding is here with Claude Code, ChatGPT, and AYCE token plans unlocking 20x productivity. Learn how to run 4 projects at once, avoid prompt injection pitfalls, and master the tools & mindsets that actually work."
 [extra]
 thumbnail = "images/agentic-coding-slot-machines/title.jpg"
 thumbnail_class = "top-crop"
@@ -44,7 +45,7 @@ But there are `foot-saws`: prompt injection, slot machine randomness, and AI cod
 - Why it's suddenly possible (AYCE plans + smarter agents + new workflows)
 - How to run 4 projects at once without losing your mind (maybe)
 - What tools & mindsets actually work in practice
-- What's coming next for orgs & hiring (part 2 - next post)
+- <a href="/ai-first-hiring-teamwork-and-org-structures-staying-relevant-in-an-agentic-world/">What's coming next for orgs & hiring</a> - part 2 (out now)
 
 
 
@@ -119,13 +120,19 @@ This isn't just more SaaS hype. It's the real start of `Software 3.0`, where you
 It's also fun and super addictive, and if you don't pick up this chainsaw, someone else will.
 
 
-## In this 2 part blog post you will learn:
+## In this multi part blog post you will learn:
+Part 1 (this post)
 - what just changed, why it matters
 - practical tips from the front lines
 - who to follow right now
-- impacts on orgs, teams & hiring - part 2
-- non technical getting started - part 2
-- a glossary of terms - part 2
+
+<a href="/ai-first-hiring-teamwork-and-org-structures-staying-relevant-in-an-agentic-world/">Part 2</a> (out now)
+- <a href="/ai-first-hiring-teamwork-and-org-structures-staying-relevant-in-an-agentic-world/">impacts on orgs, teams & hiring</a>
+
+Part 3 (coming)
+- recommendations - part 3
+- non technical getting started - part 3
+- a glossary of terms - part 3
 
 Your `productivity`, your `job` and your `entire relationship with computers` is about to get transformed.
 
@@ -1309,9 +1316,10 @@ Nah, chainsaws ⚙️ are awesome! Claude go burrrrr...
 <br />
 
 
-## Stay Tuned  
+## Part 2
+In part 2 we continue by exploring Ethan Mollick’s insights on AI orgs, how Answer.AI, Shopify, Cursor, and even Google are flattening structures and ditching meetings to empower high agency builders. Its green fields ahead!  
 
-Stay tuned for Part 2, where we explore Ethan Mollick’s insights on AI orgs, how Answer.AI, Shopify, Cursor, and even Google are flattening structures and ditching meetings to empower high agency builders. Its green fields ahead!
+<a href="/ai-first-hiring-teamwork-and-org-structures-staying-relevant-in-an-agentic-world/">AI First Hiring, Teamwork and Org Structures, Staying Relevant in an Agentic World - Part 2</a>
 
 
 ## Got Agentic Tips

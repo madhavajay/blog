@@ -2,6 +2,7 @@
 title = "The Cold Start Problem: Using Network Effects to Scale Your Product - A Review"
 slug = "the-cold-start-problem-using-network-effects-to-scale-your-product"
 date = 2025-04-16
+description = "A comprehensive review of Andrew Chen's 'The Cold Start Problem' - exploring network effects, growth strategies, and how companies like Uber, Airbnb, and Slack overcame the chicken-and-egg problem to build billion dollar networks."
 [extra]
 thumbnail = "images/cold-start-review/cold-start-review.jpg"
 read_time = 12

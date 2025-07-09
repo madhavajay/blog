@@ -2,6 +2,7 @@
 title = "Evaluating the State of AI Agent Browser Behavior: How ChatGPT, Grok, Perplexity and Others Access Your Site — With Tips on Detection, Steering, and Improvement"
 slug = "evaluating-the-state-of-ai-agent-browser-behavior-how-chatgpt-grok-perplexity-and-others-access-your-site-with-tips-on-detection-steering-and-improvement"
 date = 2025-04-04
+description = "Deep dive into how AI agents like ChatGPT, Claude, and Grok crawl websites. Learn detection techniques, user agent analysis, and practical tips for optimizing your site for AI visitors using the LLM GLOVE evaluation framework."
 [extra]
 thumbnail = "images/llm-glove.jpg"
 read_time = 10
