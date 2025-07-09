@@ -41,6 +41,10 @@
     {% if page is defined %}
     <meta property="og:url" content="{{ page.permalink | safe }}">
     <meta property="og:title" content="{{ page.title }}">
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    <meta property="og:description" content="{{ page.description }}">
+    {% else %}
     <meta name="description" content="{{ page.content 
         | striptags 
         | replace(from=" &#x27;", to="'" ) | replace(from="&quot;" , to='"' ) | replace(from="&amp;" , to="&" ) |
@@ -49,10 +53,15 @@
         | striptags 
         | replace(from=" &#x27;", to="'" ) | replace(from="&quot;" , to='"' ) | replace(from="&amp;" , to="&" ) |
         replace(from="\n" , to=" " ) | regex_replace(pattern="\\s+" , rep=" " ) | truncate(length=300) }} ">
+    {% endif %}
     <meta property="og:image" content="https://madhavajay.com/{{ page.extra.thumbnail | safe }}">
     {% elif section is defined %}
     <meta property="og:url" content="{{ section.permalink | safe }}">
     <meta property="og:title" content="{{ section.title }}">
+    {% if section.description %}
+    <meta name="description" content="{{ section.description }}">
+    <meta property="og:description" content="{{ section.description }}">
+    {% else %}
     <meta name="description" content="{{ section.content 
         | striptags 
         | replace(from=" &#x27;", to="'" ) | replace(from="&quot;" , to='"' ) | replace(from="&amp;" , to="&" ) |
@@ -61,6 +70,7 @@
         | striptags 
         | replace(from=" &#x27;", to="'" ) | replace(from="&quot;" , to='"' ) | replace(from="&amp;" , to="&" ) |
         replace(from="\n" , to=" " ) | regex_replace(pattern="\\s+" , rep=" " ) | truncate(length=300) }} ">
+    {% endif %}
     <meta property="og:image" content="{{ get_url(path='images/llm-glove.avif') | safe }}">
     {% else %}
     <meta property="og:url" content="https://madhavajay.com">
