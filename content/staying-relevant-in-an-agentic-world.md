@@ -839,6 +839,8 @@ Everything had to be run all the way back up the food chain to headquarters for 
 They couldn't adjust to situations on the ground.
 ```
 
+The consequences were a `very notorious` failure that resulted in the <a href="https://en.wikipedia.org/wiki/Srebrenica_massacre" target="_blank">Srebrenica massacre</a> (the worst mass killing in Europe since World War II) in which politicians lost their jobs.
+
 - The Nordic forces had a culture of what's called mission command:   
 
 ```
@@ -849,7 +851,11 @@ The individual soldiers were informed of the larger objectives and expected to b
 
 👆 `expected` to `bend` regulations and `rules` - sounds high agency AF
 
-One conclusion could be that in its need to ensure resilience and adaptation to constant change, evolution discovered the effectiveness of `delegated control` or `mission command`.  
+As a result they avoided many such problems of their Dutch counterparts.
+
+Michael suggests that adaptation requires `delegation of control`. He draws parallels to biological systems where control is distributed across different levels of abstraction, from cells to organs to the entire organism.
+
+In the lecture he talks about processes like homeostasis and self repair requiring this kind of delegated control because a centralized `command` can't manage every cellular level decision.    
 
 Its not to say that the Dutch way doesn't work under certain conditions.  
 
