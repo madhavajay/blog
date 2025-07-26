@@ -32,6 +32,8 @@
 
     {% if page is defined %}
     <link rel="canonical" href="{{ page.permalink | safe }}" />
+    {% elif section is defined %}
+    <link rel="canonical" href="{{ section.permalink | safe }}" />
     {% else %}
     <link rel="canonical" href="https://madhavajay.com" />
     {% endif %}
