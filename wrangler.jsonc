@@ -1,12 +1,12 @@
 {
-    "name": "blog", // your Worker name
-    "compatibility_date": "2025-08-11", // today's date
+    "name": "blog",
+    "compatibility_date": "2025-08-11",
     "assets": {
-        "directory": "./public" // where Zola outputs the built site
+        "directory": "./public"
     },
     "routes": [
         {
-            "pattern": "madhavajay.com/*", // your domain
+            "pattern": "madhavajay.com/*",
             "zone_name": "madhavajay.com"
         }
     ]
