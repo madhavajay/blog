@@ -8,7 +8,7 @@ I've got 20+ years of experience building things. I'm currently Head of Engineer
 
 I've worked across continents, stacks, and sectors — from websites and ecommerce to award winning iOS apps, devops and then early stage AI startups. Along the way, I've written code in PHP, SQL, HTML / JavaScript, Java / Kotlin, Swift / Objective-C, Rust and lately mostly Python.
 
-Right now im living in Brisbane, Australia and enjoying what the generative AI renaissance brings!
+Right now im living in Brisbane, Australia and enjoying what the generative AI renaissance brings.
 
 ## Interests
 
