@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page is defined and page.title is defined %}{{ page.title }} - {% elif section is defined and section.title is defined %}{{ section.title }} - {% endif %}Madhava's Blog</title>
+    <title>{% if page is defined and page.title is defined %}{{ page.title }} - {% elif section is defined and section.title is defined %}{{ section.title }}{% endif %}Madhava's Blog</title>
     <!-- Favicons -->
     <link rel="icon" href="{{ get_url(path='favicon.ico') | safe }}" type="image/x-icon">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ get_url(path='favicon-16x16.png') | safe }}">
