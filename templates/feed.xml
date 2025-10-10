@@ -11,6 +11,7 @@
         <name>{{ config.extra.author | default(value="Madhava Jay") }}</name>
     </author>
     {%- for page in pages %}
+    {%- if page.slug != "kalki" %}
     <entry xml:lang="{{ lang }}">
         <title>{{ page.title | escape_xml | safe }}</title>
         <published>{{ page.date | date(format="%Y-%m-%dT%H:%M:%S%:z") }}</published>
@@ -31,5 +32,6 @@
             {%- endif %}
         </content>
     </entry>
+    {%- endif %}
     {%- endfor %}
 </feed>
