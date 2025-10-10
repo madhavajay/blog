@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Madhava&apos;s Blog</title>
+    <subtitle>Long-form essays on AI, privacy-preserving computation, open-source software, and technology culture.</subtitle>
+    <link href="https://madhavajay.com/feed.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://madhavajay.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-07-09T00:00:00+00:00</updated>
+    <id>https://madhavajay.com</id>
+    <author>
+        <name>Madhava Jay</name>
+    </author>
+    <entry xml:lang="en">
+        <title>AI First Hiring, Teamwork and Org Structures, Staying Relevant in an Agentic World - Part 2</title>
+        <published>2025-07-09T00:00:00+00:00</published>
+        <updated>2025-07-09T00:00:00+00:00</updated>
+        <link href="https://madhavajay.com/ai-first-hiring-teamwork-and-org-structures-staying-relevant-in-an-agentic-world/" type="text/html"/>
+        <id>https://madhavajay.com/ai-first-hiring-teamwork-and-org-structures-staying-relevant-in-an-agentic-world/</id>
+        <content type="html">
+                How organizations must adapt to AI-first thinking: from Ethan Mollick&apos;s Leadership-Crowd-Lab model to real examples from Shopify, Answer.AI, Cursor, and Google. Learn why high agency matters and how to restructure for the AI era.
+        </content>
+    </entry>
+    <entry xml:lang="en">
+        <title>Agentic Coding Slot Machines – Did We Just Summon a Genie Addiction? - Part 1</title>
+        <published>2025-06-30T00:00:00+00:00</published>
+        <updated>2025-06-30T00:00:00+00:00</updated>
+        <link href="https://madhavajay.com/agentic-coding-slot-machines-did-we-just-summon-a-genie-addiction/" type="text/html"/>
+        <id>https://madhavajay.com/agentic-coding-slot-machines-did-we-just-summon-a-genie-addiction/</id>
+        <content type="html">
+                Agentic Coding is here with Claude Code, ChatGPT, and AYCE token plans unlocking 20x productivity. Learn how to run 4 projects at once, avoid prompt injection pitfalls, and master the tools &amp; mindsets that actually work.
+        </content>
+    </entry>
+    <entry xml:lang="en">
+        <title>The Cold Start Problem: Using Network Effects to Scale Your Product - A Review</title>
+        <published>2025-04-16T00:00:00+00:00</published>
+        <updated>2025-04-16T00:00:00+00:00</updated>
+        <link href="https://madhavajay.com/the-cold-start-problem-using-network-effects-to-scale-your-product/" type="text/html"/>
+        <id>https://madhavajay.com/the-cold-start-problem-using-network-effects-to-scale-your-product/</id>
+        <content type="html">
+                A comprehensive review of Andrew Chen&apos;s &apos;The Cold Start Problem&apos; - exploring network effects, growth strategies, and how companies like Uber, Airbnb, and Slack overcame the chicken-and-egg problem to build billion dollar networks.
+        </content>
+    </entry>
+    <entry xml:lang="en">
+        <title>Evaluating the State of AI Agent Browser Behavior: How ChatGPT, Grok, Perplexity and Others Access Your Site — With Tips on Detection, Steering, and Improvement</title>
+        <published>2025-04-04T00:00:00+00:00</published>
+        <updated>2025-04-04T00:00:00+00:00</updated>
+        <link href="https://madhavajay.com/evaluating-the-state-of-ai-agent-browser-behavior-how-chatgpt-grok-perplexity-and-others-access-your-site-with-tips-on-detection-steering-and-improvement/" type="text/html"/>
+        <id>https://madhavajay.com/evaluating-the-state-of-ai-agent-browser-behavior-how-chatgpt-grok-perplexity-and-others-access-your-site-with-tips-on-detection-steering-and-improvement/</id>
+        <content type="html">
+                Deep dive into how AI agents like ChatGPT, Claude, and Grok crawl websites. Learn detection techniques, user agent analysis, and practical tips for optimizing your site for AI visitors using the LLM GLOVE evaluation framework.
+        </content>
+    </entry>
+    <entry xml:lang="en">
+        <title>Kalki</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        <link href="https://madhavajay.com/kalki/" type="text/html"/>
+        <id>https://madhavajay.com/kalki/</id>
+        <content type="html">
+                
+        </content>
+    </entry>
+</feed>
