@@ -124,12 +124,12 @@
         ]
       },
       {% if page.date %}
-      "datePublished": "{{ page.date | date(format='%Y-%m-%d') }}",
+      "datePublished": "{{ page.date | date(format='%Y-%m-%dT%H:%M:%S%:z') }}",
       {% endif %}
       {% if page.updated %}
-      "dateModified": "{{ page.updated | date(format='%Y-%m-%d') }}",
+      "dateModified": "{{ page.updated | date(format='%Y-%m-%dT%H:%M:%S%:z') }}",
       {% else %}
-      "dateModified": "{{ page.date | date(format='%Y-%m-%d') }}",
+      "dateModified": "{{ page.date | date(format='%Y-%m-%dT%H:%M:%S%:z') }}",
       {% endif %}
       "mainEntityOfPage": {
         "@type": "WebPage",
