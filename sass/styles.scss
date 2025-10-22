@@ -39,6 +39,17 @@ h1 {
     letter-spacing: -0.01em;
 }
 
+.page-heading {
+    font-size: 14px;
+    font-weight: 400;
+    color: $muted-color;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid $border-color;
+}
+
 
 // Global link styles
 a {
@@ -681,10 +692,23 @@ header {
     .logo {
         font-size: 26px;
         font-weight: 600;
-        color: #ffffff;
-        text-decoration: none;
         letter-spacing: 0.5px;
         margin-right: auto; // This pushes everything else to the right
+        margin-bottom: 0; // Reset h1 margin
+        line-height: 1; // Reset h1 line-height
+
+        a {
+            color: #ffffff;
+            text-decoration: none;
+
+            &:visited {
+                color: #ffffff;
+            }
+
+            &:hover {
+                color: #ffffff;
+            }
+        }
     }
 
     .nav-links {
