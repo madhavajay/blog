@@ -945,4 +945,3 @@ Academics, Founders, Hackers, Leaders, and Agents of Change:
 * [High Agency by George Mack](https://www.highagency.com/)
 * [llms.txt by Jeremy Howard](http://llmstxt.org/)
 * [Vollardian Blog on the Bozo Effect](https://www.vollardian.com/blog/ewoius9t0o1mrbro4s7n42wxdym6ga?utm_source=chatgpt.com)
-
