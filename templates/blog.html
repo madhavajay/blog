@@ -1,7 +1,6 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1 class="page-heading">Madhava's Blog</h1>
 <div class="posts-container">
     {% for page in section.pages %}
     {% if not page.extra.hidden and page.extra.redirect_to is not defined %}

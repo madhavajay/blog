@@ -179,7 +179,11 @@
 
 <body>
     <header>
+        {% if section is defined and not page is defined %}
+        <h1 class="logo"><a href="/">Madhava's Blog</a></h1>
+        {% else %}
         <div class="logo"><a href="/">Madhava's Blog</a></div>
+        {% endif %}
         <nav class="nav-links">
             <div class="social-links">
                 <a href="/about" class="social-link" title="About">
