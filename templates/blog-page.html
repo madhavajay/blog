@@ -13,7 +13,16 @@
 
         {% if page.extra is defined and page.extra.thumbnail is defined and page.extra.thumbnail != "" %}
         {% set thumb_path = page.extra.thumbnail %}
-        {% set thumb_base = thumb_path | regex_replace(pattern="\\.[^./]+$", rep="") %}
+        {% set thumb_base = thumb_path %}
+        {% if thumb_base is ending_with('.jpeg') %}
+            {% set thumb_base = thumb_base | replace(from='.jpeg', to='') %}
+        {% elif thumb_base is ending_with('.jpg') %}
+            {% set thumb_base = thumb_base | replace(from='.jpg', to='') %}
+        {% elif thumb_base is ending_with('.png') %}
+            {% set thumb_base = thumb_base | replace(from='.png', to='') %}
+        {% elif thumb_base is ending_with('.avif') %}
+            {% set thumb_base = thumb_base | replace(from='.avif', to='') %}
+        {% endif %}
         {% set thumb_320 = get_url(path=thumb_base ~ "-320.avif") %}
         {% set thumb_640 = get_url(path=thumb_base ~ "-640.avif") %}
         {% set thumb_1280 = get_url(path=thumb_base ~ "-1280.avif") %}

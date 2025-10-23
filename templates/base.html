@@ -40,7 +40,16 @@
 
     {% if page is defined and page.extra is defined and page.extra.thumbnail is defined and page.extra.thumbnail != "" %}
     {% set preload_thumb_path = page.extra.thumbnail %}
-    {% set preload_thumb_base = preload_thumb_path | regex_replace(pattern="\\.[^./]+$", rep="") %}
+    {% set preload_thumb_base = preload_thumb_path %}
+    {% if preload_thumb_base is ending_with('.jpeg') %}
+        {% set preload_thumb_base = preload_thumb_base | replace(from='.jpeg', to='') %}
+    {% elif preload_thumb_base is ending_with('.jpg') %}
+        {% set preload_thumb_base = preload_thumb_base | replace(from='.jpg', to='') %}
+    {% elif preload_thumb_base is ending_with('.png') %}
+        {% set preload_thumb_base = preload_thumb_base | replace(from='.png', to='') %}
+    {% elif preload_thumb_base is ending_with('.avif') %}
+        {% set preload_thumb_base = preload_thumb_base | replace(from='.avif', to='') %}
+    {% endif %}
     {% set preload_thumb_320 = get_url(path=preload_thumb_base ~ "-320.avif") %}
     {% set preload_thumb_640 = get_url(path=preload_thumb_base ~ "-640.avif") %}
     {% set preload_thumb_1280 = get_url(path=preload_thumb_base ~ "-1280.avif") %}
