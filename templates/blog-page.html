@@ -11,6 +11,24 @@
             <span class="article-date">{{ page.date | date(format="%b %d, %Y") }}</span>
         </div>
 
+        {% if page.extra is defined and page.extra.thumbnail is defined and page.extra.thumbnail != "" %}
+        {% set thumb_path = page.extra.thumbnail %}
+        {% set thumb_base = thumb_path | regex_replace(pattern="\\.[^./]+$", rep="") %}
+        {% set thumb_320 = get_url(path=thumb_base ~ "-320.avif") %}
+        {% set thumb_640 = get_url(path=thumb_base ~ "-640.avif") %}
+        {% set thumb_1280 = get_url(path=thumb_base ~ "-1280.avif") %}
+        {% set thumb_fallback = get_url(path=thumb_path) %}
+        <figure class="article-hero">
+            <picture>
+                <source srcset="{{ thumb_320 | safe }}" media="(max-width: 480px)" type="image/avif">
+                <source srcset="{{ thumb_640 | safe }}" media="(max-width: 1024px)" type="image/avif">
+                <source srcset="{{ thumb_1280 | safe }}" media="(min-width: 1025px)" type="image/avif">
+                <img src="{{ thumb_fallback | safe }}" alt="{{ page.title | default(value='Article featured image') }}"
+                    style="width: 100%; height: auto;" fetchpriority="high" decoding="async">
+            </picture>
+        </figure>
+        {% endif %}
+
         <div class="article-content">
             {{ page.content | safe }}
         </div>

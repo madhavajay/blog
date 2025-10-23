@@ -38,6 +38,18 @@
     <link rel="canonical" href="https://madhavajay.com" />
     {% endif %}
 
+    {% if page is defined and page.extra is defined and page.extra.thumbnail is defined and page.extra.thumbnail != "" %}
+    {% set preload_thumb_path = page.extra.thumbnail %}
+    {% set preload_thumb_base = preload_thumb_path | regex_replace(pattern="\\.[^./]+$", rep="") %}
+    {% set preload_thumb_320 = get_url(path=preload_thumb_base ~ "-320.avif") %}
+    {% set preload_thumb_640 = get_url(path=preload_thumb_base ~ "-640.avif") %}
+    {% set preload_thumb_1280 = get_url(path=preload_thumb_base ~ "-1280.avif") %}
+    {% set preload_thumb_fallback = get_url(path=preload_thumb_path) %}
+    <link rel="preload" as="image" href="{{ preload_thumb_fallback | safe }}"
+        imagesrcset="{{ preload_thumb_320 | safe }} 320w, {{ preload_thumb_640 | safe }} 640w, {{ preload_thumb_1280 | safe }} 1280w"
+        imagesizes="(max-width: 768px) 100vw, 960px">
+    {% endif %}
+
     <!-- RSS Feed -->
     <link rel="alternate" type="application/rss+xml" title="Madhava's Blog RSS Feed" href="{{ get_url(path='feed.xml') | safe }}" />
 
