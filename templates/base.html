@@ -207,7 +207,7 @@
 
 <body>
     <header>
-        {% if section is defined and not page is defined %}
+        {% if section is defined and not page is defined and (section.title == "" or section.title == "Blog") %}
         <h1 class="logo"><a href="/">Madhava's Blog</a></h1>
         {% else %}
         <div class="logo"><a href="/">Madhava's Blog</a></div>
