@@ -35,7 +35,7 @@
     {% elif section is defined %}
     <link rel="canonical" href="{{ section.permalink | safe }}" />
     {% else %}
-    <link rel="canonical" href="https://madhavajay.com" />
+    <link rel="canonical" href="https://madhavajay.com/" />
     {% endif %}
 
     {% if page is defined and page.extra is defined and page.extra.thumbnail is defined and page.extra.thumbnail != "" %}
@@ -99,7 +99,7 @@
     {% endif %}
     <meta property="og:image" content="https://madhavajay.com/images/llm-glove.jpg">
     {% else %}
-    <meta property="og:url" content="https://madhavajay.com">
+    <meta property="og:url" content="https://madhavajay.com/">
     <meta property="og:title" content="Madhavas Blog">
     <meta name="description" content="Madhavas Blog about tech and other things.">
     <meta property="og:description" content="Madhavas Blog about tech and other things.">
@@ -214,7 +214,7 @@
         {% endif %}
         <nav class="nav-links">
             <div class="social-links">
-                <a href="/about" class="social-link" title="About">
+                <a href="/about/" class="social-link" title="About">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
                         fill="currentColor">
                         <path
