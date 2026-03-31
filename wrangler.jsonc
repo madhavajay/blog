@@ -2,7 +2,8 @@
     "name": "blog",
     "compatibility_date": "2025-08-11",
     "assets": {
-        "directory": "./public"
+        "directory": "./public",
+        "html_handling": "force-trailing-slash"
     },
     "routes": [
         {
