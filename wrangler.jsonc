@@ -1,8 +1,10 @@
 {
     "name": "blog",
+    "main": "src/index.js",
     "compatibility_date": "2025-08-11",
     "assets": {
         "directory": "./public",
+        "binding": "ASSETS",
         "html_handling": "force-trailing-slash"
     },
     "routes": [
